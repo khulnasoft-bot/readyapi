@@ -1,4 +1,3 @@
-from typing import Dict
 
 from pydantic import BaseModel
 from readyapi import ReadyAPI
@@ -8,7 +7,7 @@ app = ReadyAPI()
 
 
 class Items(BaseModel):
-    items: Dict[str, int]
+    items: dict[str, int]
 
 
 @app.post("/foo")

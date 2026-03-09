@@ -1,4 +1,3 @@
-from typing import Union
 
 from pydantic import BaseModel
 from readyapi import Header, ReadyAPI
@@ -11,8 +10,8 @@ class CommonHeaders(BaseModel):
 
     host: str
     save_data: bool
-    if_modified_since: Union[str, None] = None
-    traceparent: Union[str, None] = None
+    if_modified_since: str | None = None
+    traceparent: str | None = None
     x_tag: list[str] = []
 
 

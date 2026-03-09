@@ -1,8 +1,8 @@
-from typing import Union
+
+from typing import Annotated
 
 from pydantic import BaseModel
 from readyapi import Header, HTTPException, ReadyAPI
-from typing_extensions import Annotated
 
 fake_secret_token = "coneofsilence"
 
@@ -17,7 +17,7 @@ app = ReadyAPI()
 class Item(BaseModel):
     id: str
     title: str
-    description: Union[str, None] = None
+    description: str | None = None
 
 
 @app.get("/items/{item_id}", response_model=Item)

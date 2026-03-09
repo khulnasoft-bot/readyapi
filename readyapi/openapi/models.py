@@ -2,14 +2,14 @@ from collections.abc import Callable, Iterable, Mapping
 from enum import Enum
 from typing import Annotated, Any, Literal, Optional, Union
 
-from readyapi._compat import with_info_plain_validator_function
-from readyapi.logger import logger
 from pydantic import (
     AnyUrl,
     BaseModel,
     Field,
     GetJsonSchemaHandler,
 )
+from readyapi._compat import with_info_plain_validator_function
+from readyapi.logger import logger
 from typing_extensions import TypedDict
 from typing_extensions import deprecated as typing_deprecated
 

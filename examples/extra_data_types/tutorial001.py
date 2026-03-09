@@ -1,5 +1,4 @@
 from datetime import datetime, time, timedelta
-from typing import Union
 from uuid import UUID
 
 from readyapi import Body, ReadyAPI
@@ -13,7 +12,7 @@ async def read_items(
     start_datetime: datetime = Body(),
     end_datetime: datetime = Body(),
     process_after: timedelta = Body(),
-    repeat_at: Union[time, None] = Body(default=None),
+    repeat_at: time | None = Body(default=None),
 ):
     start_process = start_datetime + process_after
     duration = end_datetime - start_process

@@ -1,7 +1,7 @@
-from typing import Union
+
+from typing import Annotated
 
 from readyapi import Query, ReadyAPI
-from typing_extensions import Annotated
 
 app = ReadyAPI()
 
@@ -9,7 +9,7 @@ app = ReadyAPI()
 @app.get("/items/")
 async def read_items(
     q: Annotated[
-        Union[str, None],
+        str | None,
         Query(
             alias="item-query",
             title="Query string",

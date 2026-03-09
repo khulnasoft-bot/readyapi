@@ -1,4 +1,3 @@
-from typing import Optional
 
 from readyapi import ReadyAPI, Security
 from readyapi.security import HTTPAuthorizationCredentials, HTTPBearer
@@ -11,7 +10,7 @@ security = HTTPBearer(auto_error=False)
 
 @app.get("/users/me")
 def read_current_user(
-    credentials: Optional[HTTPAuthorizationCredentials] = Security(security),
+    credentials: HTTPAuthorizationCredentials | None = Security(security),
 ):
     if credentials is None:
         return {"msg": "Create an account first"}

@@ -1,4 +1,3 @@
-from typing import Union
 
 from dirty_equals import IsDict
 from pydantic import BaseModel, ConfigDict
@@ -25,7 +24,7 @@ app = ReadyAPI()
 
 @app.post("/")
 async def post(
-    foo: Union[Foo, None] = None,
+    foo: Foo | None = None,
 ):
     return foo
 

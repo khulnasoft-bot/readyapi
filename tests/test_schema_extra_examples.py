@@ -1,4 +1,3 @@
-from typing import Union
 
 import pytest
 from dirty_equals import IsDict
@@ -122,7 +121,7 @@ def create_app():
 
         @app.get("/query_example/")
         def query_example(
-            data: Union[str, None] = Query(
+            data: str | None = Query(
                 default=None,
                 example="query1",
             ),
@@ -131,7 +130,7 @@ def create_app():
 
     @app.get("/query_examples/")
     def query_examples(
-        data: Union[str, None] = Query(
+        data: str | None = Query(
             default=None,
             examples=["query1", "query2"],
         ),
@@ -142,7 +141,7 @@ def create_app():
 
         @app.get("/query_example_examples/")
         def query_example_examples(
-            data: Union[str, None] = Query(
+            data: str | None = Query(
                 default=None,
                 example="query_overridden",
                 examples=["query1", "query2"],
@@ -154,7 +153,7 @@ def create_app():
 
         @app.get("/header_example/")
         def header_example(
-            data: Union[str, None] = Header(
+            data: str | None = Header(
                 default=None,
                 example="header1",
             ),
@@ -163,7 +162,7 @@ def create_app():
 
     @app.get("/header_examples/")
     def header_examples(
-        data: Union[str, None] = Header(
+        data: str | None = Header(
             default=None,
             examples=[
                 "header1",
@@ -177,7 +176,7 @@ def create_app():
 
         @app.get("/header_example_examples/")
         def header_example_examples(
-            data: Union[str, None] = Header(
+            data: str | None = Header(
                 default=None,
                 example="header_overridden",
                 examples=["header1", "header2"],
@@ -189,7 +188,7 @@ def create_app():
 
         @app.get("/cookie_example/")
         def cookie_example(
-            data: Union[str, None] = Cookie(
+            data: str | None = Cookie(
                 default=None,
                 example="cookie1",
             ),
@@ -198,7 +197,7 @@ def create_app():
 
     @app.get("/cookie_examples/")
     def cookie_examples(
-        data: Union[str, None] = Cookie(
+        data: str | None = Cookie(
             default=None,
             examples=["cookie1", "cookie2"],
         ),
@@ -209,7 +208,7 @@ def create_app():
 
         @app.get("/cookie_example_examples/")
         def cookie_example_examples(
-            data: Union[str, None] = Cookie(
+            data: str | None = Cookie(
                 default=None,
                 example="cookie_overridden",
                 examples=["cookie1", "cookie2"],

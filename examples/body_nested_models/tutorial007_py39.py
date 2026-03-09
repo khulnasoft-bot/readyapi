@@ -1,4 +1,3 @@
-from typing import Union
 
 from pydantic import BaseModel, HttpUrl
 from readyapi import ReadyAPI
@@ -13,16 +12,16 @@ class Image(BaseModel):
 
 class Item(BaseModel):
     name: str
-    description: Union[str, None] = None
+    description: str | None = None
     price: float
-    tax: Union[float, None] = None
+    tax: float | None = None
     tags: set[str] = set()
-    images: Union[list[Image], None] = None
+    images: list[Image] | None = None
 
 
 class Offer(BaseModel):
     name: str
-    description: Union[str, None] = None
+    description: str | None = None
     price: float
     items: list[Item]
 

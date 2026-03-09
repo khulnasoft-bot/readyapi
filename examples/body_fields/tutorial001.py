@@ -1,4 +1,3 @@
-from typing import Union
 
 from pydantic import BaseModel, Field
 from readyapi import Body, ReadyAPI
@@ -8,11 +7,11 @@ app = ReadyAPI()
 
 class Item(BaseModel):
     name: str
-    description: Union[str, None] = Field(
+    description: str | None = Field(
         default=None, title="The description of the item", max_length=300
     )
     price: float = Field(gt=0, description="The price must be greater than zero")
-    tax: Union[float, None] = None
+    tax: float | None = None
 
 
 @app.put("/items/{item_id}")

@@ -15,9 +15,6 @@ from typing import (
     get_origin,
 )
 
-from readyapi._compat import lenient_issubclass, shared
-from readyapi.openapi.constants import REF_TEMPLATE
-from readyapi.types import IncEx, ModelNameMap, UnionType
 from pydantic import BaseModel, ConfigDict, Field, TypeAdapter, create_model
 from pydantic import PydanticSchemaGenerationError as PydanticSchemaGenerationError
 from pydantic import PydanticUndefinedAnnotation as PydanticUndefinedAnnotation
@@ -35,6 +32,9 @@ from pydantic_core import Url as Url
 from pydantic_core.core_schema import (
     with_info_plain_validator_function as with_info_plain_validator_function,
 )
+from readyapi._compat import lenient_issubclass, shared
+from readyapi.openapi.constants import REF_TEMPLATE
+from readyapi.types import IncEx, ModelNameMap, UnionType
 
 RequiredParam = PydanticUndefined
 Undefined = PydanticUndefined

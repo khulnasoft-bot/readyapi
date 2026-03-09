@@ -1,4 +1,3 @@
-from typing import Union
 
 from readyapi import Query, ReadyAPI
 
@@ -7,7 +6,7 @@ app = ReadyAPI()
 
 @app.get("/items/")
 async def read_items(
-    q: Union[str, None] = Query(
+    q: str | None = Query(
         default=None,
         alias="item-query",
         title="Query string",

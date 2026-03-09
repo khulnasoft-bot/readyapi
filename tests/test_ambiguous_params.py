@@ -1,9 +1,10 @@
+from typing import Annotated
+
 import pytest
 from readyapi import Depends, Path, ReadyAPI
 from readyapi.param_functions import Query
 from readyapi.testclient import TestClient
 from readyapi.utils import PYDANTIC_V2
-from typing_extensions import Annotated
 
 app = ReadyAPI()
 

@@ -1,6 +1,7 @@
+from typing import Annotated
+
 from pydantic import BaseModel
 from readyapi import Form, ReadyAPI
-from typing_extensions import Annotated
 
 app = ReadyAPI()
 

@@ -1,5 +1,6 @@
+from typing import Annotated
+
 from readyapi import Depends, Header, HTTPException, ReadyAPI
-from typing_extensions import Annotated
 
 
 async def verify_token(x_token: Annotated[str, Header()]):

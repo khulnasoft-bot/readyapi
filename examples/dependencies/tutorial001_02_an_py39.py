@@ -1,4 +1,4 @@
-from typing import Annotated, Union
+from typing import Annotated
 
 from readyapi import Depends, ReadyAPI
 
@@ -6,7 +6,7 @@ app = ReadyAPI()
 
 
 async def common_parameters(
-    q: Union[str, None] = None, skip: int = 0, limit: int = 100
+    q: str | None = None, skip: int = 0, limit: int = 100
 ):
     return {"q": q, "skip": skip, "limit": limit}
 

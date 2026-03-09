@@ -1,9 +1,9 @@
-from typing import Union
+
+from typing import Annotated
 
 from pydantic import BaseModel
 from readyapi import Form, ReadyAPI
 from readyapi.testclient import TestClient
-from typing_extensions import Annotated
 
 app = ReadyAPI()
 
@@ -19,7 +19,7 @@ class CompanyForm(BaseModel):
 
 
 @app.post("/form-union/")
-def post_union_form(data: Annotated[Union[UserForm, CompanyForm], Form()]):
+def post_union_form(data: Annotated[UserForm | CompanyForm, Form()]):
     return {"received": data}
 
 

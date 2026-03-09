@@ -1,4 +1,3 @@
-from typing import Optional
 
 from dirty_equals import IsDict
 from pydantic import BaseModel
@@ -11,7 +10,7 @@ app = ReadyAPI()
 
 class Item(BaseModel):
     name: str
-    price: Optional[float] = None
+    price: float | None = None
 
 
 @app.api_route("/items/{item_id}", methods=["GET"])

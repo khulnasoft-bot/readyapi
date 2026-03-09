@@ -14,9 +14,9 @@ from typing import (
     get_origin,
 )
 
-from readyapi.types import UnionType
 from pydantic import BaseModel
 from pydantic.version import VERSION as PYDANTIC_VERSION
+from readyapi.types import UnionType
 from starlette.datastructures import UploadFile
 
 _T = TypeVar("_T")

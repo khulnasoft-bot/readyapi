@@ -1,7 +1,8 @@
+from typing import Annotated
+
 import pytest
 from readyapi import Body, Query, ReadyAPI
 from readyapi.testclient import TestClient
-from typing_extensions import Annotated
 
 app = ReadyAPI()
 

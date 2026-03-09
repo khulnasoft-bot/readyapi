@@ -1,4 +1,3 @@
-from typing import Optional, Union
 
 from dirty_equals import IsDict
 from pydantic import BaseModel
@@ -9,7 +8,7 @@ app = ReadyAPI()
 
 
 class Item(BaseModel):
-    name: Optional[str] = None
+    name: str | None = None
 
 
 class OtherItem(BaseModel):
@@ -17,7 +16,7 @@ class OtherItem(BaseModel):
 
 
 @app.post("/items/")
-def save_union_body(item: Union[OtherItem, Item]):
+def save_union_body(item: OtherItem | Item):
     return {"item": item}
 
 

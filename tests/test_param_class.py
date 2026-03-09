@@ -1,4 +1,3 @@
-from typing import Optional
 
 from readyapi import ReadyAPI
 from readyapi.params import Param
@@ -8,7 +7,7 @@ app = ReadyAPI()
 
 
 @app.get("/items/")
-def read_items(q: Optional[str] = Param(default=None)):  # type: ignore
+def read_items(q: str | None = Param(default=None)):  # type: ignore
     return {"q": q}
 
 

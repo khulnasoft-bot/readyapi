@@ -1,4 +1,4 @@
-from typing import Annotated, Union
+from typing import Annotated
 
 from readyapi import Depends, ReadyAPI
 from readyapi.testclient import TestClient
@@ -7,7 +7,7 @@ app = ReadyAPI()
 
 
 async def common_parameters(
-    q: Union[str, None] = None, skip: int = 0, limit: int = 100
+    q: str | None = None, skip: int = 0, limit: int = 100
 ):
     return {"q": q, "skip": skip, "limit": limit}
 
@@ -25,7 +25,7 @@ async def read_users(commons: Annotated[dict, Depends(common_parameters)]):
 client = TestClient(app)
 
 
-async def override_dependency(q: Union[str, None] = None):
+async def override_dependency(q: str | None = None):
     return {"q": q, "skip": 5, "limit": 10}
 
 

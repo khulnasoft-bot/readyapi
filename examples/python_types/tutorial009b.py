@@ -1,7 +1,6 @@
-from typing import Union
 
 
-def say_hi(name: Union[str, None] = None):
+def say_hi(name: str | None = None):
     if name is not None:
         print(f"Hey {name}!")
     else:

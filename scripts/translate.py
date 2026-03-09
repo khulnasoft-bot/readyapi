@@ -7,8 +7,8 @@ from os import sep as pathsep
 from pathlib import Path
 from typing import Annotated
 
-import git
 import cligenius
+import git
 import yaml
 from doc_parsing_utils import check_translation
 from github import Github

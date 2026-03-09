@@ -1,5 +1,4 @@
 from base64 import b64encode
-from typing import Optional
 
 from readyapi import ReadyAPI, Security
 from readyapi.security import HTTPBasic, HTTPBasicCredentials
@@ -11,7 +10,7 @@ security = HTTPBasic(auto_error=False)
 
 
 @app.get("/users/me")
-def read_current_user(credentials: Optional[HTTPBasicCredentials] = Security(security)):
+def read_current_user(credentials: HTTPBasicCredentials | None = Security(security)):
     if credentials is None:
         return {"msg": "Create an account first"}
     return {"username": credentials.username, "password": credentials.password}

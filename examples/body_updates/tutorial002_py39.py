@@ -1,4 +1,3 @@
-from typing import Union
 
 from pydantic import BaseModel
 from readyapi import ReadyAPI
@@ -8,9 +7,9 @@ app = ReadyAPI()
 
 
 class Item(BaseModel):
-    name: Union[str, None] = None
-    description: Union[str, None] = None
-    price: Union[float, None] = None
+    name: str | None = None
+    description: str | None = None
+    price: float | None = None
     tax: float = 10.5
     tags: list[str] = []
 

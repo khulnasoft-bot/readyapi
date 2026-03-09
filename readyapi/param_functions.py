@@ -2,10 +2,10 @@ from collections.abc import Callable, Sequence
 from typing import Annotated, Any, Literal
 
 from annotated_doc import Doc
+from pydantic import AliasChoices, AliasPath
 from readyapi import params
 from readyapi._compat import Undefined
 from readyapi.openapi.models import Example
-from pydantic import AliasChoices, AliasPath
 from typing_extensions import deprecated
 
 _Unset: Any = Undefined

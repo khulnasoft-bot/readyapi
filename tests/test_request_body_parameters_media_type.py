@@ -1,4 +1,3 @@
-import typing
 
 from pydantic import BaseModel
 from readyapi import Body, ReadyAPI
@@ -28,7 +27,7 @@ async def create_product(data: Product = Body(media_type=media_type, embed=True)
 @app.post("/shops")
 async def create_shop(
     data: Shop = Body(media_type=media_type),
-    included: typing.List[Product] = Body(default=[], media_type=media_type),
+    included: list[Product] = Body(default=[], media_type=media_type),
 ):
     pass  # pragma: no cover
 

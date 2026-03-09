@@ -1,6 +1,7 @@
+from typing import Annotated, Literal
+
 from pydantic import BaseModel, Field
 from readyapi import Query, ReadyAPI
-from typing_extensions import Annotated, Literal
 
 app = ReadyAPI()
 

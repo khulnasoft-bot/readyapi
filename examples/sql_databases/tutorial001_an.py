@@ -1,14 +1,14 @@
-from typing import List, Union
+
+from typing import Annotated
 
 from readyapi import Depends, HTTPException, Query, ReadyAPI
 from sqldev import Field, Session, SQLDev, create_engine, select
-from typing_extensions import Annotated
 
 
 class Hero(SQLDev, table=True):
-    id: Union[int, None] = Field(default=None, primary_key=True)
+    id: int | None = Field(default=None, primary_key=True)
     name: str = Field(index=True)
-    age: Union[int, None] = Field(default=None, index=True)
+    age: int | None = Field(default=None, index=True)
     secret_name: str
 
 
@@ -51,7 +51,7 @@ def read_heroes(
     session: SessionDep,
     offset: int = 0,
     limit: Annotated[int, Query(le=100)] = 100,
-) -> List[Hero]:
+) -> list[Hero]:
     heroes = session.exec(select(Hero).offset(offset).limit(limit)).all()
     return heroes
 

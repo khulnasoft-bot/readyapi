@@ -1,4 +1,3 @@
-from typing import Optional
 
 import pytest
 from dirty_equals import IsDict
@@ -39,7 +38,7 @@ app.include_router(router)
 client = TestClient(app)
 
 
-async def overrider_dependency_simple(q: Optional[str] = None):
+async def overrider_dependency_simple(q: str | None = None):
     return {"q": q, "skip": 5, "limit": 10}
 
 

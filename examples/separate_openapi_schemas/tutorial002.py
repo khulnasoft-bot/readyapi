@@ -1,4 +1,3 @@
-from typing import List, Union
 
 from pydantic import BaseModel
 from readyapi import ReadyAPI
@@ -6,7 +5,7 @@ from readyapi import ReadyAPI
 
 class Item(BaseModel):
     name: str
-    description: Union[str, None] = None
+    description: str | None = None
 
 
 app = ReadyAPI(separate_input_output_schemas=False)
@@ -18,7 +17,7 @@ def create_item(item: Item):
 
 
 @app.get("/items/")
-def read_items() -> List[Item]:
+def read_items() -> list[Item]:
     return [
         Item(
             name="Portal Gun",

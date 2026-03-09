@@ -1,4 +1,4 @@
-from typing import Annotated, Union
+from typing import Annotated
 
 from pydantic import BaseModel
 from readyapi import Path, ReadyAPI
@@ -8,16 +8,16 @@ app = ReadyAPI()
 
 class Item(BaseModel):
     name: str
-    description: Union[str, None] = None
+    description: str | None = None
     price: float
-    tax: Union[float, None] = None
+    tax: float | None = None
 
 
 @app.put("/items/{item_id}")
 async def update_item(
     item_id: Annotated[int, Path(title="The ID of the item to get", ge=0, le=1000)],
-    q: Union[str, None] = None,
-    item: Union[Item, None] = None,
+    q: str | None = None,
+    item: Item | None = None,
 ):
     results = {"item_id": item_id}
     if q:

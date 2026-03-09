@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-from typing import Union
 
 from readyapi import ReadyAPI
 
@@ -8,8 +7,8 @@ from readyapi import ReadyAPI
 class Item:
     name: str
     price: float
-    description: Union[str, None] = None
-    tax: Union[float, None] = None
+    description: str | None = None
+    tax: float | None = None
 
 
 app = ReadyAPI()

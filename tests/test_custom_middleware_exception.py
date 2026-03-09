@@ -1,5 +1,4 @@
 from pathlib import Path
-from typing import Optional
 
 from readyapi import APIRouter, File, ReadyAPI, UploadFile
 from readyapi.exceptions import HTTPException
@@ -17,7 +16,7 @@ class ContentSizeLimitMiddleware:
       max_content_size (optional): the maximum content size allowed in bytes, None for no limit
     """
 
-    def __init__(self, app: APIRouter, max_content_size: Optional[int] = None):
+    def __init__(self, app: APIRouter, max_content_size: int | None = None):
         self.app = app
         self.max_content_size = max_content_size
 

@@ -26,6 +26,8 @@ from typing import (
     get_origin,
 )
 
+from pydantic import BaseModel, Json
+from pydantic.fields import FieldInfo
 from readyapi import params
 from readyapi._compat import (
     ModelField,
@@ -60,8 +62,6 @@ from readyapi.logger import logger
 from readyapi.security.oauth2 import SecurityScopes
 from readyapi.types import DependencyCacheKey
 from readyapi.utils import create_model_field, get_path_param_names
-from pydantic import BaseModel, Json
-from pydantic.fields import FieldInfo
 from starlette.background import BackgroundTasks as StarletteBackgroundTasks
 from starlette.concurrency import run_in_threadpool
 from starlette.datastructures import (

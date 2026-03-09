@@ -1,5 +1,4 @@
 from datetime import datetime
-from typing import Union
 
 from pydantic import BaseModel
 
@@ -7,7 +6,7 @@ from pydantic import BaseModel
 class User(BaseModel):
     id: int
     name: str = "John Doe"
-    signup_ts: Union[datetime, None] = None
+    signup_ts: datetime | None = None
     friends: list[int] = []
 
 

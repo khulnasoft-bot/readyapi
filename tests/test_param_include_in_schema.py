@@ -1,4 +1,3 @@
-from typing import Optional
 
 import pytest
 from readyapi import Cookie, Header, Path, Query, ReadyAPI
@@ -9,14 +8,14 @@ app = ReadyAPI()
 
 @app.get("/hidden_cookie")
 async def hidden_cookie(
-    hidden_cookie: Optional[str] = Cookie(default=None, include_in_schema=False),
+    hidden_cookie: str | None = Cookie(default=None, include_in_schema=False),
 ):
     return {"hidden_cookie": hidden_cookie}
 
 
 @app.get("/hidden_header")
 async def hidden_header(
-    hidden_header: Optional[str] = Header(default=None, include_in_schema=False),
+    hidden_header: str | None = Header(default=None, include_in_schema=False),
 ):
     return {"hidden_header": hidden_header}
 
@@ -28,7 +27,7 @@ async def hidden_path(hidden_path: str = Path(include_in_schema=False)):
 
 @app.get("/hidden_query")
 async def hidden_query(
-    hidden_query: Optional[str] = Query(default=None, include_in_schema=False),
+    hidden_query: str | None = Query(default=None, include_in_schema=False),
 ):
     return {"hidden_query": hidden_query}
 

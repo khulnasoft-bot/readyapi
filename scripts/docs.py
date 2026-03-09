@@ -10,8 +10,8 @@ from multiprocessing import Pool
 from pathlib import Path
 from typing import Any
 
-import mkdocs.utils
 import cligenius
+import mkdocs.utils
 import yaml
 from jinja2 import Template
 from ruff.__main__ import find_ruff_bin

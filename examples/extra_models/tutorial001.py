@@ -1,4 +1,3 @@
-from typing import Union
 
 from pydantic import BaseModel, EmailStr
 from readyapi import ReadyAPI
@@ -10,20 +9,20 @@ class UserIn(BaseModel):
     username: str
     password: str
     email: EmailStr
-    full_name: Union[str, None] = None
+    full_name: str | None = None
 
 
 class UserOut(BaseModel):
     username: str
     email: EmailStr
-    full_name: Union[str, None] = None
+    full_name: str | None = None
 
 
 class UserInDB(BaseModel):
     username: str
     hashed_password: str
     email: EmailStr
-    full_name: Union[str, None] = None
+    full_name: str | None = None
 
 
 def fake_password_hasher(raw_password: str):

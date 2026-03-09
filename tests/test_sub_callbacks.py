@@ -1,4 +1,3 @@
-from typing import Optional
 
 from dirty_equals import IsDict
 from pydantic import BaseModel, HttpUrl
@@ -10,7 +9,7 @@ app = ReadyAPI()
 
 class Invoice(BaseModel):
     id: str
-    title: Optional[str] = None
+    title: str | None = None
     customer: str
     total: float
 
@@ -51,7 +50,7 @@ subrouter = APIRouter()
 
 
 @subrouter.post("/invoices/", callbacks=invoices_callback_router.routes)
-def create_invoice(invoice: Invoice, callback_url: Optional[HttpUrl] = None):
+def create_invoice(invoice: Invoice, callback_url: HttpUrl | None = None):
     """
     Create an invoice.
 

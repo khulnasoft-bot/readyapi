@@ -1,5 +1,4 @@
 from datetime import datetime
-from typing import Union
 
 from pydantic import BaseModel
 from readyapi import ReadyAPI
@@ -11,7 +10,7 @@ fake_db = {}
 class Item(BaseModel):
     title: str
     timestamp: datetime
-    description: Union[str, None] = None
+    description: str | None = None
 
 
 app = ReadyAPI()

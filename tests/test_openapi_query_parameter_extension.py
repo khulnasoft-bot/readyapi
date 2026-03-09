@@ -1,4 +1,3 @@
-from typing import Optional
 
 from dirty_equals import IsDict
 from readyapi import ReadyAPI
@@ -26,7 +25,7 @@ app = ReadyAPI()
         ]
     },
 )
-def route_with_extra_query_parameters(standard_query_param: Optional[int] = 50):
+def route_with_extra_query_parameters(standard_query_param: int | None = 50):
     return {}
 
 

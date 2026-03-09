@@ -1,4 +1,3 @@
-from typing import Union
 
 from readyapi import File, ReadyAPI, UploadFile
 
@@ -6,7 +5,7 @@ app = ReadyAPI()
 
 
 @app.post("/files/")
-async def create_file(file: Union[bytes, None] = File(default=None)):
+async def create_file(file: bytes | None = File(default=None)):
     if not file:
         return {"message": "No file sent"}
     else:
@@ -14,7 +13,7 @@ async def create_file(file: Union[bytes, None] = File(default=None)):
 
 
 @app.post("/uploadfile/")
-async def create_upload_file(file: Union[UploadFile, None] = None):
+async def create_upload_file(file: UploadFile | None = None):
     if not file:
         return {"message": "No upload file sent"}
     else:

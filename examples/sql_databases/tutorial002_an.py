@@ -1,17 +1,17 @@
-from typing import List, Union
+
+from typing import Annotated
 
 from readyapi import Depends, HTTPException, Query, ReadyAPI
 from sqldev import Field, Session, SQLDev, create_engine, select
-from typing_extensions import Annotated
 
 
 class HeroBase(SQLDev):
     name: str = Field(index=True)
-    age: Union[int, None] = Field(default=None, index=True)
+    age: int | None = Field(default=None, index=True)
 
 
 class Hero(HeroBase, table=True):
-    id: Union[int, None] = Field(default=None, primary_key=True)
+    id: int | None = Field(default=None, primary_key=True)
     secret_name: str
 
 
@@ -24,9 +24,9 @@ class HeroCreate(HeroBase):
 
 
 class HeroUpdate(HeroBase):
-    name: Union[str, None] = None
-    age: Union[int, None] = None
-    secret_name: Union[str, None] = None
+    name: str | None = None
+    age: int | None = None
+    secret_name: str | None = None
 
 
 sqlite_file_name = "database.db"
@@ -63,7 +63,7 @@ def create_hero(hero: HeroCreate, session: SessionDep):
     return db_hero
 
 
-@app.get("/heroes/", response_model=List[HeroPublic])
+@app.get("/heroes/", response_model=list[HeroPublic])
 def read_heroes(
     session: SessionDep,
     offset: int = 0,

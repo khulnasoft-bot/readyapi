@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-from typing import List, Union
 
 from readyapi import ReadyAPI
 
@@ -8,9 +7,9 @@ from readyapi import ReadyAPI
 class Item:
     name: str
     price: float
-    tags: List[str] = field(default_factory=list)
-    description: Union[str, None] = None
-    tax: Union[float, None] = None
+    tags: list[str] = field(default_factory=list)
+    description: str | None = None
+    tax: float | None = None
 
 
 app = ReadyAPI()

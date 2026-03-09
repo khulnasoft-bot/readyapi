@@ -1,4 +1,4 @@
-from typing import Annotated, Union
+from typing import Annotated
 
 from pydantic import BaseModel
 from readyapi import Header, HTTPException, ReadyAPI
@@ -16,7 +16,7 @@ app = ReadyAPI()
 class Item(BaseModel):
     id: str
     title: str
-    description: Union[str, None] = None
+    description: str | None = None
 
 
 @app.get("/items/{item_id}", response_model=Item)

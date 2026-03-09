@@ -1,9 +1,8 @@
 from datetime import datetime, time, timedelta
-from typing import Union
+from typing import Annotated
 from uuid import UUID
 
 from readyapi import Body, ReadyAPI
-from typing_extensions import Annotated
 
 app = ReadyAPI()
 
@@ -14,7 +13,7 @@ async def read_items(
     start_datetime: Annotated[datetime, Body()],
     end_datetime: Annotated[datetime, Body()],
     process_after: Annotated[timedelta, Body()],
-    repeat_at: Annotated[Union[time, None], Body()] = None,
+    repeat_at: Annotated[time | None, Body()] = None,
 ):
     start_process = start_datetime + process_after
     duration = end_datetime - start_process

@@ -1,4 +1,3 @@
-from typing import List
 
 import yaml
 from pydantic import BaseModel, ValidationError
@@ -9,7 +8,7 @@ app = ReadyAPI()
 
 class Item(BaseModel):
     name: str
-    tags: List[str]
+    tags: list[str]
 
 
 @app.post(

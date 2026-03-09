@@ -4,10 +4,10 @@ from dataclasses import dataclass
 from enum import Enum
 from typing import Annotated, Any, Literal
 
-from readyapi.exceptions import ReadyAPIDeprecationWarning
-from readyapi.openapi.models import Example
 from pydantic import AliasChoices, AliasPath
 from pydantic.fields import FieldInfo
+from readyapi.exceptions import ReadyAPIDeprecationWarning
+from readyapi.openapi.models import Example
 from typing_extensions import deprecated
 
 from ._compat import (

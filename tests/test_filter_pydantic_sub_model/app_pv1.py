@@ -1,4 +1,3 @@
-from typing import Optional
 
 from pydantic import BaseModel, validator
 from readyapi import Depends, ReadyAPI
@@ -16,7 +15,7 @@ class ModelC(ModelB):
 
 class ModelA(BaseModel):
     name: str
-    description: Optional[str] = None
+    description: str | None = None
     model_b: ModelB
 
     @validator("name")

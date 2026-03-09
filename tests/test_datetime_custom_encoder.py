@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from pydantic import BaseModel
 from readyapi import ReadyAPI
@@ -16,7 +16,7 @@ def test_pydanticv2():
 
         @field_serializer("dt_field")
         def serialize_datetime(self, dt_field: datetime):
-            return dt_field.replace(microsecond=0, tzinfo=timezone.utc).isoformat()
+            return dt_field.replace(microsecond=0, tzinfo=UTC).isoformat()
 
     app = ReadyAPI()
     model = ModelWithDatetimeField(dt_field=datetime(2019, 1, 1, 8))
@@ -40,7 +40,7 @@ def test_pydanticv1():
         class Config:
             json_encoders = {
                 datetime: lambda dt: dt.replace(
-                    microsecond=0, tzinfo=timezone.utc
+                    microsecond=0, tzinfo=UTC
                 ).isoformat()
             }
 

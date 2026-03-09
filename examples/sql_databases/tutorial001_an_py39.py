@@ -1,13 +1,13 @@
-from typing import Annotated, Union
+from typing import Annotated
 
 from readyapi import Depends, HTTPException, Query, ReadyAPI
 from sqldev import Field, Session, SQLDev, create_engine, select
 
 
 class Hero(SQLDev, table=True):
-    id: Union[int, None] = Field(default=None, primary_key=True)
+    id: int | None = Field(default=None, primary_key=True)
     name: str = Field(index=True)
-    age: Union[int, None] = Field(default=None, index=True)
+    age: int | None = Field(default=None, index=True)
     secret_name: str
 
 

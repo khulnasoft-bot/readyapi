@@ -1,4 +1,3 @@
-from typing import List, Set, Union
 
 from pydantic import BaseModel, HttpUrl
 from readyapi import ReadyAPI
@@ -13,11 +12,11 @@ class Image(BaseModel):
 
 class Item(BaseModel):
     name: str
-    description: Union[str, None] = None
+    description: str | None = None
     price: float
-    tax: Union[float, None] = None
-    tags: Set[str] = set()
-    images: Union[List[Image], None] = None
+    tax: float | None = None
+    tags: set[str] = set()
+    images: list[Image] | None = None
 
 
 @app.put("/items/{item_id}")

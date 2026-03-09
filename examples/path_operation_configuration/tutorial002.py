@@ -1,4 +1,3 @@
-from typing import Set, Union
 
 from pydantic import BaseModel
 from readyapi import ReadyAPI
@@ -8,10 +7,10 @@ app = ReadyAPI()
 
 class Item(BaseModel):
     name: str
-    description: Union[str, None] = None
+    description: str | None = None
     price: float
-    tax: Union[float, None] = None
-    tags: Set[str] = set()
+    tax: float | None = None
+    tags: set[str] = set()
 
 
 @app.post("/items/", response_model=Item, tags=["items"])

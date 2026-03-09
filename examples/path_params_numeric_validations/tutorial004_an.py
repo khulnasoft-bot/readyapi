@@ -1,5 +1,6 @@
+from typing import Annotated
+
 from readyapi import Path, ReadyAPI
-from typing_extensions import Annotated
 
 app = ReadyAPI()
 

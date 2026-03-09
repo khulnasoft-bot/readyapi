@@ -1,5 +1,5 @@
-from datetime import datetime, timedelta, timezone
-from typing import List, Union
+from datetime import UTC, datetime, timedelta
+from typing import Annotated
 
 import jwt
 from jwt.exceptions import InvalidTokenError
@@ -11,7 +11,6 @@ from readyapi.security import (
     OAuth2PasswordRequestForm,
     SecurityScopes,
 )
-from typing_extensions import Annotated
 
 # to get a string like this run:
 # openssl rand -hex 32
@@ -44,15 +43,15 @@ class Token(BaseModel):
 
 
 class TokenData(BaseModel):
-    username: Union[str, None] = None
-    scopes: List[str] = []
+    username: str | None = None
+    scopes: list[str] = []
 
 
 class User(BaseModel):
     username: str
-    email: Union[str, None] = None
-    full_name: Union[str, None] = None
-    disabled: Union[bool, None] = None
+    email: str | None = None
+    full_name: str | None = None
+    disabled: bool | None = None
 
 
 class UserInDB(User):
@@ -92,12 +91,12 @@ def authenticate_user(fake_db, username: str, password: str):
     return user
 
 
-def create_access_token(data: dict, expires_delta: Union[timedelta, None] = None):
+def create_access_token(data: dict, expires_delta: timedelta | None = None):
     to_encode = data.copy()
     if expires_delta:
-        expire = datetime.now(timezone.utc) + expires_delta
+        expire = datetime.now(UTC) + expires_delta
     else:
-        expire = datetime.now(timezone.utc) + timedelta(minutes=15)
+        expire = datetime.now(UTC) + timedelta(minutes=15)
     to_encode.update({"exp": expire})
     encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
     return encoded_jwt

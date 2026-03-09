@@ -1,5 +1,4 @@
 import http
-from typing import FrozenSet, List, Optional
 
 from readyapi import Path, Query, ReadyAPI
 
@@ -49,7 +48,7 @@ def get_bool_id(item_id: bool):
 
 
 @app.get("/path/param/{item_id}")
-def get_path_param_id(item_id: Optional[str] = Path()):
+def get_path_param_id(item_id: str | None = Path()):
     return item_id
 
 
@@ -156,7 +155,7 @@ def get_query_type(query: int):
 
 
 @app.get("/query/int/optional")
-def get_query_type_optional(query: Optional[int] = None):
+def get_query_type_optional(query: int | None = None):
     if query is None:
         return "foo bar"
     return f"foo bar {query}"
@@ -190,15 +189,15 @@ def get_enum_status_code():
 
 
 @app.get("/query/frozenset")
-def get_query_type_frozenset(query: FrozenSet[int] = Query(...)):
+def get_query_type_frozenset(query: frozenset[int] = Query(...)):
     return ",".join(map(str, sorted(query)))
 
 
 @app.get("/query/list")
-def get_query_list(device_ids: List[int] = Query()) -> List[int]:
+def get_query_list(device_ids: list[int] = Query()) -> list[int]:
     return device_ids
 
 
 @app.get("/query/list-default")
-def get_query_list_default(device_ids: List[int] = Query(default=[])) -> List[int]:
+def get_query_list_default(device_ids: list[int] = Query(default=[])) -> list[int]:
     return device_ids

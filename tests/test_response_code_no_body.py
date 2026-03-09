@@ -1,4 +1,3 @@
-import typing
 
 from pydantic import BaseModel
 from readyapi import ReadyAPI
@@ -18,7 +17,7 @@ class Error(BaseModel):
 
 
 class JsonApiError(BaseModel):
-    errors: typing.List[Error]
+    errors: list[Error]
 
 
 @app.get(

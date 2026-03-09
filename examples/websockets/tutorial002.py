@@ -1,4 +1,3 @@
-from typing import Union
 
 from readyapi import (
     Cookie,
@@ -65,8 +64,8 @@ async def get():
 
 async def get_cookie_or_token(
     websocket: WebSocket,
-    session: Union[str, None] = Cookie(default=None),
-    token: Union[str, None] = Query(default=None),
+    session: str | None = Cookie(default=None),
+    token: str | None = Query(default=None),
 ):
     if session is None and token is None:
         raise WebSocketException(code=status.WS_1008_POLICY_VIOLATION)
@@ -77,7 +76,7 @@ async def get_cookie_or_token(
 async def websocket_endpoint(
     websocket: WebSocket,
     item_id: str,
-    q: Union[int, None] = None,
+    q: int | None = None,
     cookie_or_token: str = Depends(get_cookie_or_token),
 ):
     await websocket.accept()

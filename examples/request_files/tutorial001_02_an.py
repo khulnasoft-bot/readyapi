@@ -1,13 +1,13 @@
-from typing import Union
+
+from typing import Annotated
 
 from readyapi import File, ReadyAPI, UploadFile
-from typing_extensions import Annotated
 
 app = ReadyAPI()
 
 
 @app.post("/files/")
-async def create_file(file: Annotated[Union[bytes, None], File()] = None):
+async def create_file(file: Annotated[bytes | None, File()] = None):
     if not file:
         return {"message": "No file sent"}
     else:
@@ -15,7 +15,7 @@ async def create_file(file: Annotated[Union[bytes, None], File()] = None):
 
 
 @app.post("/uploadfile/")
-async def create_upload_file(file: Union[UploadFile, None] = None):
+async def create_upload_file(file: UploadFile | None = None):
     if not file:
         return {"message": "No upload file sent"}
     else:

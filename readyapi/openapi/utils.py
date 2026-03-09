@@ -5,6 +5,7 @@ import warnings
 from collections.abc import Sequence
 from typing import Any, Literal, cast
 
+from pydantic import BaseModel
 from readyapi import routing
 from readyapi._compat import (
     ModelField,
@@ -36,7 +37,6 @@ from readyapi.utils import (
     generate_operation_id_for_path,
     is_body_allowed_for_status_code,
 )
-from pydantic import BaseModel
 from starlette.responses import JSONResponse
 from starlette.routing import BaseRoute
 

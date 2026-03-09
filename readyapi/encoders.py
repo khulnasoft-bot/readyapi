@@ -19,13 +19,13 @@ from typing import Annotated, Any
 from uuid import UUID
 
 from annotated_doc import Doc
-from readyapi.exceptions import PydanticV1NotSupportedError
-from readyapi.types import IncEx
 from pydantic import BaseModel
 from pydantic.color import Color
 from pydantic.networks import AnyUrl, NameEmail
 from pydantic.types import SecretBytes, SecretStr
 from pydantic_core import PydanticUndefinedType
+from readyapi.exceptions import PydanticV1NotSupportedError
+from readyapi.types import IncEx
 
 from ._compat import (
     Url,

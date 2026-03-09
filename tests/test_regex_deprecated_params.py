@@ -1,8 +1,9 @@
+from typing import Annotated
+
 import pytest
 from dirty_equals import IsDict
 from readyapi import Query, ReadyAPI
 from readyapi.testclient import TestClient
-from typing_extensions import Annotated
 
 from .utils import needs_py310
 

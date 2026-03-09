@@ -1,4 +1,3 @@
-from typing import Union
 
 from pydantic import BaseModel, EmailStr
 from readyapi import ReadyAPI
@@ -9,7 +8,7 @@ app = ReadyAPI()
 class UserBase(BaseModel):
     username: str
     email: EmailStr
-    full_name: Union[str, None] = None
+    full_name: str | None = None
 
 
 class UserIn(UserBase):

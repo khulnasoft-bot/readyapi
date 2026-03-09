@@ -1,4 +1,3 @@
-from typing import Optional
 
 import pytest
 from dirty_equals import HasRepr, IsDict, IsOneOf
@@ -23,7 +22,7 @@ def get_client():
 
     class ModelA(BaseModel):
         name: str
-        description: Optional[str] = None
+        description: str | None = None
         foo: ModelB
 
         @field_validator("name")

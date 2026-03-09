@@ -1,9 +1,9 @@
-from typing import Union
+
+from typing import Annotated
 
 from pydantic import BaseModel
 from readyapi import Depends, HTTPException, ReadyAPI, status
 from readyapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
-from typing_extensions import Annotated
 
 fake_users_db = {
     "johndoe": {
@@ -34,9 +34,9 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
 class User(BaseModel):
     username: str
-    email: Union[str, None] = None
-    full_name: Union[str, None] = None
-    disabled: Union[bool, None] = None
+    email: str | None = None
+    full_name: str | None = None
+    disabled: bool | None = None
 
 
 class UserInDB(User):

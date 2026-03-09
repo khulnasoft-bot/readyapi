@@ -1,4 +1,3 @@
-from typing import Union
 
 from pydantic import BaseModel
 from readyapi import Cookie, ReadyAPI
@@ -8,8 +7,8 @@ app = ReadyAPI()
 
 class Cookies(BaseModel):
     session_id: str
-    fatebook_tracker: Union[str, None] = None
-    googall_tracker: Union[str, None] = None
+    fatebook_tracker: str | None = None
+    googall_tracker: str | None = None
 
 
 @app.get("/items/")

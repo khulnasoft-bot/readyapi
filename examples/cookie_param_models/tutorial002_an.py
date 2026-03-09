@@ -1,8 +1,8 @@
-from typing import Union
+
+from typing import Annotated
 
 from pydantic import BaseModel
 from readyapi import Cookie, ReadyAPI
-from typing_extensions import Annotated
 
 app = ReadyAPI()
 
@@ -11,8 +11,8 @@ class Cookies(BaseModel):
     model_config = {"extra": "forbid"}
 
     session_id: str
-    fatebook_tracker: Union[str, None] = None
-    googall_tracker: Union[str, None] = None
+    fatebook_tracker: str | None = None
+    googall_tracker: str | None = None
 
 
 @app.get("/items/")

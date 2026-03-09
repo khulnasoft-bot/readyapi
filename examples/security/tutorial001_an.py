@@ -1,6 +1,7 @@
+from typing import Annotated
+
 from readyapi import Depends, ReadyAPI
 from readyapi.security import OAuth2PasswordBearer
-from typing_extensions import Annotated
 
 app = ReadyAPI()
 

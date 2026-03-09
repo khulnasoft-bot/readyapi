@@ -1,10 +1,10 @@
-from typing import List, Optional
+
+from typing import Annotated
 
 from dirty_equals import IsDict
 from pydantic import BaseModel, Field
 from readyapi import Form, ReadyAPI
 from readyapi.testclient import TestClient
-from typing_extensions import Annotated
 
 app = ReadyAPI()
 
@@ -12,8 +12,8 @@ app = ReadyAPI()
 class FormModel(BaseModel):
     username: str
     lastname: str
-    age: Optional[int] = None
-    tags: List[str] = ["foo", "bar"]
+    age: int | None = None
+    tags: list[str] = ["foo", "bar"]
     alias_with: str = Field(alias="with", default="nothing")
 
 

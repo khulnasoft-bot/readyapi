@@ -1,5 +1,5 @@
 import gzip
-from typing import Callable, List
+from collections.abc import Callable
 
 from readyapi import Body, ReadyAPI, Request, Response
 from readyapi.routing import APIRoute
@@ -31,5 +31,5 @@ app.router.route_class = GzipRoute
 
 
 @app.post("/sum")
-async def sum_numbers(numbers: List[int] = Body()):
+async def sum_numbers(numbers: list[int] = Body()):
     return {"sum": sum(numbers)}

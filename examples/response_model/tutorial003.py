@@ -1,4 +1,4 @@
-from typing import Any, Union
+from typing import Any
 
 from pydantic import BaseModel, EmailStr
 from readyapi import ReadyAPI
@@ -10,13 +10,13 @@ class UserIn(BaseModel):
     username: str
     password: str
     email: EmailStr
-    full_name: Union[str, None] = None
+    full_name: str | None = None
 
 
 class UserOut(BaseModel):
     username: str
     email: EmailStr
-    full_name: Union[str, None] = None
+    full_name: str | None = None
 
 
 @app.post("/user/", response_model=UserOut)

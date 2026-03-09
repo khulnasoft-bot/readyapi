@@ -1,6 +1,7 @@
+from typing import Annotated
+
 from readyapi import Depends, ReadyAPI
 from readyapi.security import HTTPBasic, HTTPBasicCredentials
-from typing_extensions import Annotated
 
 app = ReadyAPI()
 

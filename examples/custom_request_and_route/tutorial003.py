@@ -1,5 +1,5 @@
 import time
-from typing import Callable
+from collections.abc import Callable
 
 from readyapi import APIRouter, ReadyAPI, Request, Response
 from readyapi.routing import APIRoute

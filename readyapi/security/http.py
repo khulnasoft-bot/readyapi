@@ -3,12 +3,12 @@ from base64 import b64decode
 from typing import Annotated
 
 from annotated_doc import Doc
+from pydantic import BaseModel
 from readyapi.exceptions import HTTPException
 from readyapi.openapi.models import HTTPBase as HTTPBaseModel
 from readyapi.openapi.models import HTTPBearer as HTTPBearerModel
 from readyapi.security.base import SecurityBase
 from readyapi.security.utils import get_authorization_scheme_param
-from pydantic import BaseModel
 from starlette.requests import Request
 from starlette.status import HTTP_401_UNAUTHORIZED
 

@@ -7,6 +7,7 @@ from typing import (
 )
 
 import readyapi
+from pydantic.fields import FieldInfo
 from readyapi._compat import (
     ModelField,
     PydanticSchemaGenerationError,
@@ -14,8 +15,7 @@ from readyapi._compat import (
     annotation_is_pydantic_v1,
 )
 from readyapi.datastructures import DefaultPlaceholder, DefaultType
-from readyapi.exceptions import ReadyAPIDeprecationWarning, PydanticV1NotSupportedError
-from pydantic.fields import FieldInfo
+from readyapi.exceptions import PydanticV1NotSupportedError, ReadyAPIDeprecationWarning
 
 from ._compat import v2
 

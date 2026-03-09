@@ -1,17 +1,17 @@
-from typing import Annotated, Union
+from typing import Annotated
 
 from readyapi import Cookie, Depends, ReadyAPI
 
 app = ReadyAPI()
 
 
-def query_extractor(q: Union[str, None] = None):
+def query_extractor(q: str | None = None):
     return q
 
 
 def query_or_cookie_extractor(
     q: Annotated[str, Depends(query_extractor)],
-    last_query: Annotated[Union[str, None], Cookie()] = None,
+    last_query: Annotated[str | None, Cookie()] = None,
 ):
     if not q:
         return last_query

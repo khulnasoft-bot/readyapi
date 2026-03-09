@@ -1,5 +1,6 @@
+from typing import Annotated
+
 from readyapi import Depends
-from typing_extensions import Annotated
 
 
 async def dependency_a():

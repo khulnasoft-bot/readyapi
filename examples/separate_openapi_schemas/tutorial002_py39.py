@@ -1,4 +1,3 @@
-from typing import Optional
 
 from pydantic import BaseModel
 from readyapi import ReadyAPI
@@ -6,7 +5,7 @@ from readyapi import ReadyAPI
 
 class Item(BaseModel):
     name: str
-    description: Optional[str] = None
+    description: str | None = None
 
 
 app = ReadyAPI(separate_input_output_schemas=False)

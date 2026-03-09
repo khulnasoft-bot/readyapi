@@ -1,7 +1,7 @@
-from typing import Union
+
+from typing import Annotated
 
 from readyapi import BackgroundTasks, Depends, ReadyAPI
-from typing_extensions import Annotated
 
 app = ReadyAPI()
 
@@ -11,7 +11,7 @@ def write_log(message: str):
         log.write(message)
 
 
-def get_query(background_tasks: BackgroundTasks, q: Union[str, None] = None):
+def get_query(background_tasks: BackgroundTasks, q: str | None = None):
     if q:
         message = f"found query: {q}\n"
         background_tasks.add_task(write_log, message)

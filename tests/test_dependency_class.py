@@ -1,4 +1,4 @@
-from typing import AsyncGenerator, Generator
+from collections.abc import AsyncGenerator, Generator
 
 import pytest
 from readyapi import Depends, ReadyAPI

@@ -1,4 +1,4 @@
-from typing import Annotated, Union
+from typing import Annotated
 
 from readyapi import Body, ReadyAPI, status
 from readyapi.responses import JSONResponse
@@ -11,8 +11,8 @@ items = {"foo": {"name": "Fighters", "size": 6}, "bar": {"name": "Tenders", "siz
 @app.put("/items/{item_id}")
 async def upsert_item(
     item_id: str,
-    name: Annotated[Union[str, None], Body()] = None,
-    size: Annotated[Union[int, None], Body()] = None,
+    name: Annotated[str | None, Body()] = None,
+    size: Annotated[int | None, Body()] = None,
 ):
     if item_id in items:
         item = items[item_id]

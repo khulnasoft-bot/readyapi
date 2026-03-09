@@ -1,4 +1,3 @@
-from typing import List
 
 from pydantic import BaseModel
 from readyapi import ReadyAPI
@@ -44,7 +43,7 @@ async def read_pet(pet_id: int):
     return pet
 
 
-@app.get("/pets/", response_model=List[PetOut])
+@app.get("/pets/", response_model=list[PetOut])
 async def read_pets():
     user = UserDB(
         email="johndoe@example.com",

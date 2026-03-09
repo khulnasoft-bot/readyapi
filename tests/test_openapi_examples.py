@@ -1,4 +1,3 @@
-from typing import Union
 
 from dirty_equals import IsDict
 from pydantic import BaseModel
@@ -57,7 +56,7 @@ def path_examples(
 
 @app.get("/query_examples/")
 def query_examples(
-    data: Union[str, None] = Query(
+    data: str | None = Query(
         default=None,
         examples=[
             "json_schema_query1",
@@ -80,7 +79,7 @@ def query_examples(
 
 @app.get("/header_examples/")
 def header_examples(
-    data: Union[str, None] = Header(
+    data: str | None = Header(
         default=None,
         examples=[
             "json_schema_header1",
@@ -103,7 +102,7 @@ def header_examples(
 
 @app.get("/cookie_examples/")
 def cookie_examples(
-    data: Union[str, None] = Cookie(
+    data: str | None = Cookie(
         default=None,
         examples=["json_schema_cookie1", "json_schema_cookie2"],
         openapi_examples={

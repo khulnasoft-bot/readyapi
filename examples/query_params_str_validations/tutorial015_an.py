@@ -1,9 +1,8 @@
 import random
-from typing import Union
+from typing import Annotated
 
 from pydantic import AfterValidator
 from readyapi import ReadyAPI
-from typing_extensions import Annotated
 
 app = ReadyAPI()
 
@@ -22,7 +21,7 @@ def check_valid_id(id: str):
 
 @app.get("/items/")
 async def read_items(
-    id: Annotated[Union[str, None], AfterValidator(check_valid_id)] = None,
+    id: Annotated[str | None, AfterValidator(check_valid_id)] = None,
 ):
     if id:
         item = data.get(id)
