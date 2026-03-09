@@ -435,7 +435,7 @@ def test_openapi_schema():
                 "/path_examples/{item_id}": {
                     "get": {
                         "summary": "Path Examples",
-                        "operationId": "path_docs_path_examples__item_id__get",
+                        "operationId": "path_examples_path_examples__item_id__get",
                         "parameters": [
                             {
                                 "required": True,
@@ -469,7 +469,7 @@ def test_openapi_schema():
                 "/path_example_examples/{item_id}": {
                     "get": {
                         "summary": "Path Example Examples",
-                        "operationId": "path_example_docs_path_example_examples__item_id__get",
+                        "operationId": "path_example_examples_path_example_examples__item_id__get",
                         "parameters": [
                             {
                                 "required": True,
@@ -538,7 +538,7 @@ def test_openapi_schema():
                 "/query_examples/": {
                     "get": {
                         "summary": "Query Examples",
-                        "operationId": "query_docs_query_examples__get",
+                        "operationId": "query_examples_query_examples__get",
                         "parameters": [
                             {
                                 "required": False,
@@ -572,7 +572,7 @@ def test_openapi_schema():
                 "/query_example_examples/": {
                     "get": {
                         "summary": "Query Example Examples",
-                        "operationId": "query_example_docs_query_example_examples__get",
+                        "operationId": "query_example_examples_query_example_examples__get",
                         "parameters": [
                             {
                                 "required": False,
@@ -744,7 +744,7 @@ def test_openapi_schema():
                 "/cookie_examples/": {
                     "get": {
                         "summary": "Cookie Examples",
-                        "operationId": "cookie_docs_cookie_examples__get",
+                        "operationId": "cookie_examples_cookie_examples__get",
                         "parameters": [
                             {
                                 "required": False,
@@ -778,7 +778,7 @@ def test_openapi_schema():
                 "/cookie_example_examples/": {
                     "get": {
                         "summary": "Cookie Example Examples",
-                        "operationId": "cookie_example_docs_cookie_example_examples__get",
+                        "operationId": "cookie_example_examples_cookie_example_examples__get",
                         "parameters": [
                             {
                                 "required": False,

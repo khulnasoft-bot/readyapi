@@ -7,7 +7,7 @@ except ImportError:  # pragma: no cover
 
 def main() -> None:
     if not cli_main:  # type: ignore[truthy-function]
-        message = 'To use the readyapi command, please install "readyapi[standard]":\n\n\tpip install "readyapi[standard]"\n'
+        message = 'To use the readyapi command, please install "readyapi[standard]":\n\n\tpip install "readyapi[standard]"\n\n'
         print(message)
         raise RuntimeError(message)  # noqa: B904
     cli_main()
