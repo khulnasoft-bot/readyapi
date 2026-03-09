@@ -141,49 +141,49 @@ def hello_world():
 
 ## Simple code includes { #simple-code-includes }
 
-{* ../../docs_src/python_types/tutorial001_py310.py *}
+{* ../../examples/python_types/tutorial001_py310.py *}
 
-{* ../../docs_src/python_types/tutorial002_py310.py *}
+{* ../../examples/python_types/tutorial002_py310.py *}
 
 
 ## Code includes with highlighting { #code-includes-with-highlighting }
 
-{* ../../docs_src/python_types/tutorial002_py310.py hl[1] *}
+{* ../../examples/python_types/tutorial002_py310.py hl[1] *}
 
-{* ../../docs_src/python_types/tutorial006_py310.py hl[10] *}
+{* ../../examples/python_types/tutorial006_py310.py hl[10] *}
 
 
 ## Code includes with line ranges { #code-includes-with-line-ranges }
 
-{* ../../docs_src/dependencies/tutorial013_an_py310.py ln[19:21] *}
+{* ../../examples/dependencies/tutorial013_an_py310.py ln[19:21] *}
 
-{* ../../docs_src/dependencies/tutorial013_an_py310.py ln[30:38] *}
+{* ../../examples/dependencies/tutorial013_an_py310.py ln[30:38] *}
 
 
 ## Code includes with line ranges and highlighting { #code-includes-with-line-ranges-and-highlighting }
 
-{* ../../docs_src/dependencies/tutorial013_an_py310.py ln[30:38] hl[31:33] *}
+{* ../../examples/dependencies/tutorial013_an_py310.py ln[30:38] hl[31:33] *}
 
-{* ../../docs_src/dependencies/tutorial015_an_py310.py ln[10:15] hl[12:14] *}
+{* ../../examples/dependencies/tutorial015_an_py310.py ln[10:15] hl[12:14] *}
 
 
 ## Code includes qith title { #code-includes-with-title }
 
-{* ../../docs_src/bigger_applications/app_an_py310/routers/users.py hl[1,3] title["app/routers/users.py"] *}
+{* ../../examples/bigger_applications/app_an_py310/routers/users.py hl[1,3] title["app/routers/users.py"] *}
 
-{* ../../docs_src/bigger_applications/app_an_py310/internal/admin.py hl[3] title["app/internal/admin.py"] *}
+{* ../../examples/bigger_applications/app_an_py310/internal/admin.py hl[3] title["app/internal/admin.py"] *}
 
 ## Code includes with unknown attributes { #code-includes-with-unknown-attributes }
 
-{* ../../docs_src/python_types/tutorial001_py310.py unknown[123] *}
+{* ../../examples/python_types/tutorial001_py310.py unknown[123] *}
 
 ## Some more code includes to test fixing { #some-more-code-includes-to-test-fixing }
 
-{* ../../docs_src/dependencies/tutorial013_an_py310.py ln[19:21] *}
+{* ../../examples/dependencies/tutorial013_an_py310.py ln[19:21] *}
 
-{* ../../docs_src/bigger_applications/app_an_py310/internal/admin.py hl[3] title["app/internal/admin.py"] *}
+{* ../../examples/bigger_applications/app_an_py310/internal/admin.py hl[3] title["app/internal/admin.py"] *}
 
-{* ../../docs_src/dependencies/tutorial013_an_py310.py ln[30:38] hl[31:33] *}
+{* ../../examples/dependencies/tutorial013_an_py310.py ln[30:38] hl[31:33] *}
 
 
 

@@ -22,7 +22,7 @@ def run(playwright: Playwright) -> None:
 
 
 process = subprocess.Popen(
-    ["readyapi", "run", "docs_src/json_base64_bytes/tutorial001_py310.py"]
+    ["readyapi", "run", "examples/json_base64_bytes/tutorial001_py310.py"]
 )
 try:
     for _ in range(3):

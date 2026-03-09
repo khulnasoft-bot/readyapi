@@ -3,5 +3,5 @@
 set -e
 set -x
 
-export PYTHONPATH=./docs_src
+export PYTHONPATH=./examples
 pytest -n auto --dist loadgroup  tests scripts/tests/ ${@}

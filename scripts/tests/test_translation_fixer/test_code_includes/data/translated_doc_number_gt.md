@@ -1,15 +1,15 @@
 # Header
 
-{* ../../docs_src/dependencies/tutorial013_an_py310.py ln[19:21] *}
+{* ../../examples/dependencies/tutorial013_an_py310.py ln[19:21] *}
 
 Some text
 
-{* ../../docs_src/bigger_applications/app_an_py310/internal/admin.py hl[3] title["app/internal/admin.py"] *}
+{* ../../examples/bigger_applications/app_an_py310/internal/admin.py hl[3] title["app/internal/admin.py"] *}
 
 Some more text
 
-{* ../../docs_src/dependencies/tutorial013_an_py310.py ln[30:38] hl[31:33] *}
+{* ../../examples/dependencies/tutorial013_an_py310.py ln[30:38] hl[31:33] *}
 
 And even more text
 
-{* ../../docs_src/python_types/tutorial001_py310.py *}
+{* ../../examples/python_types/tutorial001_py310.py *}

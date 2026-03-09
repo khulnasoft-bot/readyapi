@@ -419,7 +419,7 @@ def langs_json():
 
 
 @app.command()
-def generate_docs_src_versions_for_file(file_path: Path) -> None:
+def generate_examples_versions_for_file(file_path: Path) -> None:
     target_versions = ["py39", "py310"]
     full_path_str = str(file_path)
     for target_version in target_versions:
@@ -480,13 +480,13 @@ def generate_docs_src_versions_for_file(file_path: Path) -> None:
 
 
 @app.command()
-def generate_docs_src_versions() -> None:
+def generate_examples_versions() -> None:
     """
     Generate Python version-specific files for all .py files in examples.
     """
-    examples_path = Path("docs_src")
-    for py_file in sorted(docs_src_path.rglob("*.py")):
-        generate_docs_src_versions_for_file(py_file)
+    examples_path = Path("examples")
+    for py_file in sorted(examples_path.rglob("*.py")):
+        generate_examples_versions_for_file(py_file)
 
 
 @app.command()
@@ -495,9 +495,9 @@ def copy_py39_to_py310() -> None:
     For each examples file/directory with a _py39 label that has no _py310
     counterpart, copy it with the _py310 label.
     """
-    examples_path = Path("docs_src")
+    examples_path = Path("examples")
     # Handle directory-level labels (e.g. app_b_an_py39/)
-    for dir_path in sorted(docs_src_path.rglob("*_py39")):
+    for dir_path in sorted(examples_path.rglob("*_py39")):
         if not dir_path.is_dir():
             continue
         py310_dir = dir_path.parent / dir_path.name.replace("_py39", "_py310")
@@ -506,7 +506,7 @@ def copy_py39_to_py310() -> None:
         logging.info(f"Copying directory {dir_path} -> {py310_dir}")
         shutil.copytree(dir_path, py310_dir)
     # Handle file-level labels (e.g. tutorial001_py39.py)
-    for file_path in sorted(docs_src_path.rglob("*_py39.py")):
+    for file_path in sorted(examples_path.rglob("*_py39.py")):
         if not file_path.is_file():
             continue
         # Skip files inside _py39 directories (already handled above)
@@ -529,7 +529,7 @@ def update_docs_includes_py39_to_py310() -> None:
     For each include line referencing a _py39 file or directory in examples, replace
     the _py39 label with _py310.
     """
-    include_pattern = re.compile(r"\{[^}]*docs_src/[^}]*_py39[^}]*\.py[^}]*\}")
+    include_pattern = re.compile(r"\{[^}]*examples/[^}]*_py39[^}]*\.py[^}]*\}")
     count = 0
     for md_file in sorted(en_docs_path.rglob("*.md")):
         content = md_file.read_text(encoding="utf-8")
@@ -546,11 +546,11 @@ def update_docs_includes_py39_to_py310() -> None:
 
 
 @app.command()
-def remove_unused_docs_src() -> None:
+def remove_unused_examples() -> None:
     """
     Delete .py files in examples that are not included in any .md file under docs/.
     """
-    examples_path = Path("docs_src")
+    examples_path = Path("examples")
     # Collect all docs .md content referencing examples
     all_docs_content = ""
     for md_file in examplespath.rglob("*.md"):
@@ -566,13 +566,13 @@ def remove_unused_docs_src() -> None:
         if rel_path in all_docs_content:
             # Walk up from the file's parent to find the package root
             # (a subdirectory under examples/<topic>/)
-            parts = py_file.relative_to(docs_src_path).parts
+            parts = py_file.relative_to(examples_path).parts
             if len(parts) > 2:
                 # File is inside a sub-package like examples/topic/app_xxx/...
                 package_root = examples_path / parts[0] / parts[1]
                 used_package_dirs.add(package_root)
     removed = 0
-    for py_file in sorted(docs_src_path.rglob("*.py")):
+    for py_file in sorted(examples_path.rglob("*.py")):
         if py_file.name == "__init__.py":
             continue
         # Build the relative path as it appears in includes (e.g. examples/first_steps/tutorial001.py)
@@ -581,7 +581,7 @@ def remove_unused_docs_src() -> None:
             continue
         # If this file is inside a directory-based package where any sibling is
         # referenced, keep it (it's likely imported internally).
-        parts = py_file.relative_to(docs_src_path).parts
+        parts = py_file.relative_to(examples_path).parts
         if len(parts) > 2:
             package_root = examples_path / parts[0] / parts[1]
             if package_root in used_package_dirs:
@@ -641,7 +641,7 @@ def remove_unused_docs_src() -> None:
         py_file.unlink()
         removed += 1
     # Clean up directories that are empty or only contain __init__.py / __pycache__
-    for dir_path in sorted(docs_src_path.rglob("*"), reverse=True):
+    for dir_path in sorted(examples_path.rglob("*"), reverse=True):
         if not dir_path.is_dir():
             continue
         remaining = [
