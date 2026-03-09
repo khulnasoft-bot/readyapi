@@ -1,5 +1,7 @@
 from typing import Any
 
+from readyapi.exceptions import ReadyAPIDeprecationWarning
+from readyapi.sse import EventSourceResponse as EventSourceResponse  # noqa
 from starlette.responses import FileResponse as FileResponse  # noqa
 from starlette.responses import HTMLResponse as HTMLResponse  # noqa
 from starlette.responses import JSONResponse as JSONResponse  # noqa
@@ -7,6 +9,7 @@ from starlette.responses import PlainTextResponse as PlainTextResponse  # noqa
 from starlette.responses import RedirectResponse as RedirectResponse  # noqa
 from starlette.responses import Response as Response  # noqa
 from starlette.responses import StreamingResponse as StreamingResponse  # noqa
+from typing_extensions import deprecated
 
 try:
     import ujson
@@ -20,12 +23,29 @@ except ImportError:  # pragma: nocover
     orjson = None  # type: ignore
 
 
+@deprecated(
+    "UJSONResponse is deprecated, ReadyAPI now serializes data directly to JSON "
+    "bytes via Pydantic when a return type or response model is set, which is "
+    "faster and doesn't need a custom response class. Read more in the ReadyAPI "
+    "docs: https://readyapi.khulnasoft.com/advanced/custom-response/#orjson-or-response-model "
+    "and https://readyapi.khulnasoft.com/tutorial/response-model/",
+    category=ReadyAPIDeprecationWarning,
+    stacklevel=2,
+)
 class UJSONResponse(JSONResponse):
-    """
-    JSON response using the high-performance ujson library to serialize data to JSON.
+    """JSON response using the ujson library to serialize data to JSON.
 
-    Read more about it in the
-    [ReadyAPI docs for Custom Response - HTML, Stream, File, others](https://readyapi.github.io/advanced/custom-response/).
+    **Deprecated**: `UJSONResponse` is deprecated. ReadyAPI now serializes data
+    directly to JSON bytes via Pydantic when a return type or response model is
+    set, which is faster and doesn't need a custom response class.
+
+    Read more in the
+    [ReadyAPI docs for Custom Response](https://readyapi.khulnasoft.com/advanced/custom-response/#orjson-or-response-model)
+    and the
+    [ReadyAPI docs for Response Model](https://readyapi.khulnasoft.com/tutorial/response-model/).
+
+    **Note**: `ujson` is not included with ReadyAPI and must be installed
+    separately, e.g. `pip install ujson`.
     """
 
     def render(self, content: Any) -> bytes:
@@ -33,12 +53,29 @@ class UJSONResponse(JSONResponse):
         return ujson.dumps(content, ensure_ascii=False).encode("utf-8")
 
 
+@deprecated(
+    "ORJSONResponse is deprecated, ReadyAPI now serializes data directly to JSON "
+    "bytes via Pydantic when a return type or response model is set, which is "
+    "faster and doesn't need a custom response class. Read more in the ReadyAPI "
+    "docs: https://readyapi.khulnasoft.com/advanced/custom-response/#orjson-or-response-model "
+    "and https://readyapi.khulnasoft.com/tutorial/response-model/",
+    category=ReadyAPIDeprecationWarning,
+    stacklevel=2,
+)
 class ORJSONResponse(JSONResponse):
-    """
-    JSON response using the high-performance orjson library to serialize data to JSON.
+    """JSON response using the orjson library to serialize data to JSON.
 
-    Read more about it in the
-    [ReadyAPI docs for Custom Response - HTML, Stream, File, others](https://readyapi.github.io/advanced/custom-response/).
+    **Deprecated**: `ORJSONResponse` is deprecated. ReadyAPI now serializes data
+    directly to JSON bytes via Pydantic when a return type or response model is
+    set, which is faster and doesn't need a custom response class.
+
+    Read more in the
+    [ReadyAPI docs for Custom Response](https://readyapi.khulnasoft.com/advanced/custom-response/#orjson-or-response-model)
+    and the
+    [ReadyAPI docs for Response Model](https://readyapi.khulnasoft.com/tutorial/response-model/).
+
+    **Note**: `orjson` is not included with ReadyAPI and must be installed
+    separately, e.g. `pip install orjson`.
     """
 
     def render(self, content: Any) -> bytes:

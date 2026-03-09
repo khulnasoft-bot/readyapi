@@ -1,7 +1,9 @@
-from typing import Any, Callable
+from collections.abc import Callable
+from typing import Annotated, Any
 
+from annotated_doc import Doc
 from starlette.background import BackgroundTasks as StarletteBackgroundTasks
-from typing_extensions import Annotated, Doc, ParamSpec
+from typing_extensions import ParamSpec
 
 P = ParamSpec("P")
 
@@ -12,7 +14,7 @@ class BackgroundTasks(StarletteBackgroundTasks):
     sent to the client.
 
     Read more about it in the
-    [ReadyAPI docs for Background Tasks](https://readyapi.github.io/tutorial/background-tasks/).
+    [ReadyAPI docs for Background Tasks](https://readyapi.khulnasoft.com/tutorial/background-tasks/).
 
     ## Example
 
@@ -54,6 +56,6 @@ class BackgroundTasks(StarletteBackgroundTasks):
         Add a function to be called in the background after the response is sent.
 
         Read more about it in the
-        [ReadyAPI docs for Background Tasks](https://readyapi.github.io/tutorial/background-tasks/).
+        [ReadyAPI docs for Background Tasks](https://readyapi.khulnasoft.com/tutorial/background-tasks/).
         """
         return super().add_task(func, *args, **kwargs)
