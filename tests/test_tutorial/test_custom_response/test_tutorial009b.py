@@ -2,15 +2,15 @@ from pathlib import Path
 
 from readyapi.testclient import TestClient
 
-from examples.custom_response import tutorial009b
-from examples.custom_response.tutorial009b import app
+from examples.custom_response import tutorial009b_py310
+from examples.custom_response.tutorial009b_py310 import app
 
 client = TestClient(app)
 
 
 def test_get(tmp_path: Path):
     file_path: Path = tmp_path / "large-video-file.mp4"
-    tutorial009b.some_file_path = str(file_path)
+    tutorial009b_py310.some_file_path = str(file_path)
     test_content = b"Fake video bytes"
     file_path.write_bytes(test_content)
     response = client.get("/")

@@ -4,7 +4,6 @@ import pytest
 from readyapi import Depends, Path, ReadyAPI
 from readyapi.param_functions import Query
 from readyapi.testclient import TestClient
-from readyapi.utils import PYDANTIC_V2
 
 app = ReadyAPI()
 
@@ -71,6 +70,5 @@ def test_multiple_annotations():
     response = client.get("/multi-query", params={"foo": "123"})
     assert response.status_code == 422
 
-    if PYDANTIC_V2:
-        response = client.get("/multi-query", params={"foo": "1"})
-        assert response.status_code == 422
+    response = client.get("/multi-query", params={"foo": "1"})
+    assert response.status_code == 422

@@ -1,6 +1,6 @@
 from readyapi.testclient import TestClient
 
-from examples.response_cookies.tutorial002 import app
+from examples.response_cookies.tutorial002_py310 import app
 
 client = TestClient(app)
 

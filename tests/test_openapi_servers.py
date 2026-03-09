@@ -1,4 +1,4 @@
-from dirty_equals import IsOneOf
+from inline_snapshot import snapshot
 from readyapi import ReadyAPI
 from readyapi.testclient import TestClient
 
@@ -30,39 +30,31 @@ def test_app():
 def test_openapi_schema():
     response = client.get("/openapi.json")
     assert response.status_code == 200, response.text
-    assert response.json() == {
-        "openapi": "3.1.0",
-        "info": {"title": "ReadyAPI", "version": "0.1.0"},
-        "servers": [
-            {"url": "/", "description": "Default, relative server"},
-            {
-                "url": IsOneOf(
-                    "http://staging.localhost.khulnasoft.com:8000/",
-                    # TODO: remove when deprecating Pydantic v1
-                    "http://staging.localhost.khulnasoft.com:8000",
-                ),
-                "description": "Staging but actually localhost still",
-            },
-            {
-                "url": IsOneOf(
-                    "https://prod.example.com/",
-                    # TODO: remove when deprecating Pydantic v1
-                    "https://prod.example.com",
-                )
-            },
-        ],
-        "paths": {
-            "/foo": {
-                "get": {
-                    "summary": "Foo",
-                    "operationId": "foo_foo_get",
-                    "responses": {
-                        "200": {
-                            "description": "Successful Response",
-                            "content": {"application/json": {"schema": {}}},
-                        }
-                    },
+    assert response.json() == snapshot(
+        {
+            "openapi": "3.1.0",
+            "info": {"title": "ReadyAPI", "version": "0.1.0"},
+            "servers": [
+                {"url": "/", "description": "Default, relative server"},
+                {
+                    "url": "http://staging.localhost.khulnasoft.com:8000",
+                    "description": "Staging but actually localhost still",
+                },
+                {"url": "https://prod.example.com"},
+            ],
+            "paths": {
+                "/foo": {
+                    "get": {
+                        "summary": "Foo",
+                        "operationId": "foo_foo_get",
+                        "responses": {
+                            "200": {
+                                "description": "Successful Response",
+                                "content": {"application/json": {"schema": {}}},
+                            }
+                        },
+                    }
                 }
-            }
-        },
-    }
+            },
+        }
+    )

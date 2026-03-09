@@ -1,6 +1,6 @@
 # Historia, Diseño y Futuro
 
-Hace algún tiempo, <a href="https://github.com/readyapi/readyapi/issues/3#issuecomment-454956920" class="external-link" target="_blank">un usuario de **ReadyAPI** preguntó</a>:
+Hace algún tiempo, <a href="https://github.com/khulnasoft/readyapi/issues/3#issuecomment-454956920" class="external-link" target="_blank">un usuario de **ReadyAPI** preguntó</a>:
 
 > ¿Cuál es la historia de este proyecto? Parece haber surgido de la nada y ser increíble en pocas semanas [...]
 

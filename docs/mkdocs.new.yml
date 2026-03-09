@@ -1,6 +1,6 @@
 site_name: ReadyAPI
 site_url: https://readyapi.github.io
-repo_url: https://github.com/readyapi/readyapi
+repo_url: https://github.com/khulnasoft/readyapi
 docs_dir: docs/en/docs/new_structure
 nav:
 - Getting-Started:

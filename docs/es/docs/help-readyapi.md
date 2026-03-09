@@ -26,13 +26,13 @@ Puedes suscribirte al (esporádico) boletín [**ReadyAPI and friends**](newslett
 
 ## Dale una estrella a **ReadyAPI** en GitHub
 
-Puedes "darle una estrella" a ReadyAPI en GitHub (haciendo clic en el botón de estrella en la parte superior derecha): <a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi</a>. ⭐️
+Puedes "darle una estrella" a ReadyAPI en GitHub (haciendo clic en el botón de estrella en la parte superior derecha): <a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi</a>. ⭐️
 
 Al agregar una estrella, otros usuarios podrán encontrarlo más fácilmente y ver que ya ha sido útil para otros.
 
 ## Observa el repositorio de GitHub para lanzamientos
 
-Puedes "observar" ReadyAPI en GitHub (haciendo clic en el botón "watch" en la parte superior derecha): <a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi</a>. 👀
+Puedes "observar" ReadyAPI en GitHub (haciendo clic en el botón "watch" en la parte superior derecha): <a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi</a>. 👀
 
 Allí puedes seleccionar "Releases only".
 
@@ -59,7 +59,7 @@ Puedes:
 
 ## Twittea sobre **ReadyAPI**
 
-<a href="https://twitter.com/compose/tweet?text=I'm loving @readyapi because... https://github.com/readyapi/readyapi" class="external-link" target="_blank">Twittea sobre **ReadyAPI**</a> y dime a mí y a otros por qué te gusta. 🎉
+<a href="https://twitter.com/compose/tweet?text=I'm loving @readyapi because... https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">Twittea sobre **ReadyAPI**</a> y dime a mí y a otros por qué te gusta. 🎉
 
 Me encanta escuchar cómo se está utilizando **ReadyAPI**, qué te ha gustado, en qué proyecto/empresa lo estás usando, etc.
 
@@ -73,8 +73,8 @@ Me encanta escuchar cómo se está utilizando **ReadyAPI**, qué te ha gustado, 
 
 Puedes intentar ayudar a otros con sus preguntas en:
 
-* <a href="https://github.com/readyapi/readyapi/discussions/categories/questions?discussions_q=category%3AQuestions+is%3Aunanswered" class="external-link" target="_blank">GitHub Discussions</a>
-* <a href="https://github.com/readyapi/readyapi/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Aquestion+-label%3Aanswered+" class="external-link" target="_blank">GitHub Issues</a>
+* <a href="https://github.com/khulnasoft/readyapi/discussions/categories/questions?discussions_q=category%3AQuestions+is%3Aunanswered" class="external-link" target="_blank">GitHub Discussions</a>
+* <a href="https://github.com/khulnasoft/readyapi/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Aquestion+-label%3Aanswered+" class="external-link" target="_blank">GitHub Issues</a>
 
 En muchos casos, probablemente ya conozcas la respuesta a esas preguntas. 🤓
 
@@ -125,7 +125,7 @@ Si responden, hay una alta probabilidad de que hayas resuelto su problema, felic
 
 ## Observa el repositorio de GitHub
 
-Puedes "observar" ReadyAPI en GitHub (haciendo clic en el botón "watch" en la parte superior derecha): <a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi</a>. 👀
+Puedes "observar" ReadyAPI en GitHub (haciendo clic en el botón "watch" en la parte superior derecha): <a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi</a>. 👀
 
 Si seleccionas "Watching" en lugar de "Releases only", recibirás notificaciones cuando alguien cree un nuevo issue o pregunta. También puedes especificar que solo deseas que te notifiquen sobre nuevos issues, discusiones, PRs, etc.
 
@@ -133,7 +133,7 @@ Luego puedes intentar ayudarlos a resolver esas preguntas.
 
 ## Haz preguntas
 
-Puedes <a href="https://github.com/readyapi/readyapi/discussions/new?category=questions" class="external-link" target="_blank">crear una nueva pregunta</a> en el repositorio de GitHub, por ejemplo, para:
+Puedes <a href="https://github.com/khulnasoft/readyapi/discussions/new?category=questions" class="external-link" target="_blank">crear una nueva pregunta</a> en el repositorio de GitHub, por ejemplo, para:
 
 * Hacer una **pregunta** o preguntar sobre un **problema**.
 * Sugerir una nueva **funcionalidad**.
@@ -199,7 +199,7 @@ Así que, es realmente importante que realmente leas y ejecutes el código, y me
 Puedes [contribuir](contributing.md){.internal-link target=_blank} al código fuente con Pull Requests, por ejemplo:
 
 * Para corregir un error tipográfico que encontraste en la documentación.
-* Para compartir un artículo, video o podcast que creaste o encontraste sobre ReadyAPI <a href="https://github.com/readyapi/readyapi/edit/master/docs/en/data/external_links.yml" class="external-link" target="_blank">editando este archivo</a>.
+* Para compartir un artículo, video o podcast que creaste o encontraste sobre ReadyAPI <a href="https://github.com/khulnasoft/readyapi/edit/master/docs/en/data/external_links.yml" class="external-link" target="_blank">editando este archivo</a>.
     * Asegúrate de agregar tu enlace al inicio de la sección correspondiente.
 * Para ayudar a [traducir la documentación](contributing.md#translations){.internal-link target=_blank} a tu idioma.
     * También puedes ayudar a revisar las traducciones creadas por otros.
@@ -231,7 +231,7 @@ Si puedes ayudarme con eso, **me estás ayudando a mantener ReadyAPI** y asegura
 
 /// tip | Consejo
 
-Para preguntas, házlas en <a href="https://github.com/readyapi/readyapi/discussions/new?category=questions" class="external-link" target="_blank">GitHub Discussions</a>, hay muchas más probabilidades de que recibas ayuda de parte de los [ReadyAPI Experts](readyapi-people.md#readyapi-experts){.internal-link target=_blank}.
+Para preguntas, házlas en <a href="https://github.com/khulnasoft/readyapi/discussions/new?category=questions" class="external-link" target="_blank">GitHub Discussions</a>, hay muchas más probabilidades de que recibas ayuda de parte de los [ReadyAPI Experts](readyapi-people.md#readyapi-experts){.internal-link target=_blank}.
 
 Usa el chat solo para otras conversaciones generales.
 

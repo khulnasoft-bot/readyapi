@@ -1,4 +1,3 @@
-
 import pytest
 from pydantic.dataclasses import dataclass
 from readyapi import ReadyAPI

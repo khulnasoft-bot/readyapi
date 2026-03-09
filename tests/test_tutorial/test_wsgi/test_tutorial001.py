@@ -1,6 +1,6 @@
 from readyapi.testclient import TestClient
 
-from examples.wsgi.tutorial001 import app
+from examples.wsgi.tutorial001_py310 import app
 
 client = TestClient(app)
 

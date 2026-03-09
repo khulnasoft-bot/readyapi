@@ -26,13 +26,13 @@
 
 ## Добавить **ReadyAPI** звезду на GitHub
 
-Вы можете добавить ReadyAPI "звезду" на GitHub (кликнуть на кнопку звезды в верхнем правом углу экрана): <a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi</a>. ⭐️
+Вы можете добавить ReadyAPI "звезду" на GitHub (кликнуть на кнопку звезды в верхнем правом углу экрана): <a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi</a>. ⭐️
 
 Чем больше звёзд, тем легче другим пользователям найти нас и увидеть, что проект уже стал полезным для многих.
 
 ## Отслеживать свежие выпуски в репозитории на GitHub
 
-Вы можете "отслеживать" ReadyAPI на GitHub (кликните по кнопке "watch" наверху справа): <a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi</a>. 👀
+Вы можете "отслеживать" ReadyAPI на GitHub (кликните по кнопке "watch" наверху справа): <a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi</a>. 👀
 
 Там же Вы можете указать в настройках - "Releases only".
 
@@ -59,7 +59,7 @@
 
 ## Оставить сообщение в Twitter о **ReadyAPI**
 
-<a href="https://twitter.com/compose/tweet?text=I'm loving @readyapi because... https://github.com/readyapi/readyapi" class="external-link" target="_blank">Оставьте сообщение в Twitter о **ReadyAPI**</a> и позвольте мне и другим узнать - почему он Вам нравится. 🎉
+<a href="https://twitter.com/compose/tweet?text=I'm loving @readyapi because... https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">Оставьте сообщение в Twitter о **ReadyAPI**</a> и позвольте мне и другим узнать - почему он Вам нравится. 🎉
 
 Я люблю узнавать о том, как **ReadyAPI** используется, что Вам понравилось в нём, в каких проектах/компаниях Вы используете его и т.п.
 
@@ -71,7 +71,7 @@
 
 ## Помочь другим с их проблемами на GitHub
 
-Вы можете посмотреть, какие <a href="https://github.com/readyapi/readyapi/issues" class="external-link" target="_blank">проблемы</a> испытывают другие люди и попытаться помочь им. Чаще всего это вопросы, на которые, весьма вероятно, Вы уже знаете ответ. 🤓
+Вы можете посмотреть, какие <a href="https://github.com/khulnasoft/readyapi/issues" class="external-link" target="_blank">проблемы</a> испытывают другие люди и попытаться помочь им. Чаще всего это вопросы, на которые, весьма вероятно, Вы уже знаете ответ. 🤓
 
 Если Вы будете много помогать людям с решением их проблем, Вы можете стать официальным [Экспертом ReadyAPI](readyapi-people.md#_3){.internal-link target=_blank}. 🎉
 
@@ -117,7 +117,7 @@
 
 ## Отслеживать репозиторий на GitHub
 
-Вы можете "отслеживать" ReadyAPI на GitHub (кликните по кнопке "watch" наверху справа): <a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi</a>. 👀
+Вы можете "отслеживать" ReadyAPI на GitHub (кликните по кнопке "watch" наверху справа): <a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi</a>. 👀
 
 Если Вы выберете "Watching" вместо "Releases only", то будете получать уведомления когда кто-либо попросит о помощи с решением его проблемы.
 
@@ -125,7 +125,7 @@
 
 ## Запросить помощь с решением проблемы
 
-Вы можете <a href="https://github.com/readyapi/readyapi/issues/new/choose" class="external-link" target="_blank">создать новый запрос с просьбой о помощи</a> в репозитории на GitHub, например:
+Вы можете <a href="https://github.com/khulnasoft/readyapi/issues/new/choose" class="external-link" target="_blank">создать новый запрос с просьбой о помощи</a> в репозитории на GitHub, например:
 
 * Задать **вопрос** или попросить помощи в решении **проблемы**.
 * Предложить новое **улучшение**.
@@ -191,7 +191,7 @@
 Вы можете [сделать вклад](contributing.md){.internal-link target=_blank} в код фреймворка используя пул-реквесты, например:
 
 * Исправить опечатку, которую Вы нашли в документации.
-* Поделиться статьёй, видео или подкастом о ReadyAPI, которые Вы создали или нашли  <a href="https://github.com/readyapi/readyapi/edit/master/docs/en/data/external_links.yml" class="external-link" target="_blank">изменив этот файл</a>.
+* Поделиться статьёй, видео или подкастом о ReadyAPI, которые Вы создали или нашли  <a href="https://github.com/khulnasoft/readyapi/edit/master/docs/en/data/external_links.yml" class="external-link" target="_blank">изменив этот файл</a>.
     * Убедитесь, что Вы добавили свою ссылку в начало соответствующего раздела.
 * Помочь с [переводом документации](contributing.md#_8){.internal-link target=_blank} на Ваш язык.
     * Вы также можете проверять переводы сделанные другими.
@@ -223,7 +223,7 @@
 
 /// tip | Подсказка
 
-Вопросы по проблемам с фреймворком лучше задавать в <a href="https://github.com/readyapi/readyapi/issues/new/choose" class="external-link" target="_blank">GitHub issues</a>, так больше шансов, что Вы получите помощь от [Экспертов ReadyAPI](readyapi-people.md#_3){.internal-link target=_blank}.
+Вопросы по проблемам с фреймворком лучше задавать в <a href="https://github.com/khulnasoft/readyapi/issues/new/choose" class="external-link" target="_blank">GitHub issues</a>, так больше шансов, что Вы получите помощь от [Экспертов ReadyAPI](readyapi-people.md#_3){.internal-link target=_blank}.
 
 Используйте этот чат только для бесед на отвлечённые темы.
 

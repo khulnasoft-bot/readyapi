@@ -50,7 +50,7 @@ theme:
   favicon: img/favicon.png
   language: en
 repo_name: readyapi/readyapi
-repo_url: https://github.com/readyapi/readyapi
+repo_url: https://github.com/khulnasoft/readyapi
 plugins:
   search: null
   macros:
@@ -305,7 +305,7 @@ extra:
         note: Thanks for your feedback!
   social:
   - icon: fontawesome/brands/github-alt
-    link: https://github.com/readyapi/readyapi
+    link: https://github.com/khulnasoft/readyapi
   - icon: fontawesome/brands/discord
     link: https://discord.gg/VQjSZaeJmf
   - icon: fontawesome/brands/twitter

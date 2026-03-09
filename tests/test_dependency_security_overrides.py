@@ -1,4 +1,3 @@
-
 from readyapi import Depends, ReadyAPI, Security
 from readyapi.security import SecurityScopes
 from readyapi.testclient import TestClient

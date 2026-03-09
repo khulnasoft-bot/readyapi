@@ -8,7 +8,7 @@ Here's an incomplete list of some of them.
 
 /// tip
 
-If you have an article, project, tool, or anything related to **ReadyAPI** that is not yet listed here, create a <a href="https://github.com/readyapi/readyapi/edit/master/docs/en/data/external_links.yml" class="external-link" target="_blank">Pull Request adding it</a>.
+If you have an article, project, tool, or anything related to **ReadyAPI** that is not yet listed here, create a <a href="https://github.com/khulnasoft/readyapi/edit/master/docs/en/data/external_links.yml" class="external-link" target="_blank">Pull Request adding it</a>.
 
 ///
 

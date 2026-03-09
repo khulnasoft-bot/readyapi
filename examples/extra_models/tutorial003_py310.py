@@ -1,5 +1,3 @@
-from typing import Union
-
 from pydantic import BaseModel
 from readyapi import ReadyAPI
 
@@ -30,6 +28,6 @@ items = {
 }
 
 
-@app.get("/items/{item_id}", response_model=Union[PlaneItem, CarItem])
+@app.get("/items/{item_id}", response_model=PlaneItem | CarItem)
 async def read_item(item_id: str):
     return items[item_id]

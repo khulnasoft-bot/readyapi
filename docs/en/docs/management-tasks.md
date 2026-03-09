@@ -204,11 +204,11 @@ INHERIT: ../en/mkdocs.yml
 
 The language code would normally be in the <a href="https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes" class="external-link" target="_blank">ISO 639-1 list of language codes</a>.
 
-In any case, the language code should be in the file <a href="https://github.com/readyapi/readyapi/blob/master/docs/language_names.yml" class="external-link" target="_blank">docs/language_names.yml</a>.
+In any case, the language code should be in the file <a href="https://github.com/khulnasoft/readyapi/blob/master/docs/language_names.yml" class="external-link" target="_blank">docs/language_names.yml</a>.
 
 There won't be yet a label for the language code, for example, if it was Bosnian, there wouldn't be a `lang-bs`. Before creating the label and adding it to the PR, create the GitHub Discussion:
 
-* Go to the <a href="https://github.com/readyapi/readyapi/discussions/categories/translations" class="external-link" target="_blank">Translations GitHub Discussions</a>
+* Go to the <a href="https://github.com/khulnasoft/readyapi/discussions/categories/translations" class="external-link" target="_blank">Translations GitHub Discussions</a>
 * Create a new discussion with the title `Bosnian Translations` (or the language name in English)
 * A description of:
 
@@ -217,7 +217,7 @@ There won't be yet a label for the language code, for example, if it was Bosnian
 
 This is the issue to track translations of the docs to Bosnian. 🚀
 
-Here are the [PRs to review with the label `lang-bs`](https://github.com/readyapi/readyapi/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+label%3Alang-bs+label%3A%22awaiting-review%22). 🤓
+Here are the [PRs to review with the label `lang-bs`](https://github.com/khulnasoft/readyapi/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc+label%3Alang-bs+label%3A%22awaiting-review%22). 🤓
 ```
 
 Update "Bosnian" with the new language.
@@ -250,13 +250,13 @@ A PR should have a specific use case that it is solving.
 
 ## ReadyAPI People PRs
 
-Every month, a GitHub Action updates the ReadyAPI People data. Those PRs look like this one: <a href="https://github.com/readyapi/readyapi/pull/11669" class="external-link" target="_blank">👥 Update ReadyAPI People</a>.
+Every month, a GitHub Action updates the ReadyAPI People data. Those PRs look like this one: <a href="https://github.com/khulnasoft/readyapi/pull/11669" class="external-link" target="_blank">👥 Update ReadyAPI People</a>.
 
 If the tests are passing, you can merge it right away.
 
 ## External Links PRs
 
-When people add external links they edit this file <a href="https://github.com/readyapi/readyapi/blob/master/docs/en/data/external_links.yml" class="external-link" target="_blank">external_links.yml</a>.
+When people add external links they edit this file <a href="https://github.com/khulnasoft/readyapi/blob/master/docs/en/data/external_links.yml" class="external-link" target="_blank">external_links.yml</a>.
 
 * Make sure the new link is in the correct category (e.g. "Podcasts") and language (e.g. "Japanese").
 * A new link should be at the top of its list.

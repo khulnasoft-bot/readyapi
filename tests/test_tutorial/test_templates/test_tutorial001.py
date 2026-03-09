@@ -3,7 +3,10 @@ import shutil
 
 from readyapi.testclient import TestClient
 
+from tests.utils import workdir_lock
 
+
+@workdir_lock
 def test_main():
     if os.path.isdir("./static"):  # pragma: nocover
         shutil.rmtree("./static")
@@ -11,7 +14,7 @@ def test_main():
         shutil.rmtree("./templates")
     shutil.copytree("./examples/templates/templates/", "./templates")
     shutil.copytree("./examples/templates/static/", "./static")
-    from examples.templates.tutorial001 import app
+    from examples.templates.tutorial001_py310 import app
 
     client = TestClient(app)
     response = client.get("/items/foo")

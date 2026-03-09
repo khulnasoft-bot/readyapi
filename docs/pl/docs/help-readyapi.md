@@ -26,13 +26,13 @@ Możesz zapisać się do rzadkiego [newslettera o **ReadyAPI i jego przyjacioła
 
 ## Dodaj gwiazdkę **ReadyAPI** na GitHubie
 
-Możesz "dodać gwiazdkę" ReadyAPI na GitHubie (klikając przycisk gwiazdki w prawym górnym rogu): <a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi</a>. ⭐️
+Możesz "dodać gwiazdkę" ReadyAPI na GitHubie (klikając przycisk gwiazdki w prawym górnym rogu): <a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi</a>. ⭐️
 
 Dodając gwiazdkę, inni użytkownicy będą mogli łatwiej znaleźć projekt i zobaczyć, że był już przydatny dla innych.
 
 ## Obserwuj repozytorium GitHub w poszukiwaniu nowych wydań
 
-Możesz "obserwować" ReadyAPI na GitHubie (klikając przycisk "obserwuj" w prawym górnym rogu): <a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi</a>. 👀
+Możesz "obserwować" ReadyAPI na GitHubie (klikając przycisk "obserwuj" w prawym górnym rogu): <a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi</a>. 👀
 
 Wybierz opcję "Tylko wydania".
 
@@ -59,7 +59,7 @@ Możesz:
 
 ## Napisz tweeta o **ReadyAPI**
 
-<a href="https://twitter.com/compose/tweet?text=I'm loving @readyapi because... https://github.com/readyapi/readyapi" class="external-link" target="_blank">Napisz tweeta o **ReadyAPI**</a> i powiedz czemu Ci się podoba. 🎉
+<a href="https://twitter.com/compose/tweet?text=I'm loving @readyapi because... https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">Napisz tweeta o **ReadyAPI**</a> i powiedz czemu Ci się podoba. 🎉
 
 Uwielbiam czytać w jaki sposób **ReadyAPI** jest używane, co Ci się w nim podobało, w jakim projekcie/firmie go używasz itp.
 
@@ -73,8 +73,8 @@ Uwielbiam czytać w jaki sposób **ReadyAPI** jest używane, co Ci się w nim po
 
 Możesz spróbować pomóc innym, odpowiadając w:
 
-* <a href="https://github.com/readyapi/readyapi/discussions/categories/questions?discussions_q=category%3AQuestions+is%3Aunanswered" class="external-link" target="_blank">Dyskusjach na GitHubie</a>
-* <a href="https://github.com/readyapi/readyapi/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Aquestion+-label%3Aanswered+" class="external-link" target="_blank">Problemach na GitHubie</a>
+* <a href="https://github.com/khulnasoft/readyapi/discussions/categories/questions?discussions_q=category%3AQuestions+is%3Aunanswered" class="external-link" target="_blank">Dyskusjach na GitHubie</a>
+* <a href="https://github.com/khulnasoft/readyapi/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Aquestion+-label%3Aanswered+" class="external-link" target="_blank">Problemach na GitHubie</a>
 
 W wielu przypadkach możesz już znać odpowiedź na te pytania. 🤓
 
@@ -125,7 +125,7 @@ Jeśli odpowiedzą, jest duża szansa, że rozwiązałeś ich problem, gratulacj
 
 ## Obserwuj repozytorium na GitHubie
 
-Możesz "obserwować" ReadyAPI na GitHubie (klikając przycisk "obserwuj" w prawym górnym rogu): <a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi</a>. 👀
+Możesz "obserwować" ReadyAPI na GitHubie (klikając przycisk "obserwuj" w prawym górnym rogu): <a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi</a>. 👀
 
 Jeśli wybierzesz "Obserwuj" zamiast "Tylko wydania", otrzymasz powiadomienia, gdy ktoś utworzy nowy problem lub pytanie. Możesz również określić, że chcesz być powiadamiany tylko o nowych problemach, dyskusjach, PR-ach itp.
 
@@ -133,7 +133,7 @@ Następnie możesz spróbować pomóc rozwiązać te problemy.
 
 ## Zadawaj pytania
 
-Możesz <a href="https://github.com/readyapi/readyapi/discussions/new?category=questions" class="external-link" target="_blank">utworzyć nowe pytanie</a> w repozytorium na GitHubie, na przykład aby:
+Możesz <a href="https://github.com/khulnasoft/readyapi/discussions/new?category=questions" class="external-link" target="_blank">utworzyć nowe pytanie</a> w repozytorium na GitHubie, na przykład aby:
 
 * Zadać **pytanie** lub zapytać o **problem**.
 * Zaproponować nową **funkcję**.
@@ -199,7 +199,7 @@ Dlatego tak ważne jest, abyś faktycznie przeczytał i uruchomił kod oraz napi
 Możesz [wnieść wkład](contributing.md){.internal-link target=_blank} do kodu źródłowego za pomocą Pull Requestu, na przykład:
 
 * Naprawić literówkę, którą znalazłeś w dokumentacji.
-* Podzielić się artykułem, filmem lub podcastem, który stworzyłeś lub znalazłeś na temat ReadyAPI, <a href="https://github.com/readyapi/readyapi/edit/master/docs/en/data/external_links.yml" class="external-link" target="_blank">edytując ten plik</a>.
+* Podzielić się artykułem, filmem lub podcastem, który stworzyłeś lub znalazłeś na temat ReadyAPI, <a href="https://github.com/khulnasoft/readyapi/edit/master/docs/en/data/external_links.yml" class="external-link" target="_blank">edytując ten plik</a>.
     * Upewnij się, że dodajesz swój link na początku odpowiedniej sekcji.
 * Pomóc w [tłumaczeniu dokumentacji](contributing.md#translations){.internal-link target=_blank} na Twój język.
     * Możesz również pomóc w weryfikacji tłumaczeń stworzonych przez innych.
@@ -231,7 +231,7 @@ Dołącz do 👥 <a href="https://discord.gg/VQjSZaeJmf" class="external-link" t
 
 /// tip | Wskazówka
 
-Jeśli masz pytania, zadaj je w <a href="https://github.com/readyapi/readyapi/discussions/new?category=questions" class="external-link" target="_blank">Dyskusjach na GitHubie</a>, jest dużo większa szansa, że otrzymasz pomoc od [Ekspertów ReadyAPI](readyapi-people.md#readyapi-experts){.internal-link target=_blank}.
+Jeśli masz pytania, zadaj je w <a href="https://github.com/khulnasoft/readyapi/discussions/new?category=questions" class="external-link" target="_blank">Dyskusjach na GitHubie</a>, jest dużo większa szansa, że otrzymasz pomoc od [Ekspertów ReadyAPI](readyapi-people.md#readyapi-experts){.internal-link target=_blank}.
 
 Używaj czatu tylko do innych ogólnych rozmów.
 

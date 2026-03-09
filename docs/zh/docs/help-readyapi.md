@@ -26,13 +26,13 @@
 
 ## 在 GitHub 上为 **ReadyAPI** 加星
 
-您可以在 GitHub 上 **Star** ReadyAPI（只要点击右上角的星星就可以了）： <a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi。</a>⭐️
+您可以在 GitHub 上 **Star** ReadyAPI（只要点击右上角的星星就可以了）： <a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi。</a>⭐️
 
 **Star** 以后，其它用户就能更容易找到 ReadyAPI，并了解到已经有其他用户在使用它了。
 
 ## 关注 GitHub 资源库的版本发布
 
-您还可以在 GitHub 上 **Watch** ReadyAPI，（点击右上角的 **Watch** 按钮）<a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi。</a>👀
+您还可以在 GitHub 上 **Watch** ReadyAPI，（点击右上角的 **Watch** 按钮）<a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi。</a>👀
 
 您可以选择只关注发布（**Releases only**）。
 
@@ -59,7 +59,7 @@
 
 ## Tweet about **ReadyAPI**
 
-<a href="https://twitter.com/compose/tweet?text=I'm loving @readyapi because... https://github.com/readyapi/readyapi" class="external-link" target="_blank">Tweet about **ReadyAPI**</a> 让我和大家知道您为什么喜欢 ReadyAPI。🎉
+<a href="https://twitter.com/compose/tweet?text=I'm loving @readyapi because... https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">Tweet about **ReadyAPI**</a> 让我和大家知道您为什么喜欢 ReadyAPI。🎉
 
 知道有人使用 **ReadyAPI**，我会很开心，我也想知道您为什么喜欢 ReadyAPI，以及您在什么项目/哪些公司使用 ReadyAPI，等等。
 
@@ -70,13 +70,13 @@
 
 ## 在 GitHub 上帮助其他人解决问题
 
-您可以查看<a href="https://github.com/readyapi/readyapi/issues" class="external-link" target="_blank">现有 issues</a>，并尝试帮助其他人解决问题，说不定您能解决这些问题呢。🤓
+您可以查看<a href="https://github.com/khulnasoft/readyapi/issues" class="external-link" target="_blank">现有 issues</a>，并尝试帮助其他人解决问题，说不定您能解决这些问题呢。🤓
 
 如果帮助很多人解决了问题，您就有可能成为 [ReadyAPI 的官方专家](readyapi-people.md#_3){.internal-link target=_blank}。🎉
 
 ## 监听 GitHub 资源库
 
-您可以在 GitHub 上「监听」ReadyAPI（点击右上角的 "watch" 按钮）： <a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi</a>. 👀
+您可以在 GitHub 上「监听」ReadyAPI（点击右上角的 "watch" 按钮）： <a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi</a>. 👀
 
 如果您选择 "Watching" 而不是 "Releases only"，有人创建新 Issue 时，您会接收到通知。
 
@@ -84,7 +84,7 @@
 
 ## 创建 Issue
 
-您可以在 GitHub 资源库中<a href="https://github.com/readyapi/readyapi/issues/new/choose" class="external-link" target="_blank">创建 Issue</a>，例如：
+您可以在 GitHub 资源库中<a href="https://github.com/khulnasoft/readyapi/issues/new/choose" class="external-link" target="_blank">创建 Issue</a>，例如：
 
 * 提出**问题**或**意见**
 * 提出新**特性**建议
@@ -96,7 +96,7 @@
 您可以创建 PR 为源代码做[贡献](contributing.md){.internal-link target=_blank}，例如：
 
 * 修改文档错别字
-* <a href="https://github.com/readyapi/readyapi/edit/master/docs/en/data/external_links.yml" class="external-link" target="_blank">编辑这个文件</a>，分享 ReadyAPI 的文章、视频、博客，不论是您自己的，还是您看到的都成
+* <a href="https://github.com/khulnasoft/readyapi/edit/master/docs/en/data/external_links.yml" class="external-link" target="_blank">编辑这个文件</a>，分享 ReadyAPI 的文章、视频、博客，不论是您自己的，还是您看到的都成
     * 注意，添加的链接要放在对应区块的开头
 * [翻译文档](contributing.md#_8){.internal-link target=_blank}
     * 审阅别人翻译的文档
@@ -110,7 +110,7 @@
 
 /// tip | 提示
 
-如有问题，请在 <a href="https://github.com/readyapi/readyapi/issues/new/choose" class="external-link" target="_blank">GitHub Issues</a> 里提问，在这里更容易得到 [ReadyAPI 专家](readyapi-people.md#_3){.internal-link target=_blank}的帮助。
+如有问题，请在 <a href="https://github.com/khulnasoft/readyapi/issues/new/choose" class="external-link" target="_blank">GitHub Issues</a> 里提问，在这里更容易得到 [ReadyAPI 专家](readyapi-people.md#_3){.internal-link target=_blank}的帮助。
 
 聊天室仅供闲聊。
 

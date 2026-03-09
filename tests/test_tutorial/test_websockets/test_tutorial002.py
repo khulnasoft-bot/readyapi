@@ -5,21 +5,18 @@ from readyapi import ReadyAPI
 from readyapi.testclient import TestClient
 from readyapi.websockets import WebSocketDisconnect
 
-from ...utils import needs_py39, needs_py310
+from ...utils import needs_py310
 
 
 @pytest.fixture(
     name="app",
     params=[
-        "tutorial002",
         pytest.param("tutorial002_py310", marks=needs_py310),
-        "tutorial002_an",
-        pytest.param("tutorial002_an_py39", marks=needs_py39),
         pytest.param("tutorial002_an_py310", marks=needs_py310),
     ],
 )
 def get_app(request: pytest.FixtureRequest):
-    mod = importlib.import_module(f"examples.websockets.{request.param}")
+    mod = importlib.import_module(f"examples.websockets_.{request.param}")
 
     return mod.app
 

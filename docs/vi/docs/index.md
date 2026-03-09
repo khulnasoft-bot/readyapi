@@ -11,8 +11,8 @@
     <em>ReadyAPI framework, hiệu năng cao, dễ học, dễ code, sẵn sàng để tạo ra sản phẩm</em>
 </p>
 <p align="center">
-<a href="https://github.com/readyapi/readyapi/actions?query=workflow%3ATest+event%3Apush+branch%3Amaster" target="_blank">
-    <img src="https://github.com/readyapi/readyapi/actions/workflows/test.yml/badge.svg?event=push&branch=master" alt="Test">
+<a href="https://github.com/khulnasoft/readyapi/actions?query=workflow%3ATest+event%3Apush+branch%3Amaster" target="_blank">
+    <img src="https://github.com/khulnasoft/readyapi/actions/workflows/test.yml/badge.svg?event=push&branch=master" alt="Test">
 </a>
 <a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/readyapi/readyapi" target="_blank">
     <img src="https://coverage-badge.samuelcolvin.workers.dev/readyapi/readyapi.svg" alt="Coverage">
@@ -29,7 +29,7 @@
 
 **Tài liệu**: <a href="https://readyapi.github.io" target="_blank">https://readyapi.github.io</a>
 
-**Mã nguồn**: <a href="https://github.com/readyapi/readyapi" target="_blank">https://github.com/readyapi/readyapi</a>
+**Mã nguồn**: <a href="https://github.com/khulnasoft/readyapi" target="_blank">https://github.com/khulnasoft/readyapi</a>
 
 ---
 
@@ -69,7 +69,7 @@ Những tính năng như:
 
 "_[...] Tôi đang sử dụng **ReadyAPI** vô cùng nhiều vào những ngày này. [...] Tôi thực sự đang lên kế hoạch sử dụng nó cho tất cả các nhóm **dịch vụ ML tại Microsoft**. Một vài trong số đó đang tích hợp vào sản phẩm lõi của **Window** và một vài sản phẩm cho **Office**._"
 
-<div style="text-align: right; margin-right: 10%;">Kabir Khan - <strong>Microsoft</strong> <a href="https://github.com/readyapi/readyapi/pull/26" target="_blank"><small>(ref)</small></a></div>
+<div style="text-align: right; margin-right: 10%;">Kabir Khan - <strong>Microsoft</strong> <a href="https://github.com/khulnasoft/readyapi/pull/26" target="_blank"><small>(ref)</small></a></div>
 
 ---
 

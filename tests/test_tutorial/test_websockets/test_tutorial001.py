@@ -2,7 +2,7 @@ import pytest
 from readyapi.testclient import TestClient
 from readyapi.websockets import WebSocketDisconnect
 
-from examples.websockets.tutorial001 import app
+from examples.websockets_.tutorial001_py310 import app
 
 client = TestClient(app)
 

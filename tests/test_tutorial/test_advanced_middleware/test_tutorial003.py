@@ -1,7 +1,7 @@
 from readyapi.responses import PlainTextResponse
 from readyapi.testclient import TestClient
 
-from examples.advanced_middleware.tutorial003 import app
+from examples.advanced_middleware.tutorial003_py310 import app
 
 
 @app.get("/large")

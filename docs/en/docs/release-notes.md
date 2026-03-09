@@ -9,702 +9,702 @@ hide:
 
 ### Upgrades
 
-* ⬆️ Update ReDoc to version 2.x. PR [#9700](https://github.com/readyapi/readyapi/pull/9700) by [@joakimnordling](https://github.com/joakimnordling).
+* ⬆️ Update ReDoc to version 2.x. PR [#9700](https://github.com/khulnasoft/readyapi/pull/9700) by [@joakimnordling](https://github.com/joakimnordling).
 
 ### Docs
 
-* Create __init__.py. PR [#236](https://github.com/readyapi/readyapi/pull/236) by [@gitworkflows](https://github.com/gitworkflows).
-* 🍱 Update Drawio diagrams SVGs, single file per diagram, sans-serif font. PR [#13706](https://github.com/readyapi/readyapi/pull/13706) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Update docs for "Help ReadyAPI", simplify and reduce "sponsor" section. PR [#13670](https://github.com/readyapi/readyapi/pull/13670) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Remove unnecessary bullet from docs. PR [#13641](https://github.com/readyapi/readyapi/pull/13641) by [@Adamowoc](https://github.com/Adamowoc).
-* ✏️ Fix syntax error in `docs/en/docs/tutorial/handling-errors.md`. PR [#13623](https://github.com/readyapi/readyapi/pull/13623) by [@gsheni](https://github.com/gsheni).
-* 📝 Fix typo in documentation. PR [#13599](https://github.com/readyapi/readyapi/pull/13599) by [@Taoup](https://github.com/Taoup).
-* 📝 Fix liblab client generation doc link. PR [#13571](https://github.com/readyapi/readyapi/pull/13571) by [@EFord36](https://github.com/EFord36).
-* ✏️ Fix talk information typo. PR [#13544](https://github.com/readyapi/readyapi/pull/13544) by [@blueswen](https://github.com/blueswen).
-* 📝 Add External Link: Taiwanese talk on ReadyAPI with observability . PR [#13527](https://github.com/readyapi/readyapi/pull/13527) by [@blueswen](https://github.com/blueswen).
+* Create __init__.py. PR [#236](https://github.com/khulnasoft/readyapi/pull/236) by [@gitworkflows](https://github.com/gitworkflows).
+* 🍱 Update Drawio diagrams SVGs, single file per diagram, sans-serif font. PR [#13706](https://github.com/khulnasoft/readyapi/pull/13706) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update docs for "Help ReadyAPI", simplify and reduce "sponsor" section. PR [#13670](https://github.com/khulnasoft/readyapi/pull/13670) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Remove unnecessary bullet from docs. PR [#13641](https://github.com/khulnasoft/readyapi/pull/13641) by [@Adamowoc](https://github.com/Adamowoc).
+* ✏️ Fix syntax error in `docs/en/docs/tutorial/handling-errors.md`. PR [#13623](https://github.com/khulnasoft/readyapi/pull/13623) by [@gsheni](https://github.com/gsheni).
+* 📝 Fix typo in documentation. PR [#13599](https://github.com/khulnasoft/readyapi/pull/13599) by [@Taoup](https://github.com/Taoup).
+* 📝 Fix liblab client generation doc link. PR [#13571](https://github.com/khulnasoft/readyapi/pull/13571) by [@EFord36](https://github.com/EFord36).
+* ✏️ Fix talk information typo. PR [#13544](https://github.com/khulnasoft/readyapi/pull/13544) by [@blueswen](https://github.com/blueswen).
+* 📝 Add External Link: Taiwanese talk on ReadyAPI with observability . PR [#13527](https://github.com/khulnasoft/readyapi/pull/13527) by [@blueswen](https://github.com/blueswen).
 
 ### Translations
 
-* 🌐 Add Russian translation for `docs/ru/docs/tutorial/header-param-models.md`. PR [#13526](https://github.com/readyapi/readyapi/pull/13526) by [@minaton-ru](https://github.com/minaton-ru).
-* 🌐 Update Chinese translation for `docs/zh/docs/tutorial/index.md`. PR [#13374](https://github.com/readyapi/readyapi/pull/13374) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
-* 🌐 Update Chinese translation for `docs/zh/docs/deployment/manually.md`. PR [#13324](https://github.com/readyapi/readyapi/pull/13324) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
-* 🌐 Update Chinese translation for `docs/zh/docs/deployment/server-workers.md`. PR [#13292](https://github.com/readyapi/readyapi/pull/13292) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
-* 🌐 Update Chinese translation for `docs/zh/docs/tutorial/first-steps.md`. PR [#13348](https://github.com/readyapi/readyapi/pull/13348) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
+* 🌐 Add Russian translation for `docs/ru/docs/tutorial/header-param-models.md`. PR [#13526](https://github.com/khulnasoft/readyapi/pull/13526) by [@minaton-ru](https://github.com/minaton-ru).
+* 🌐 Update Chinese translation for `docs/zh/docs/tutorial/index.md`. PR [#13374](https://github.com/khulnasoft/readyapi/pull/13374) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
+* 🌐 Update Chinese translation for `docs/zh/docs/deployment/manually.md`. PR [#13324](https://github.com/khulnasoft/readyapi/pull/13324) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
+* 🌐 Update Chinese translation for `docs/zh/docs/deployment/server-workers.md`. PR [#13292](https://github.com/khulnasoft/readyapi/pull/13292) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
+* 🌐 Update Chinese translation for `docs/zh/docs/tutorial/first-steps.md`. PR [#13348](https://github.com/khulnasoft/readyapi/pull/13348) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
 
 ### Internal
 
-* Bump pypa/gh-action-pypi-publish from 1.12.4 to 1.13.0 in /.github/workflows in the github_actions group across 1 directory. PR [#241](https://github.com/readyapi/readyapi/pull/241) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump tj-actions/changed-files from 46 to 47. PR [#245](https://github.com/readyapi/readyapi/pull/245) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump actions/labeler from 5 to 6. PR [#242](https://github.com/readyapi/readyapi/pull/242) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump actions/setup-python from 5 to 6. PR [#239](https://github.com/readyapi/readyapi/pull/239) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#237](https://github.com/readyapi/readyapi/pull/237) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* ⬆ Bump actions/checkout from 4 to 5. PR [#234](https://github.com/readyapi/readyapi/pull/234) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump ruff from 0.11.2 to 0.12.7. PR [#229](https://github.com/readyapi/readyapi/pull/229) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#228](https://github.com/readyapi/readyapi/pull/228) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* ⬆ Bump actions/download-artifact from 4 to 5. PR [#230](https://github.com/readyapi/readyapi/pull/230) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump actions/checkout from 4 to 5. PR [#231](https://github.com/readyapi/readyapi/pull/231) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 👷 Add CI to translate with LLMs. PR [#233](https://github.com/readyapi/readyapi/pull/233) by [@khulnasoft-bot](https://github.com/khulnasoft-bot).
-* ⚒️ Update translate script, update prompt to minimize generated diff. PR [#232](https://github.com/readyapi/readyapi/pull/232) by [@khulnasoft-bot](https://github.com/khulnasoft-bot).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#221](https://github.com/readyapi/readyapi/pull/221) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* Bump tj-actions/changed-files from 44 to 46 in /.github/workflows in the github_actions group across 1 directory. PR [#227](https://github.com/readyapi/readyapi/pull/227) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* Pre commit. PR [#220](https://github.com/readyapi/readyapi/pull/220) by [@gitworkflows](https://github.com/gitworkflows).
-* 👷 Add custom pre-commit. PR [#219](https://github.com/readyapi/readyapi/pull/219) by [@gitworkflows](https://github.com/gitworkflows).
-* 🔧 Update sponsors: add Subtotal. PR [#13701](https://github.com/readyapi/readyapi/pull/13701) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔧 Update sponsors: remove deepset / Haystack. PR [#13700](https://github.com/readyapi/readyapi/pull/13700) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#13688](https://github.com/readyapi/readyapi/pull/13688) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* 👥 Update ReadyAPI People - Experts. PR [#13671](https://github.com/readyapi/readyapi/pull/13671) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ Bump cligenius from 0.12.5 to 0.15.3. PR [#13666](https://github.com/readyapi/readyapi/pull/13666) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump sqldev from 0.0.23 to 0.0.24. PR [#13665](https://github.com/readyapi/readyapi/pull/13665) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 🔧 Update Sponsors: Zuplo logo and alt text. PR [#13645](https://github.com/readyapi/readyapi/pull/13645) by [@martyndavies](https://github.com/martyndavies).
-* 👥 Update ReadyAPI GitHub topic repositories. PR [#13667](https://github.com/readyapi/readyapi/pull/13667) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔧 Update links for LinkedIn and bottom. PR [#13669](https://github.com/readyapi/readyapi/pull/13669) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔧 Update sponsors: remove Bump.sh and Coherence. PR [#13668](https://github.com/readyapi/readyapi/pull/13668) by [@khulnasoft](https://github.com/khulnasoft).
-* 👥 Update ReadyAPI People - Sponsors. PR [#13664](https://github.com/readyapi/readyapi/pull/13664) by [@khulnasoft](https://github.com/khulnasoft).
-* 👥 Update ReadyAPI People - Contributors and Translators. PR [#13662](https://github.com/readyapi/readyapi/pull/13662) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#13656](https://github.com/readyapi/readyapi/pull/13656) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* ✅ Use `inline-snapshot` to support different Pydantic versions in the test suite. PR [#12534](https://github.com/readyapi/readyapi/pull/12534) by [@15r10nk](https://github.com/15r10nk).
-* ⬆ Bump astral-sh/setup-uv from 5 to 6. PR [#13648](https://github.com/readyapi/readyapi/pull/13648) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#13634](https://github.com/readyapi/readyapi/pull/13634) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#13619](https://github.com/readyapi/readyapi/pull/13619) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#13594](https://github.com/readyapi/readyapi/pull/13594) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* 👥 Update ReadyAPI People - Experts. PR [#13568](https://github.com/readyapi/readyapi/pull/13568) by [@khulnasoft](https://github.com/khulnasoft).
-* 👥 Update ReadyAPI GitHub topic repositories. PR [#13565](https://github.com/readyapi/readyapi/pull/13565) by [@khulnasoft](https://github.com/khulnasoft).
-* 👥 Update ReadyAPI People - Sponsors. PR [#13559](https://github.com/readyapi/readyapi/pull/13559) by [@khulnasoft](https://github.com/khulnasoft).
-* 👥 Update ReadyAPI People - Contributors and Translators. PR [#13558](https://github.com/readyapi/readyapi/pull/13558) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ Bump dirty-equals from 0.8.0 to 0.9.0. PR [#13561](https://github.com/readyapi/readyapi/pull/13561) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 🔧 Clean up `docs/en/mkdocs.yml` configuration file. PR [#13542](https://github.com/readyapi/readyapi/pull/13542) by [@svlandeg](https://github.com/svlandeg).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12986](https://github.com/readyapi/readyapi/pull/12986) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* Bump pypa/gh-action-pypi-publish from 1.12.4 to 1.13.0 in /.github/workflows in the github_actions group across 1 directory. PR [#241](https://github.com/khulnasoft/readyapi/pull/241) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump tj-actions/changed-files from 46 to 47. PR [#245](https://github.com/khulnasoft/readyapi/pull/245) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/labeler from 5 to 6. PR [#242](https://github.com/khulnasoft/readyapi/pull/242) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/setup-python from 5 to 6. PR [#239](https://github.com/khulnasoft/readyapi/pull/239) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#237](https://github.com/khulnasoft/readyapi/pull/237) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump actions/checkout from 4 to 5. PR [#234](https://github.com/khulnasoft/readyapi/pull/234) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump ruff from 0.11.2 to 0.12.7. PR [#229](https://github.com/khulnasoft/readyapi/pull/229) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#228](https://github.com/khulnasoft/readyapi/pull/228) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump actions/download-artifact from 4 to 5. PR [#230](https://github.com/khulnasoft/readyapi/pull/230) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump actions/checkout from 4 to 5. PR [#231](https://github.com/khulnasoft/readyapi/pull/231) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Add CI to translate with LLMs. PR [#233](https://github.com/khulnasoft/readyapi/pull/233) by [@khulnasoft-bot](https://github.com/khulnasoft-bot).
+* ⚒️ Update translate script, update prompt to minimize generated diff. PR [#232](https://github.com/khulnasoft/readyapi/pull/232) by [@khulnasoft-bot](https://github.com/khulnasoft-bot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#221](https://github.com/khulnasoft/readyapi/pull/221) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* Bump tj-actions/changed-files from 44 to 46 in /.github/workflows in the github_actions group across 1 directory. PR [#227](https://github.com/khulnasoft/readyapi/pull/227) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* Pre commit. PR [#220](https://github.com/khulnasoft/readyapi/pull/220) by [@gitworkflows](https://github.com/gitworkflows).
+* 👷 Add custom pre-commit. PR [#219](https://github.com/khulnasoft/readyapi/pull/219) by [@gitworkflows](https://github.com/gitworkflows).
+* 🔧 Update sponsors: add Subtotal. PR [#13701](https://github.com/khulnasoft/readyapi/pull/13701) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update sponsors: remove deepset / Haystack. PR [#13700](https://github.com/khulnasoft/readyapi/pull/13700) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#13688](https://github.com/khulnasoft/readyapi/pull/13688) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* 👥 Update ReadyAPI People - Experts. PR [#13671](https://github.com/khulnasoft/readyapi/pull/13671) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Bump cligenius from 0.12.5 to 0.15.3. PR [#13666](https://github.com/khulnasoft/readyapi/pull/13666) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump sqldev from 0.0.23 to 0.0.24. PR [#13665](https://github.com/khulnasoft/readyapi/pull/13665) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Update Sponsors: Zuplo logo and alt text. PR [#13645](https://github.com/khulnasoft/readyapi/pull/13645) by [@martyndavies](https://github.com/martyndavies).
+* 👥 Update ReadyAPI GitHub topic repositories. PR [#13667](https://github.com/khulnasoft/readyapi/pull/13667) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update links for LinkedIn and bottom. PR [#13669](https://github.com/khulnasoft/readyapi/pull/13669) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update sponsors: remove Bump.sh and Coherence. PR [#13668](https://github.com/khulnasoft/readyapi/pull/13668) by [@khulnasoft](https://github.com/khulnasoft).
+* 👥 Update ReadyAPI People - Sponsors. PR [#13664](https://github.com/khulnasoft/readyapi/pull/13664) by [@khulnasoft](https://github.com/khulnasoft).
+* 👥 Update ReadyAPI People - Contributors and Translators. PR [#13662](https://github.com/khulnasoft/readyapi/pull/13662) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#13656](https://github.com/khulnasoft/readyapi/pull/13656) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ✅ Use `inline-snapshot` to support different Pydantic versions in the test suite. PR [#12534](https://github.com/khulnasoft/readyapi/pull/12534) by [@15r10nk](https://github.com/15r10nk).
+* ⬆ Bump astral-sh/setup-uv from 5 to 6. PR [#13648](https://github.com/khulnasoft/readyapi/pull/13648) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#13634](https://github.com/khulnasoft/readyapi/pull/13634) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#13619](https://github.com/khulnasoft/readyapi/pull/13619) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#13594](https://github.com/khulnasoft/readyapi/pull/13594) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* 👥 Update ReadyAPI People - Experts. PR [#13568](https://github.com/khulnasoft/readyapi/pull/13568) by [@khulnasoft](https://github.com/khulnasoft).
+* 👥 Update ReadyAPI GitHub topic repositories. PR [#13565](https://github.com/khulnasoft/readyapi/pull/13565) by [@khulnasoft](https://github.com/khulnasoft).
+* 👥 Update ReadyAPI People - Sponsors. PR [#13559](https://github.com/khulnasoft/readyapi/pull/13559) by [@khulnasoft](https://github.com/khulnasoft).
+* 👥 Update ReadyAPI People - Contributors and Translators. PR [#13558](https://github.com/khulnasoft/readyapi/pull/13558) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Bump dirty-equals from 0.8.0 to 0.9.0. PR [#13561](https://github.com/khulnasoft/readyapi/pull/13561) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Clean up `docs/en/mkdocs.yml` configuration file. PR [#13542](https://github.com/khulnasoft/readyapi/pull/13542) by [@svlandeg](https://github.com/svlandeg).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12986](https://github.com/khulnasoft/readyapi/pull/12986) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 
 ## 0.115.12
 
 ### Fixes
 
-* 🐛 Fix `convert_underscores=False` for header Pydantic models. PR [#13515](https://github.com/readyapi/readyapi/pull/13515) by [@khulnasoft](https://github.com/khulnasoft).
+* 🐛 Fix `convert_underscores=False` for header Pydantic models. PR [#13515](https://github.com/khulnasoft/readyapi/pull/13515) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Docs
 
-* 📝 Update `docs/en/docs/tutorial/middleware.md`. PR [#13444](https://github.com/readyapi/readyapi/pull/13444) by [@Rishat-F](https://github.com/Rishat-F).
-* 👥 Update ReadyAPI People - Experts. PR [#13493](https://github.com/readyapi/readyapi/pull/13493) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update `docs/en/docs/tutorial/middleware.md`. PR [#13444](https://github.com/khulnasoft/readyapi/pull/13444) by [@Rishat-F](https://github.com/Rishat-F).
+* 👥 Update ReadyAPI People - Experts. PR [#13493](https://github.com/khulnasoft/readyapi/pull/13493) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Translations
 
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/metadata.md` page. PR [#13459](https://github.com/readyapi/readyapi/pull/13459) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/response-status-code.md` page. PR [#13462](https://github.com/readyapi/readyapi/pull/13462) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/cookie-param-models.md` page. PR [#13460](https://github.com/readyapi/readyapi/pull/13460) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/header-param-models.md` page. PR [#13461](https://github.com/readyapi/readyapi/pull/13461) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Japanese translation for `docs/ja/docs/virtual-environments.md`. PR [#13304](https://github.com/readyapi/readyapi/pull/13304) by [@k94-ishi](https://github.com/k94-ishi).
-* 🌐 Add Korean translation for `docs/ko/docs/tutorial/security/oauth2-jwt.md`. PR [#13333](https://github.com/readyapi/readyapi/pull/13333) by [@yes0ng](https://github.com/yes0ng).
-* 🌐 Add Vietnamese translation for `docs/vi/docs/deployment/cloud.md`. PR [#13407](https://github.com/readyapi/readyapi/pull/13407) by [@ptt3199](https://github.com/ptt3199).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/metadata.md` page. PR [#13459](https://github.com/khulnasoft/readyapi/pull/13459) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/response-status-code.md` page. PR [#13462](https://github.com/khulnasoft/readyapi/pull/13462) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/cookie-param-models.md` page. PR [#13460](https://github.com/khulnasoft/readyapi/pull/13460) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/header-param-models.md` page. PR [#13461](https://github.com/khulnasoft/readyapi/pull/13461) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Japanese translation for `docs/ja/docs/virtual-environments.md`. PR [#13304](https://github.com/khulnasoft/readyapi/pull/13304) by [@k94-ishi](https://github.com/k94-ishi).
+* 🌐 Add Korean translation for `docs/ko/docs/tutorial/security/oauth2-jwt.md`. PR [#13333](https://github.com/khulnasoft/readyapi/pull/13333) by [@yes0ng](https://github.com/yes0ng).
+* 🌐 Add Vietnamese translation for `docs/vi/docs/deployment/cloud.md`. PR [#13407](https://github.com/khulnasoft/readyapi/pull/13407) by [@ptt3199](https://github.com/ptt3199).
 
 ### Internal
 
-* ⬆ Bump pydantic-ai from 0.0.15 to 0.0.30. PR [#13438](https://github.com/readyapi/readyapi/pull/13438) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump sqldev from 0.0.22 to 0.0.23. PR [#13437](https://github.com/readyapi/readyapi/pull/13437) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump black from 24.10.0 to 25.1.0. PR [#13436](https://github.com/readyapi/readyapi/pull/13436) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump ruff to 0.9.4. PR [#13299](https://github.com/readyapi/readyapi/pull/13299) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 🔧 Update sponsors: pause TestDriven. PR [#13446](https://github.com/readyapi/readyapi/pull/13446) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Bump pydantic-ai from 0.0.15 to 0.0.30. PR [#13438](https://github.com/khulnasoft/readyapi/pull/13438) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump sqldev from 0.0.22 to 0.0.23. PR [#13437](https://github.com/khulnasoft/readyapi/pull/13437) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump black from 24.10.0 to 25.1.0. PR [#13436](https://github.com/khulnasoft/readyapi/pull/13436) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump ruff to 0.9.4. PR [#13299](https://github.com/khulnasoft/readyapi/pull/13299) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Update sponsors: pause TestDriven. PR [#13446](https://github.com/khulnasoft/readyapi/pull/13446) by [@khulnasoft](https://github.com/khulnasoft).
 
 ## 0.115.11
 
 ### Fixes
 
-* 🐛 Add docs examples and tests (support) for `Annotated` custom validations, like `AfterValidator`, revert [#13440](https://github.com/readyapi/readyapi/pull/13440). PR [#13442](https://github.com/readyapi/readyapi/pull/13442) by [@khulnasoft](https://github.com/khulnasoft).
+* 🐛 Add docs examples and tests (support) for `Annotated` custom validations, like `AfterValidator`, revert [#13440](https://github.com/khulnasoft/readyapi/pull/13440). PR [#13442](https://github.com/khulnasoft/readyapi/pull/13442) by [@khulnasoft](https://github.com/khulnasoft).
     * New docs: [Query Parameters and String Validations - Custom Validation](https://readyapi.github.io/tutorial/query-params-str-validations/#custom-validation).
 
 ### Translations
 
-* 🌐 Add Russian translation for  `docs/ru/docs/tutorial/middleware.md`. PR [#13412](https://github.com/readyapi/readyapi/pull/13412) by [@alv2017](https://github.com/alv2017).
+* 🌐 Add Russian translation for  `docs/ru/docs/tutorial/middleware.md`. PR [#13412](https://github.com/khulnasoft/readyapi/pull/13412) by [@alv2017](https://github.com/alv2017).
 
 ### Internal
 
-* 👥 Update ReadyAPI GitHub topic repositories. PR [#13439](https://github.com/readyapi/readyapi/pull/13439) by [@khulnasoft](https://github.com/khulnasoft).
-* 👥 Update ReadyAPI People - Contributors and Translators. PR [#13432](https://github.com/readyapi/readyapi/pull/13432) by [@khulnasoft](https://github.com/khulnasoft).
-* 👥 Update ReadyAPI People - Sponsors. PR [#13433](https://github.com/readyapi/readyapi/pull/13433) by [@khulnasoft](https://github.com/khulnasoft).
+* 👥 Update ReadyAPI GitHub topic repositories. PR [#13439](https://github.com/khulnasoft/readyapi/pull/13439) by [@khulnasoft](https://github.com/khulnasoft).
+* 👥 Update ReadyAPI People - Contributors and Translators. PR [#13432](https://github.com/khulnasoft/readyapi/pull/13432) by [@khulnasoft](https://github.com/khulnasoft).
+* 👥 Update ReadyAPI People - Sponsors. PR [#13433](https://github.com/khulnasoft/readyapi/pull/13433) by [@khulnasoft](https://github.com/khulnasoft).
 
 ## 0.115.10
 
 ### Fixes
 
-* ♻️ Update internal annotation usage for compatibility with Pydantic 2.11. PR [#13314](https://github.com/readyapi/readyapi/pull/13314) by [@Viicos](https://github.com/Viicos).
+* ♻️ Update internal annotation usage for compatibility with Pydantic 2.11. PR [#13314](https://github.com/khulnasoft/readyapi/pull/13314) by [@Viicos](https://github.com/Viicos).
 
 ### Upgrades
 
-* ⬆️ Bump Starlette to allow up to 0.46.0: `>=0.40.0,<0.47.0`. PR [#13426](https://github.com/readyapi/readyapi/pull/13426) by [@musicinmybrain](https://github.com/musicinmybrain).
+* ⬆️ Bump Starlette to allow up to 0.46.0: `>=0.40.0,<0.47.0`. PR [#13426](https://github.com/khulnasoft/readyapi/pull/13426) by [@musicinmybrain](https://github.com/musicinmybrain).
 
 ### Translations
 
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/debugging.md`. PR [#13370](https://github.com/readyapi/readyapi/pull/13370) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/query-params.md`. PR [#13362](https://github.com/readyapi/readyapi/pull/13362) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/path-params.md`. PR [#13354](https://github.com/readyapi/readyapi/pull/13354) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Japanese translation for `docs/ja/docs/tutorial/cookie-param-models.md`. PR [#13330](https://github.com/readyapi/readyapi/pull/13330) by [@k94-ishi](https://github.com/k94-ishi).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/body-multiple-params.md`. PR [#13408](https://github.com/readyapi/readyapi/pull/13408) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Japanese translation for `docs/ja/docs/tutorial/query-param-models.md`. PR [#13323](https://github.com/readyapi/readyapi/pull/13323) by [@k94-ishi](https://github.com/k94-ishi).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/body-nested-models.md`. PR [#13409](https://github.com/readyapi/readyapi/pull/13409) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Vietnamese translation for `docs/vi/docs/deployment/versions.md`. PR [#13406](https://github.com/readyapi/readyapi/pull/13406) by [@ptt3199](https://github.com/ptt3199).
-* 🌐 Add Vietnamese translation for `docs/vi/docs/deployment/index.md`. PR [#13405](https://github.com/readyapi/readyapi/pull/13405) by [@ptt3199](https://github.com/ptt3199).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/request-forms.md`. PR [#13383](https://github.com/readyapi/readyapi/pull/13383) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/testing.md`. PR [#13371](https://github.com/readyapi/readyapi/pull/13371) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/debugging.md`. PR [#13370](https://github.com/khulnasoft/readyapi/pull/13370) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/query-params.md`. PR [#13362](https://github.com/khulnasoft/readyapi/pull/13362) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/path-params.md`. PR [#13354](https://github.com/khulnasoft/readyapi/pull/13354) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Japanese translation for `docs/ja/docs/tutorial/cookie-param-models.md`. PR [#13330](https://github.com/khulnasoft/readyapi/pull/13330) by [@k94-ishi](https://github.com/k94-ishi).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/body-multiple-params.md`. PR [#13408](https://github.com/khulnasoft/readyapi/pull/13408) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Japanese translation for `docs/ja/docs/tutorial/query-param-models.md`. PR [#13323](https://github.com/khulnasoft/readyapi/pull/13323) by [@k94-ishi](https://github.com/k94-ishi).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/body-nested-models.md`. PR [#13409](https://github.com/khulnasoft/readyapi/pull/13409) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Vietnamese translation for `docs/vi/docs/deployment/versions.md`. PR [#13406](https://github.com/khulnasoft/readyapi/pull/13406) by [@ptt3199](https://github.com/ptt3199).
+* 🌐 Add Vietnamese translation for `docs/vi/docs/deployment/index.md`. PR [#13405](https://github.com/khulnasoft/readyapi/pull/13405) by [@ptt3199](https://github.com/ptt3199).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/request-forms.md`. PR [#13383](https://github.com/khulnasoft/readyapi/pull/13383) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/testing.md`. PR [#13371](https://github.com/khulnasoft/readyapi/pull/13371) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
 
 ## 0.115.9
 
 ### Fixes
 
-* 🐛 Ensure that `HTTPDigest` only raises an exception when `auto_error is True`. PR [#2939](https://github.com/readyapi/readyapi/pull/2939) by [@arthurio](https://github.com/arthurio).
+* 🐛 Ensure that `HTTPDigest` only raises an exception when `auto_error is True`. PR [#2939](https://github.com/khulnasoft/readyapi/pull/2939) by [@arthurio](https://github.com/arthurio).
 
 ### Refactors
 
-* ✅ Simplify tests for `query_params_str_validations`. PR [#13218](https://github.com/readyapi/readyapi/pull/13218) by [@alv2017](https://github.com/alv2017).
-* ✅ Simplify tests for `app_testing`. PR [#13220](https://github.com/readyapi/readyapi/pull/13220) by [@alv2017](https://github.com/alv2017).
-* ✅ Simplify tests for `dependency_testing`. PR [#13223](https://github.com/readyapi/readyapi/pull/13223) by [@alv2017](https://github.com/alv2017).
+* ✅ Simplify tests for `query_params_str_validations`. PR [#13218](https://github.com/khulnasoft/readyapi/pull/13218) by [@alv2017](https://github.com/alv2017).
+* ✅ Simplify tests for `app_testing`. PR [#13220](https://github.com/khulnasoft/readyapi/pull/13220) by [@alv2017](https://github.com/alv2017).
+* ✅ Simplify tests for `dependency_testing`. PR [#13223](https://github.com/khulnasoft/readyapi/pull/13223) by [@alv2017](https://github.com/alv2017).
 
 ### Docs
 
-* 🍱 Update sponsors: CodeRabbit logo. PR [#13424](https://github.com/readyapi/readyapi/pull/13424) by [@khulnasoft](https://github.com/khulnasoft).
-* 🩺 Unify the badges across all tutorial translations. PR [#13329](https://github.com/readyapi/readyapi/pull/13329) by [@svlandeg](https://github.com/svlandeg).
-* 📝 Fix typos in virtual environments documentation. PR [#13396](https://github.com/readyapi/readyapi/pull/13396) by [@bullet-ant](https://github.com/bullet-ant).
-* 🐛 Fix issue with Swagger theme change example in the official tutorial. PR [#13289](https://github.com/readyapi/readyapi/pull/13289) by [@Zerohertz](https://github.com/Zerohertz).
-* 📝 Add more precise description of HTTP status code range in docs. PR [#13347](https://github.com/readyapi/readyapi/pull/13347) by [@DanielYang59](https://github.com/DanielYang59).
-* 🔥 Remove manual type annotations in JWT tutorial to avoid typing expectations (JWT doesn't provide more types). PR [#13378](https://github.com/readyapi/readyapi/pull/13378) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Update docs for Query Params and String Validations, remove obsolete Ellipsis docs (`...`). PR [#13377](https://github.com/readyapi/readyapi/pull/13377) by [@khulnasoft](https://github.com/khulnasoft).
-* ✏️ Remove duplicate title in docs `body-multiple-params`. PR [#13345](https://github.com/readyapi/readyapi/pull/13345) by [@DanielYang59](https://github.com/DanielYang59).
-* 📝 Fix test badge. PR [#13313](https://github.com/readyapi/readyapi/pull/13313) by [@esadek](https://github.com/esadek).
+* 🍱 Update sponsors: CodeRabbit logo. PR [#13424](https://github.com/khulnasoft/readyapi/pull/13424) by [@khulnasoft](https://github.com/khulnasoft).
+* 🩺 Unify the badges across all tutorial translations. PR [#13329](https://github.com/khulnasoft/readyapi/pull/13329) by [@svlandeg](https://github.com/svlandeg).
+* 📝 Fix typos in virtual environments documentation. PR [#13396](https://github.com/khulnasoft/readyapi/pull/13396) by [@bullet-ant](https://github.com/bullet-ant).
+* 🐛 Fix issue with Swagger theme change example in the official tutorial. PR [#13289](https://github.com/khulnasoft/readyapi/pull/13289) by [@Zerohertz](https://github.com/Zerohertz).
+* 📝 Add more precise description of HTTP status code range in docs. PR [#13347](https://github.com/khulnasoft/readyapi/pull/13347) by [@DanielYang59](https://github.com/DanielYang59).
+* 🔥 Remove manual type annotations in JWT tutorial to avoid typing expectations (JWT doesn't provide more types). PR [#13378](https://github.com/khulnasoft/readyapi/pull/13378) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update docs for Query Params and String Validations, remove obsolete Ellipsis docs (`...`). PR [#13377](https://github.com/khulnasoft/readyapi/pull/13377) by [@khulnasoft](https://github.com/khulnasoft).
+* ✏️ Remove duplicate title in docs `body-multiple-params`. PR [#13345](https://github.com/khulnasoft/readyapi/pull/13345) by [@DanielYang59](https://github.com/DanielYang59).
+* 📝 Fix test badge. PR [#13313](https://github.com/khulnasoft/readyapi/pull/13313) by [@esadek](https://github.com/esadek).
 
 ### Translations
 
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/header-params.md`. PR [#13381](https://github.com/readyapi/readyapi/pull/13381) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/request-files.md`. PR [#13395](https://github.com/readyapi/readyapi/pull/13395) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/request-form-models.md`. PR [#13384](https://github.com/readyapi/readyapi/pull/13384) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/request-forms-and-files.md`. PR [#13386](https://github.com/readyapi/readyapi/pull/13386) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Update Korean translation for `docs/ko/docs/help-readyapi.md`. PR [#13262](https://github.com/readyapi/readyapi/pull/13262) by [@Zerohertz](https://github.com/Zerohertz).
-* 🌐 Add Korean translation for `docs/ko/docs/advanced/custom-response.md`. PR [#13265](https://github.com/readyapi/readyapi/pull/13265) by [@11kkw](https://github.com/11kkw).
-* 🌐 Update Korean translation for `docs/ko/docs/tutorial/security/simple-oauth2.md`. PR [#13335](https://github.com/readyapi/readyapi/pull/13335) by [@yes0ng](https://github.com/yes0ng).
-* 🌐 Add Russian translation for `docs/ru/docs/advanced/response-cookies.md`. PR [#13327](https://github.com/readyapi/readyapi/pull/13327) by [@Stepakinoyan](https://github.com/Stepakinoyan).
-* 🌐  Add Vietnamese translation for `docs/vi/docs/tutorial/static-files.md`. PR [#11291](https://github.com/readyapi/readyapi/pull/11291) by [@ptt3199](https://github.com/ptt3199).
-* 🌐 Add Korean translation for `docs/ko/docs/tutorial/dependencies/dependencies-with-yield.md`. PR [#13257](https://github.com/readyapi/readyapi/pull/13257) by [@11kkw](https://github.com/11kkw).
-* 🌐 Add Vietnamese translation for `docs/vi/docs/virtual-environments.md`. PR [#13282](https://github.com/readyapi/readyapi/pull/13282) by [@ptt3199](https://github.com/ptt3199).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/static-files.md`. PR [#13285](https://github.com/readyapi/readyapi/pull/13285) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Vietnamese translation for `docs/vi/docs/environment-variables.md`. PR [#13287](https://github.com/readyapi/readyapi/pull/13287) by [@ptt3199](https://github.com/ptt3199).
-* 🌐 Add Vietnamese translation for `docs/vi/docs/readyapi-cli.md`. PR [#13294](https://github.com/readyapi/readyapi/pull/13294) by [@ptt3199](https://github.com/ptt3199).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/features.md`. PR [#13308](https://github.com/readyapi/readyapi/pull/13308) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/learn/index.md`. PR [#13306](https://github.com/readyapi/readyapi/pull/13306) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
-* 🌐 Update Portuguese Translation for `docs/pt/docs/deployment/https.md`. PR [#13317](https://github.com/readyapi/readyapi/pull/13317) by [@Joao-Pedro-P-Holanda](https://github.com/Joao-Pedro-P-Holanda).
-* 🌐 Update Portuguese Translation for `docs/pt/docs/index.md`. PR [#13328](https://github.com/readyapi/readyapi/pull/13328) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Add Russian translation for `docs/ru/docs/advanced/websockets.md`. PR [#13279](https://github.com/readyapi/readyapi/pull/13279) by [@Rishat-F](https://github.com/Rishat-F).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/header-params.md`. PR [#13381](https://github.com/khulnasoft/readyapi/pull/13381) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/request-files.md`. PR [#13395](https://github.com/khulnasoft/readyapi/pull/13395) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/request-form-models.md`. PR [#13384](https://github.com/khulnasoft/readyapi/pull/13384) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/request-forms-and-files.md`. PR [#13386](https://github.com/khulnasoft/readyapi/pull/13386) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Update Korean translation for `docs/ko/docs/help-readyapi.md`. PR [#13262](https://github.com/khulnasoft/readyapi/pull/13262) by [@Zerohertz](https://github.com/Zerohertz).
+* 🌐 Add Korean translation for `docs/ko/docs/advanced/custom-response.md`. PR [#13265](https://github.com/khulnasoft/readyapi/pull/13265) by [@11kkw](https://github.com/11kkw).
+* 🌐 Update Korean translation for `docs/ko/docs/tutorial/security/simple-oauth2.md`. PR [#13335](https://github.com/khulnasoft/readyapi/pull/13335) by [@yes0ng](https://github.com/yes0ng).
+* 🌐 Add Russian translation for `docs/ru/docs/advanced/response-cookies.md`. PR [#13327](https://github.com/khulnasoft/readyapi/pull/13327) by [@Stepakinoyan](https://github.com/Stepakinoyan).
+* 🌐  Add Vietnamese translation for `docs/vi/docs/tutorial/static-files.md`. PR [#11291](https://github.com/khulnasoft/readyapi/pull/11291) by [@ptt3199](https://github.com/ptt3199).
+* 🌐 Add Korean translation for `docs/ko/docs/tutorial/dependencies/dependencies-with-yield.md`. PR [#13257](https://github.com/khulnasoft/readyapi/pull/13257) by [@11kkw](https://github.com/11kkw).
+* 🌐 Add Vietnamese translation for `docs/vi/docs/virtual-environments.md`. PR [#13282](https://github.com/khulnasoft/readyapi/pull/13282) by [@ptt3199](https://github.com/ptt3199).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/tutorial/static-files.md`. PR [#13285](https://github.com/khulnasoft/readyapi/pull/13285) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Vietnamese translation for `docs/vi/docs/environment-variables.md`. PR [#13287](https://github.com/khulnasoft/readyapi/pull/13287) by [@ptt3199](https://github.com/ptt3199).
+* 🌐 Add Vietnamese translation for `docs/vi/docs/readyapi-cli.md`. PR [#13294](https://github.com/khulnasoft/readyapi/pull/13294) by [@ptt3199](https://github.com/ptt3199).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/features.md`. PR [#13308](https://github.com/khulnasoft/readyapi/pull/13308) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/learn/index.md`. PR [#13306](https://github.com/khulnasoft/readyapi/pull/13306) by [@valentinDruzhinin](https://github.com/valentinDruzhinin).
+* 🌐 Update Portuguese Translation for `docs/pt/docs/deployment/https.md`. PR [#13317](https://github.com/khulnasoft/readyapi/pull/13317) by [@Joao-Pedro-P-Holanda](https://github.com/Joao-Pedro-P-Holanda).
+* 🌐 Update Portuguese Translation for `docs/pt/docs/index.md`. PR [#13328](https://github.com/khulnasoft/readyapi/pull/13328) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Add Russian translation for `docs/ru/docs/advanced/websockets.md`. PR [#13279](https://github.com/khulnasoft/readyapi/pull/13279) by [@Rishat-F](https://github.com/Rishat-F).
 
 ### Internal
 
-* ✅ Fix a minor bug in the test `tests/test_modules_same_name_body/test_main.py`. PR [#13411](https://github.com/readyapi/readyapi/pull/13411) by [@alv2017](https://github.com/alv2017).
-* 👷 Use `wrangler-action` v3. PR [#13415](https://github.com/readyapi/readyapi/pull/13415) by [@joakimnordling](https://github.com/joakimnordling).
-* 🔧 Update sponsors: add CodeRabbit. PR [#13402](https://github.com/readyapi/readyapi/pull/13402) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔧 Update team: Add Ludovico. PR [#13390](https://github.com/readyapi/readyapi/pull/13390) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔧 Update sponsors: Add LambdaTest. PR [#13389](https://github.com/readyapi/readyapi/pull/13389) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ Bump cloudflare/wrangler-action from 3.13 to 3.14. PR [#13350](https://github.com/readyapi/readyapi/pull/13350) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump mkdocs-material from 9.5.18 to 9.6.1. PR [#13301](https://github.com/readyapi/readyapi/pull/13301) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump pillow from 11.0.0 to 11.1.0. PR [#13300](https://github.com/readyapi/readyapi/pull/13300) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 👥 Update ReadyAPI People - Sponsors. PR [#13295](https://github.com/readyapi/readyapi/pull/13295) by [@khulnasoft](https://github.com/khulnasoft).
-* 👥 Update ReadyAPI People - Experts. PR [#13303](https://github.com/readyapi/readyapi/pull/13303) by [@khulnasoft](https://github.com/khulnasoft).
-* 👥 Update ReadyAPI GitHub topic repositories. PR [#13302](https://github.com/readyapi/readyapi/pull/13302) by [@khulnasoft](https://github.com/khulnasoft).
-* 👥 Update ReadyAPI People - Contributors and Translators. PR [#13293](https://github.com/readyapi/readyapi/pull/13293) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ Bump inline-snapshot from 0.18.1 to 0.19.3. PR [#13298](https://github.com/readyapi/readyapi/pull/13298) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 🔧 Update sponsors, add Permit. PR [#13288](https://github.com/readyapi/readyapi/pull/13288) by [@khulnasoft](https://github.com/khulnasoft).
+* ✅ Fix a minor bug in the test `tests/test_modules_same_name_body/test_main.py`. PR [#13411](https://github.com/khulnasoft/readyapi/pull/13411) by [@alv2017](https://github.com/alv2017).
+* 👷 Use `wrangler-action` v3. PR [#13415](https://github.com/khulnasoft/readyapi/pull/13415) by [@joakimnordling](https://github.com/joakimnordling).
+* 🔧 Update sponsors: add CodeRabbit. PR [#13402](https://github.com/khulnasoft/readyapi/pull/13402) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update team: Add Ludovico. PR [#13390](https://github.com/khulnasoft/readyapi/pull/13390) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update sponsors: Add LambdaTest. PR [#13389](https://github.com/khulnasoft/readyapi/pull/13389) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Bump cloudflare/wrangler-action from 3.13 to 3.14. PR [#13350](https://github.com/khulnasoft/readyapi/pull/13350) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-material from 9.5.18 to 9.6.1. PR [#13301](https://github.com/khulnasoft/readyapi/pull/13301) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump pillow from 11.0.0 to 11.1.0. PR [#13300](https://github.com/khulnasoft/readyapi/pull/13300) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👥 Update ReadyAPI People - Sponsors. PR [#13295](https://github.com/khulnasoft/readyapi/pull/13295) by [@khulnasoft](https://github.com/khulnasoft).
+* 👥 Update ReadyAPI People - Experts. PR [#13303](https://github.com/khulnasoft/readyapi/pull/13303) by [@khulnasoft](https://github.com/khulnasoft).
+* 👥 Update ReadyAPI GitHub topic repositories. PR [#13302](https://github.com/khulnasoft/readyapi/pull/13302) by [@khulnasoft](https://github.com/khulnasoft).
+* 👥 Update ReadyAPI People - Contributors and Translators. PR [#13293](https://github.com/khulnasoft/readyapi/pull/13293) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Bump inline-snapshot from 0.18.1 to 0.19.3. PR [#13298](https://github.com/khulnasoft/readyapi/pull/13298) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Update sponsors, add Permit. PR [#13288](https://github.com/khulnasoft/readyapi/pull/13288) by [@khulnasoft](https://github.com/khulnasoft).
 
 ## 0.115.8
 
 ### Fixes
 
-* 🐛 Fix `OAuth2PasswordRequestForm` and `OAuth2PasswordRequestFormStrict` fixed `grant_type` "password" RegEx. PR [#9783](https://github.com/readyapi/readyapi/pull/9783) by [@skarfie123](https://github.com/skarfie123).
+* 🐛 Fix `OAuth2PasswordRequestForm` and `OAuth2PasswordRequestFormStrict` fixed `grant_type` "password" RegEx. PR [#9783](https://github.com/khulnasoft/readyapi/pull/9783) by [@skarfie123](https://github.com/skarfie123).
 
 ### Refactors
 
-* ✅ Simplify tests for body_multiple_params . PR [#13237](https://github.com/readyapi/readyapi/pull/13237) by [@alejsdev](https://github.com/alejsdev).
-* ♻️ Move duplicated code portion to a static method in the `APIKeyBase` super class. PR [#3142](https://github.com/readyapi/readyapi/pull/3142) by [@ShahriyarR](https://github.com/ShahriyarR).
-* ✅ Simplify tests for request_files. PR [#13182](https://github.com/readyapi/readyapi/pull/13182) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for body_multiple_params . PR [#13237](https://github.com/khulnasoft/readyapi/pull/13237) by [@alejsdev](https://github.com/alejsdev).
+* ♻️ Move duplicated code portion to a static method in the `APIKeyBase` super class. PR [#3142](https://github.com/khulnasoft/readyapi/pull/3142) by [@ShahriyarR](https://github.com/ShahriyarR).
+* ✅ Simplify tests for request_files. PR [#13182](https://github.com/khulnasoft/readyapi/pull/13182) by [@alejsdev](https://github.com/alejsdev).
 
 ### Docs
 
-* 📝 Change the word "unwrap" to "unpack" in `docs/en/docs/tutorial/extra-models.md`. PR [#13061](https://github.com/readyapi/readyapi/pull/13061) by [@timothy-jeong](https://github.com/timothy-jeong).
-* 📝 Update Request Body's `tutorial002` to deal with `tax=0` case. PR [#13230](https://github.com/readyapi/readyapi/pull/13230) by [@togogh](https://github.com/togogh).
-* 👥 Update ReadyAPI People - Experts. PR [#13269](https://github.com/readyapi/readyapi/pull/13269) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Change the word "unwrap" to "unpack" in `docs/en/docs/tutorial/extra-models.md`. PR [#13061](https://github.com/khulnasoft/readyapi/pull/13061) by [@timothy-jeong](https://github.com/timothy-jeong).
+* 📝 Update Request Body's `tutorial002` to deal with `tax=0` case. PR [#13230](https://github.com/khulnasoft/readyapi/pull/13230) by [@togogh](https://github.com/togogh).
+* 👥 Update ReadyAPI People - Experts. PR [#13269](https://github.com/khulnasoft/readyapi/pull/13269) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Translations
 
-* 🌐 Add Japanese translation for `docs/ja/docs/environment-variables.md`. PR [#13226](https://github.com/readyapi/readyapi/pull/13226) by [@k94-ishi](https://github.com/k94-ishi).
-* 🌐 Add Russian translation for `docs/ru/docs/advanced/async-tests.md`. PR [#13227](https://github.com/readyapi/readyapi/pull/13227) by [@Rishat-F](https://github.com/Rishat-F).
-* 🌐 Update Russian translation for `docs/ru/docs/tutorial/dependencies/dependencies-in-path-operation-decorators.md`. PR [#13252](https://github.com/readyapi/readyapi/pull/13252) by [@Rishat-F](https://github.com/Rishat-F).
-* 🌐 Add Russian translation for `docs/ru/docs/tutorial/bigger-applications.md`. PR [#13154](https://github.com/readyapi/readyapi/pull/13154) by [@alv2017](https://github.com/alv2017).
+* 🌐 Add Japanese translation for `docs/ja/docs/environment-variables.md`. PR [#13226](https://github.com/khulnasoft/readyapi/pull/13226) by [@k94-ishi](https://github.com/k94-ishi).
+* 🌐 Add Russian translation for `docs/ru/docs/advanced/async-tests.md`. PR [#13227](https://github.com/khulnasoft/readyapi/pull/13227) by [@Rishat-F](https://github.com/Rishat-F).
+* 🌐 Update Russian translation for `docs/ru/docs/tutorial/dependencies/dependencies-in-path-operation-decorators.md`. PR [#13252](https://github.com/khulnasoft/readyapi/pull/13252) by [@Rishat-F](https://github.com/Rishat-F).
+* 🌐 Add Russian translation for `docs/ru/docs/tutorial/bigger-applications.md`. PR [#13154](https://github.com/khulnasoft/readyapi/pull/13154) by [@alv2017](https://github.com/alv2017).
 
 ### Internal
 
-* ⬆️ Add support for Python 3.13. PR [#13274](https://github.com/readyapi/readyapi/pull/13274) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆️ Upgrade AnyIO max version for tests, new range: `>=3.2.1,<5.0.0`. PR [#13273](https://github.com/readyapi/readyapi/pull/13273) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔧 Update Sponsors badges. PR [#13271](https://github.com/readyapi/readyapi/pull/13271) by [@khulnasoft](https://github.com/khulnasoft).
-* ♻️ Fix `notify_translations.py` empty env var handling for PR label events vs workflow_dispatch. PR [#13272](https://github.com/readyapi/readyapi/pull/13272) by [@khulnasoft](https://github.com/khulnasoft).
-* ♻️ Refactor and move `scripts/notify_translations.py`, no need for a custom GitHub Action. PR [#13270](https://github.com/readyapi/readyapi/pull/13270) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔨 Update ReadyAPI People Experts script, refactor and optimize data fetching to handle rate limits. PR [#13267](https://github.com/readyapi/readyapi/pull/13267) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ Bump pypa/gh-action-pypi-publish from 1.12.3 to 1.12.4. PR [#13251](https://github.com/readyapi/readyapi/pull/13251) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆️ Add support for Python 3.13. PR [#13274](https://github.com/khulnasoft/readyapi/pull/13274) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆️ Upgrade AnyIO max version for tests, new range: `>=3.2.1,<5.0.0`. PR [#13273](https://github.com/khulnasoft/readyapi/pull/13273) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update Sponsors badges. PR [#13271](https://github.com/khulnasoft/readyapi/pull/13271) by [@khulnasoft](https://github.com/khulnasoft).
+* ♻️ Fix `notify_translations.py` empty env var handling for PR label events vs workflow_dispatch. PR [#13272](https://github.com/khulnasoft/readyapi/pull/13272) by [@khulnasoft](https://github.com/khulnasoft).
+* ♻️ Refactor and move `scripts/notify_translations.py`, no need for a custom GitHub Action. PR [#13270](https://github.com/khulnasoft/readyapi/pull/13270) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔨 Update ReadyAPI People Experts script, refactor and optimize data fetching to handle rate limits. PR [#13267](https://github.com/khulnasoft/readyapi/pull/13267) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Bump pypa/gh-action-pypi-publish from 1.12.3 to 1.12.4. PR [#13251](https://github.com/khulnasoft/readyapi/pull/13251) by [@dependabot[bot]](https://github.com/apps/dependabot).
 
 ## 0.115.7
 
 ### Upgrades
 
-* ⬆️ Upgrade `python-multipart` to >=0.0.18. PR [#13219](https://github.com/readyapi/readyapi/pull/13219) by [@DanielKusyDev](https://github.com/DanielKusyDev).
-* ⬆️ Bump Starlette to allow up to 0.45.0: `>=0.40.0,<0.46.0`. PR [#13117](https://github.com/readyapi/readyapi/pull/13117) by [@Kludex](https://github.com/Kludex).
-* ⬆️ Upgrade `jinja2` to >=3.1.5. PR [#13194](https://github.com/readyapi/readyapi/pull/13194) by [@DanielKusyDev](https://github.com/DanielKusyDev).
+* ⬆️ Upgrade `python-multipart` to >=0.0.18. PR [#13219](https://github.com/khulnasoft/readyapi/pull/13219) by [@DanielKusyDev](https://github.com/DanielKusyDev).
+* ⬆️ Bump Starlette to allow up to 0.45.0: `>=0.40.0,<0.46.0`. PR [#13117](https://github.com/khulnasoft/readyapi/pull/13117) by [@Kludex](https://github.com/Kludex).
+* ⬆️ Upgrade `jinja2` to >=3.1.5. PR [#13194](https://github.com/khulnasoft/readyapi/pull/13194) by [@DanielKusyDev](https://github.com/DanielKusyDev).
 
 ### Refactors
 
-* ✅ Simplify tests for websockets. PR [#13202](https://github.com/readyapi/readyapi/pull/13202) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for request_form_models . PR [#13183](https://github.com/readyapi/readyapi/pull/13183) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for separate_openapi_schemas. PR [#13201](https://github.com/readyapi/readyapi/pull/13201) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for security. PR [#13200](https://github.com/readyapi/readyapi/pull/13200) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for schema_extra_example. PR [#13197](https://github.com/readyapi/readyapi/pull/13197) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for request_model. PR [#13195](https://github.com/readyapi/readyapi/pull/13195) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for request_forms_and_files. PR [#13185](https://github.com/readyapi/readyapi/pull/13185) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for request_forms. PR [#13184](https://github.com/readyapi/readyapi/pull/13184) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for path_query_params. PR [#13181](https://github.com/readyapi/readyapi/pull/13181) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for path_operation_configurations. PR [#13180](https://github.com/readyapi/readyapi/pull/13180) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for header_params. PR [#13179](https://github.com/readyapi/readyapi/pull/13179) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for extra_models. PR [#13178](https://github.com/readyapi/readyapi/pull/13178) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for extra_data_types. PR [#13177](https://github.com/readyapi/readyapi/pull/13177) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for cookie_params. PR [#13176](https://github.com/readyapi/readyapi/pull/13176) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for dependencies. PR [#13174](https://github.com/readyapi/readyapi/pull/13174) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for body_updates. PR [#13172](https://github.com/readyapi/readyapi/pull/13172) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for body_nested_models. PR [#13171](https://github.com/readyapi/readyapi/pull/13171) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for body_multiple_params. PR [#13170](https://github.com/readyapi/readyapi/pull/13170) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for body_fields. PR [#13169](https://github.com/readyapi/readyapi/pull/13169) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for body. PR [#13168](https://github.com/readyapi/readyapi/pull/13168) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for bigger_applications. PR [#13167](https://github.com/readyapi/readyapi/pull/13167) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for background_tasks. PR [#13166](https://github.com/readyapi/readyapi/pull/13166) by [@alejsdev](https://github.com/alejsdev).
-* ✅ Simplify tests for additional_status_codes. PR [#13149](https://github.com/readyapi/readyapi/pull/13149) by [@khulnasoft](https://github.com/khulnasoft).
+* ✅ Simplify tests for websockets. PR [#13202](https://github.com/khulnasoft/readyapi/pull/13202) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for request_form_models . PR [#13183](https://github.com/khulnasoft/readyapi/pull/13183) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for separate_openapi_schemas. PR [#13201](https://github.com/khulnasoft/readyapi/pull/13201) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for security. PR [#13200](https://github.com/khulnasoft/readyapi/pull/13200) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for schema_extra_example. PR [#13197](https://github.com/khulnasoft/readyapi/pull/13197) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for request_model. PR [#13195](https://github.com/khulnasoft/readyapi/pull/13195) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for request_forms_and_files. PR [#13185](https://github.com/khulnasoft/readyapi/pull/13185) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for request_forms. PR [#13184](https://github.com/khulnasoft/readyapi/pull/13184) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for path_query_params. PR [#13181](https://github.com/khulnasoft/readyapi/pull/13181) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for path_operation_configurations. PR [#13180](https://github.com/khulnasoft/readyapi/pull/13180) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for header_params. PR [#13179](https://github.com/khulnasoft/readyapi/pull/13179) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for extra_models. PR [#13178](https://github.com/khulnasoft/readyapi/pull/13178) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for extra_data_types. PR [#13177](https://github.com/khulnasoft/readyapi/pull/13177) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for cookie_params. PR [#13176](https://github.com/khulnasoft/readyapi/pull/13176) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for dependencies. PR [#13174](https://github.com/khulnasoft/readyapi/pull/13174) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for body_updates. PR [#13172](https://github.com/khulnasoft/readyapi/pull/13172) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for body_nested_models. PR [#13171](https://github.com/khulnasoft/readyapi/pull/13171) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for body_multiple_params. PR [#13170](https://github.com/khulnasoft/readyapi/pull/13170) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for body_fields. PR [#13169](https://github.com/khulnasoft/readyapi/pull/13169) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for body. PR [#13168](https://github.com/khulnasoft/readyapi/pull/13168) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for bigger_applications. PR [#13167](https://github.com/khulnasoft/readyapi/pull/13167) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for background_tasks. PR [#13166](https://github.com/khulnasoft/readyapi/pull/13166) by [@alejsdev](https://github.com/alejsdev).
+* ✅ Simplify tests for additional_status_codes. PR [#13149](https://github.com/khulnasoft/readyapi/pull/13149) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Docs
 
-* ✏️ Update Strawberry integration docs. PR [#13155](https://github.com/readyapi/readyapi/pull/13155) by [@kinuax](https://github.com/kinuax).
-* 🔥 Remove unused Peewee tutorial files. PR [#13158](https://github.com/readyapi/readyapi/pull/13158) by [@alejsdev](https://github.com/alejsdev).
-* 📝 Update image in body-nested-model docs. PR [#11063](https://github.com/readyapi/readyapi/pull/11063) by [@untilhamza](https://github.com/untilhamza).
-* 📝 Update `readyapi-cli` UI examples in docs. PR [#13107](https://github.com/readyapi/readyapi/pull/13107) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
-* 👷 Add new GitHub Action to update contributors, translators, and translation reviewers. PR [#13136](https://github.com/readyapi/readyapi/pull/13136) by [@khulnasoft](https://github.com/khulnasoft).
-* ✏️ Fix typo in `docs/en/docs/virtual-environments.md`. PR [#13124](https://github.com/readyapi/readyapi/pull/13124) by [@khulnasoft](https://github.com/khulnasoft).
-* ✏️ Fix error in `docs/en/docs/contributing.md`. PR [#12899](https://github.com/readyapi/readyapi/pull/12899) by [@kingsubin](https://github.com/kingsubin).
-* 📝 Minor corrections in `docs/en/docs/tutorial/sql-databases.md`. PR [#13081](https://github.com/readyapi/readyapi/pull/13081) by [@alv2017](https://github.com/alv2017).
-* 📝 Update includes in `docs/ru/docs/tutorial/query-param-models.md`. PR [#12994](https://github.com/readyapi/readyapi/pull/12994) by [@alejsdev](https://github.com/alejsdev).
-* ✏️ Fix typo in README installation instructions. PR [#13011](https://github.com/readyapi/readyapi/pull/13011) by [@dave-hay](https://github.com/dave-hay).
-* 📝 Update docs for `readyapi-cli`. PR [#13031](https://github.com/readyapi/readyapi/pull/13031) by [@khulnasoft](https://github.com/khulnasoft).
+* ✏️ Update Strawberry integration docs. PR [#13155](https://github.com/khulnasoft/readyapi/pull/13155) by [@kinuax](https://github.com/kinuax).
+* 🔥 Remove unused Peewee tutorial files. PR [#13158](https://github.com/khulnasoft/readyapi/pull/13158) by [@alejsdev](https://github.com/alejsdev).
+* 📝 Update image in body-nested-model docs. PR [#11063](https://github.com/khulnasoft/readyapi/pull/11063) by [@untilhamza](https://github.com/untilhamza).
+* 📝 Update `readyapi-cli` UI examples in docs. PR [#13107](https://github.com/khulnasoft/readyapi/pull/13107) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
+* 👷 Add new GitHub Action to update contributors, translators, and translation reviewers. PR [#13136](https://github.com/khulnasoft/readyapi/pull/13136) by [@khulnasoft](https://github.com/khulnasoft).
+* ✏️ Fix typo in `docs/en/docs/virtual-environments.md`. PR [#13124](https://github.com/khulnasoft/readyapi/pull/13124) by [@khulnasoft](https://github.com/khulnasoft).
+* ✏️ Fix error in `docs/en/docs/contributing.md`. PR [#12899](https://github.com/khulnasoft/readyapi/pull/12899) by [@kingsubin](https://github.com/kingsubin).
+* 📝 Minor corrections in `docs/en/docs/tutorial/sql-databases.md`. PR [#13081](https://github.com/khulnasoft/readyapi/pull/13081) by [@alv2017](https://github.com/alv2017).
+* 📝 Update includes in `docs/ru/docs/tutorial/query-param-models.md`. PR [#12994](https://github.com/khulnasoft/readyapi/pull/12994) by [@alejsdev](https://github.com/alejsdev).
+* ✏️ Fix typo in README installation instructions. PR [#13011](https://github.com/khulnasoft/readyapi/pull/13011) by [@dave-hay](https://github.com/dave-hay).
+* 📝 Update docs for `readyapi-cli`. PR [#13031](https://github.com/khulnasoft/readyapi/pull/13031) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Translations
 
-* 🌐 Update Portuguese Translation for `docs/pt/docs/tutorial/request-forms.md`. PR [#13216](https://github.com/readyapi/readyapi/pull/13216) by [@Joao-Pedro-P-Holanda](https://github.com/Joao-Pedro-P-Holanda).
-* 🌐 Update Portuguese translation for `docs/pt/docs/advanced/settings.md`. PR [#13209](https://github.com/readyapi/readyapi/pull/13209) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/security/oauth2-jwt.md`. PR [#13205](https://github.com/readyapi/readyapi/pull/13205) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Add Indonesian translation for `docs/id/docs/index.md`. PR [#13191](https://github.com/readyapi/readyapi/pull/13191) by [@gerry-sabar](https://github.com/gerry-sabar).
-* 🌐 Add Indonesian translation for `docs/id/docs/tutorial/static-files.md`. PR [#13092](https://github.com/readyapi/readyapi/pull/13092) by [@guspan-tanadi](https://github.com/guspan-tanadi).
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/security/get-current-user.md`. PR [#13188](https://github.com/readyapi/readyapi/pull/13188) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Remove Wrong Portuguese translations location for `docs/pt/docs/advanced/benchmarks.md`. PR [#13187](https://github.com/readyapi/readyapi/pull/13187) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Update Portuguese translations. PR [#13156](https://github.com/readyapi/readyapi/pull/13156) by [@nillvitor](https://github.com/nillvitor).
-* 🌐 Update Russian translation for `docs/ru/docs/tutorial/security/first-steps.md`. PR [#13159](https://github.com/readyapi/readyapi/pull/13159) by [@Yarous](https://github.com/Yarous).
-* ✏️ Delete unnecessary backspace in `docs/ja/docs/tutorial/path-params-numeric-validations.md`. PR [#12238](https://github.com/readyapi/readyapi/pull/12238) by [@FakeDocument](https://github.com/FakeDocument).
-* 🌐 Update Chinese translation for `docs/zh/docs/readyapi-cli.md`. PR [#13102](https://github.com/readyapi/readyapi/pull/13102) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
-* 🌐 Add new Spanish translations for all docs with new LLM-assisted system using PydanticAI. PR [#13122](https://github.com/readyapi/readyapi/pull/13122) by [@khulnasoft](https://github.com/khulnasoft).
-* 🌐 Update existing Spanish translations using the new LLM-assisted system using PydanticAI. PR [#13118](https://github.com/readyapi/readyapi/pull/13118) by [@khulnasoft](https://github.com/khulnasoft).
-* 🌐 Update Chinese translation for `docs/zh/docs/advanced/security/oauth2-scopes.md`. PR [#13110](https://github.com/readyapi/readyapi/pull/13110) by [@ChenPu2002](https://github.com/ChenPu2002).
-* 🌐 Add Indonesian translation for `docs/id/docs/tutorial/path-params.md`. PR [#13086](https://github.com/readyapi/readyapi/pull/13086) by [@gerry-sabar](https://github.com/gerry-sabar).
-* 🌐 Add Korean translation for `docs/ko/docs/tutorial/sql-databases.md`. PR [#13093](https://github.com/readyapi/readyapi/pull/13093) by [@GeumBinLee](https://github.com/GeumBinLee).
-* 🌐 Update Chinese translation for `docs/zh/docs/async.md`. PR [#13095](https://github.com/readyapi/readyapi/pull/13095) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
-* 🌐 Add Chinese translation for `docs/zh/docs/advanced/openapi-webhooks.md`. PR [#13091](https://github.com/readyapi/readyapi/pull/13091) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
-* 🌐 Add Chinese translation for `docs/zh/docs/advanced/async-tests.md`. PR [#13074](https://github.com/readyapi/readyapi/pull/13074) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
-* 🌐 Add Ukrainian translation for `docs/uk/docs/readyapi-cli.md`. PR [#13020](https://github.com/readyapi/readyapi/pull/13020) by [@ykertytsky](https://github.com/ykertytsky).
-* 🌐 Add Chinese translation for `docs/zh/docs/advanced/events.md`. PR [#12512](https://github.com/readyapi/readyapi/pull/12512) by [@ZhibangYue](https://github.com/ZhibangYue).
-* 🌐 Add Russian translation for `/docs/ru/docs/tutorial/sql-databases.md`. PR [#13079](https://github.com/readyapi/readyapi/pull/13079) by [@alv2017](https://github.com/alv2017).
-* 🌐 Update Chinese translation for `docs/zh/docs/advanced/testing-dependencies.md`. PR [#13066](https://github.com/readyapi/readyapi/pull/13066) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
-* 🌐 Update Traditional Chinese translation for `docs/zh-hant/docs/tutorial/index.md`. PR [#13075](https://github.com/readyapi/readyapi/pull/13075) by [@codingjenny](https://github.com/codingjenny).
-* 🌐 Add Chinese translation for `docs/zh/docs/tutorial/sql-databases.md`. PR [#13051](https://github.com/readyapi/readyapi/pull/13051) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
-* 🌐 Update Chinese translation for `docs/zh/docs/tutorial/query-params-str-validations.md`. PR [#12928](https://github.com/readyapi/readyapi/pull/12928) by [@Vincy1230](https://github.com/Vincy1230).
-* 🌐 Add Chinese translation for `docs/zh/docs/tutorial/header-param-models.md`. PR [#13040](https://github.com/readyapi/readyapi/pull/13040) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
-* 🌐 Update Chinese translation for `docs/zh/docs/tutorial/path-params.md`. PR [#12926](https://github.com/readyapi/readyapi/pull/12926) by [@Vincy1230](https://github.com/Vincy1230).
-* 🌐 Update Chinese translation for `docs/zh/docs/tutorial/first-steps.md`. PR [#12923](https://github.com/readyapi/readyapi/pull/12923) by [@Vincy1230](https://github.com/Vincy1230).
-* 🌐 Update Russian translation for `docs/ru/docs/deployment/docker.md`. PR [#13048](https://github.com/readyapi/readyapi/pull/13048) by [@anklav24](https://github.com/anklav24).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/generate-clients.md`. PR [#13030](https://github.com/readyapi/readyapi/pull/13030) by [@vitumenezes](https://github.com/vitumenezes).
-* 🌐 Add Indonesian translation for `docs/id/docs/tutorial/first-steps.md`. PR [#13042](https://github.com/readyapi/readyapi/pull/13042) by [@gerry-sabar](https://github.com/gerry-sabar).
-* 🌐 Add Chinese translation for `docs/zh/docs/tutorial/cookie-param-models.md`. PR [#13038](https://github.com/readyapi/readyapi/pull/13038) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
-* 🌐 Add Chinese translation for `docs/zh/docs/tutorial/request-form-models.md`. PR [#13045](https://github.com/readyapi/readyapi/pull/13045) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
-* 🌐 Add Russian translation for `docs/ru/docs/virtual-environments.md`. PR [#13026](https://github.com/readyapi/readyapi/pull/13026) by [@alv2017](https://github.com/alv2017).
-* 🌐 Add Korean translation for `docs/ko/docs/tutorial/testing.md`. PR [#12968](https://github.com/readyapi/readyapi/pull/12968) by [@jts8257](https://github.com/jts8257).
-* 🌐 Add Korean translation for `docs/ko/docs/advanced/async-test.md`. PR [#12918](https://github.com/readyapi/readyapi/pull/12918) by [@icehongssii](https://github.com/icehongssii).
-* 🌐 Add Russian translation for `docs/ru/docs/tutorial/security/oauth2-jwt.md`. PR [#10601](https://github.com/readyapi/readyapi/pull/10601) by [@AlertRED](https://github.com/AlertRED).
-* 🌐 Add Russian translation for `docs/ru/docs/tutorial/security/simple-oauth2.md`. PR [#10599](https://github.com/readyapi/readyapi/pull/10599) by [@AlertRED](https://github.com/AlertRED).
-* 🌐 Add Russian translation for `docs/ru/docs/tutorial/security/get-current-user.md`. PR [#10594](https://github.com/readyapi/readyapi/pull/10594) by [@AlertRED](https://github.com/AlertRED).
-* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/features.md`. PR [#12441](https://github.com/readyapi/readyapi/pull/12441) by [@codingjenny](https://github.com/codingjenny).
-* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/virtual-environments.md`. PR [#12791](https://github.com/readyapi/readyapi/pull/12791) by [@Vincy1230](https://github.com/Vincy1230).
-* 🌐 Add Korean translation for `docs/ko/docs/advanced/templates.md`. PR [#12726](https://github.com/readyapi/readyapi/pull/12726) by [@Heumhub](https://github.com/Heumhub).
-* 🌐 Add Russian translation for `docs/ru/docs/readyapi-cli.md`. PR [#13041](https://github.com/readyapi/readyapi/pull/13041) by [@alv2017](https://github.com/alv2017).
-* 🌐 Add Korean translation for `docs/ko/docs/tutorial/cookie-param-models.md`. PR [#13000](https://github.com/readyapi/readyapi/pull/13000) by [@hard-coders](https://github.com/hard-coders).
-* 🌐 Add Korean translation for `docs/ko/docs/tutorial/header-param-models.md`. PR [#13001](https://github.com/readyapi/readyapi/pull/13001) by [@hard-coders](https://github.com/hard-coders).
-* 🌐 Add Korean translation for `docs/ko/docs/tutorial/request-form-models.md`. PR [#13002](https://github.com/readyapi/readyapi/pull/13002) by [@hard-coders](https://github.com/hard-coders).
-* 🌐 Add Korean translation for `docs/ko/docs/tutorial/request-forms.md`. PR [#13003](https://github.com/readyapi/readyapi/pull/13003) by [@hard-coders](https://github.com/hard-coders).
-* 🌐 Add Korean translation for `docs/ko/docs/resources/index.md`. PR [#13004](https://github.com/readyapi/readyapi/pull/13004) by [@hard-coders](https://github.com/hard-coders).
-* 🌐 Add Korean translation for `docs/ko/docs/how-to/configure-swagger-ui.md`. PR [#12898](https://github.com/readyapi/readyapi/pull/12898) by [@nahyunkeem](https://github.com/nahyunkeem).
-* 🌐 Add Korean translation to `docs/ko/docs/advanced/additional-status-codes.md`. PR [#12715](https://github.com/readyapi/readyapi/pull/12715) by [@nahyunkeem](https://github.com/nahyunkeem).
-* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/tutorial/first-steps.md`. PR [#12467](https://github.com/readyapi/readyapi/pull/12467) by [@codingjenny](https://github.com/codingjenny).
+* 🌐 Update Portuguese Translation for `docs/pt/docs/tutorial/request-forms.md`. PR [#13216](https://github.com/khulnasoft/readyapi/pull/13216) by [@Joao-Pedro-P-Holanda](https://github.com/Joao-Pedro-P-Holanda).
+* 🌐 Update Portuguese translation for `docs/pt/docs/advanced/settings.md`. PR [#13209](https://github.com/khulnasoft/readyapi/pull/13209) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/security/oauth2-jwt.md`. PR [#13205](https://github.com/khulnasoft/readyapi/pull/13205) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Add Indonesian translation for `docs/id/docs/index.md`. PR [#13191](https://github.com/khulnasoft/readyapi/pull/13191) by [@gerry-sabar](https://github.com/gerry-sabar).
+* 🌐 Add Indonesian translation for `docs/id/docs/tutorial/static-files.md`. PR [#13092](https://github.com/khulnasoft/readyapi/pull/13092) by [@guspan-tanadi](https://github.com/guspan-tanadi).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/security/get-current-user.md`. PR [#13188](https://github.com/khulnasoft/readyapi/pull/13188) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Remove Wrong Portuguese translations location for `docs/pt/docs/advanced/benchmarks.md`. PR [#13187](https://github.com/khulnasoft/readyapi/pull/13187) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Update Portuguese translations. PR [#13156](https://github.com/khulnasoft/readyapi/pull/13156) by [@nillvitor](https://github.com/nillvitor).
+* 🌐 Update Russian translation for `docs/ru/docs/tutorial/security/first-steps.md`. PR [#13159](https://github.com/khulnasoft/readyapi/pull/13159) by [@Yarous](https://github.com/Yarous).
+* ✏️ Delete unnecessary backspace in `docs/ja/docs/tutorial/path-params-numeric-validations.md`. PR [#12238](https://github.com/khulnasoft/readyapi/pull/12238) by [@FakeDocument](https://github.com/FakeDocument).
+* 🌐 Update Chinese translation for `docs/zh/docs/readyapi-cli.md`. PR [#13102](https://github.com/khulnasoft/readyapi/pull/13102) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
+* 🌐 Add new Spanish translations for all docs with new LLM-assisted system using PydanticAI. PR [#13122](https://github.com/khulnasoft/readyapi/pull/13122) by [@khulnasoft](https://github.com/khulnasoft).
+* 🌐 Update existing Spanish translations using the new LLM-assisted system using PydanticAI. PR [#13118](https://github.com/khulnasoft/readyapi/pull/13118) by [@khulnasoft](https://github.com/khulnasoft).
+* 🌐 Update Chinese translation for `docs/zh/docs/advanced/security/oauth2-scopes.md`. PR [#13110](https://github.com/khulnasoft/readyapi/pull/13110) by [@ChenPu2002](https://github.com/ChenPu2002).
+* 🌐 Add Indonesian translation for `docs/id/docs/tutorial/path-params.md`. PR [#13086](https://github.com/khulnasoft/readyapi/pull/13086) by [@gerry-sabar](https://github.com/gerry-sabar).
+* 🌐 Add Korean translation for `docs/ko/docs/tutorial/sql-databases.md`. PR [#13093](https://github.com/khulnasoft/readyapi/pull/13093) by [@GeumBinLee](https://github.com/GeumBinLee).
+* 🌐 Update Chinese translation for `docs/zh/docs/async.md`. PR [#13095](https://github.com/khulnasoft/readyapi/pull/13095) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
+* 🌐 Add Chinese translation for `docs/zh/docs/advanced/openapi-webhooks.md`. PR [#13091](https://github.com/khulnasoft/readyapi/pull/13091) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
+* 🌐 Add Chinese translation for `docs/zh/docs/advanced/async-tests.md`. PR [#13074](https://github.com/khulnasoft/readyapi/pull/13074) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
+* 🌐 Add Ukrainian translation for `docs/uk/docs/readyapi-cli.md`. PR [#13020](https://github.com/khulnasoft/readyapi/pull/13020) by [@ykertytsky](https://github.com/ykertytsky).
+* 🌐 Add Chinese translation for `docs/zh/docs/advanced/events.md`. PR [#12512](https://github.com/khulnasoft/readyapi/pull/12512) by [@ZhibangYue](https://github.com/ZhibangYue).
+* 🌐 Add Russian translation for `/docs/ru/docs/tutorial/sql-databases.md`. PR [#13079](https://github.com/khulnasoft/readyapi/pull/13079) by [@alv2017](https://github.com/alv2017).
+* 🌐 Update Chinese translation for `docs/zh/docs/advanced/testing-dependencies.md`. PR [#13066](https://github.com/khulnasoft/readyapi/pull/13066) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
+* 🌐 Update Traditional Chinese translation for `docs/zh-hant/docs/tutorial/index.md`. PR [#13075](https://github.com/khulnasoft/readyapi/pull/13075) by [@codingjenny](https://github.com/codingjenny).
+* 🌐 Add Chinese translation for `docs/zh/docs/tutorial/sql-databases.md`. PR [#13051](https://github.com/khulnasoft/readyapi/pull/13051) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
+* 🌐 Update Chinese translation for `docs/zh/docs/tutorial/query-params-str-validations.md`. PR [#12928](https://github.com/khulnasoft/readyapi/pull/12928) by [@Vincy1230](https://github.com/Vincy1230).
+* 🌐 Add Chinese translation for `docs/zh/docs/tutorial/header-param-models.md`. PR [#13040](https://github.com/khulnasoft/readyapi/pull/13040) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
+* 🌐 Update Chinese translation for `docs/zh/docs/tutorial/path-params.md`. PR [#12926](https://github.com/khulnasoft/readyapi/pull/12926) by [@Vincy1230](https://github.com/Vincy1230).
+* 🌐 Update Chinese translation for `docs/zh/docs/tutorial/first-steps.md`. PR [#12923](https://github.com/khulnasoft/readyapi/pull/12923) by [@Vincy1230](https://github.com/Vincy1230).
+* 🌐 Update Russian translation for `docs/ru/docs/deployment/docker.md`. PR [#13048](https://github.com/khulnasoft/readyapi/pull/13048) by [@anklav24](https://github.com/anklav24).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/generate-clients.md`. PR [#13030](https://github.com/khulnasoft/readyapi/pull/13030) by [@vitumenezes](https://github.com/vitumenezes).
+* 🌐 Add Indonesian translation for `docs/id/docs/tutorial/first-steps.md`. PR [#13042](https://github.com/khulnasoft/readyapi/pull/13042) by [@gerry-sabar](https://github.com/gerry-sabar).
+* 🌐 Add Chinese translation for `docs/zh/docs/tutorial/cookie-param-models.md`. PR [#13038](https://github.com/khulnasoft/readyapi/pull/13038) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
+* 🌐 Add Chinese translation for `docs/zh/docs/tutorial/request-form-models.md`. PR [#13045](https://github.com/khulnasoft/readyapi/pull/13045) by [@Zhongheng-Cheng](https://github.com/Zhongheng-Cheng).
+* 🌐 Add Russian translation for `docs/ru/docs/virtual-environments.md`. PR [#13026](https://github.com/khulnasoft/readyapi/pull/13026) by [@alv2017](https://github.com/alv2017).
+* 🌐 Add Korean translation for `docs/ko/docs/tutorial/testing.md`. PR [#12968](https://github.com/khulnasoft/readyapi/pull/12968) by [@jts8257](https://github.com/jts8257).
+* 🌐 Add Korean translation for `docs/ko/docs/advanced/async-test.md`. PR [#12918](https://github.com/khulnasoft/readyapi/pull/12918) by [@icehongssii](https://github.com/icehongssii).
+* 🌐 Add Russian translation for `docs/ru/docs/tutorial/security/oauth2-jwt.md`. PR [#10601](https://github.com/khulnasoft/readyapi/pull/10601) by [@AlertRED](https://github.com/AlertRED).
+* 🌐 Add Russian translation for `docs/ru/docs/tutorial/security/simple-oauth2.md`. PR [#10599](https://github.com/khulnasoft/readyapi/pull/10599) by [@AlertRED](https://github.com/AlertRED).
+* 🌐 Add Russian translation for `docs/ru/docs/tutorial/security/get-current-user.md`. PR [#10594](https://github.com/khulnasoft/readyapi/pull/10594) by [@AlertRED](https://github.com/AlertRED).
+* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/features.md`. PR [#12441](https://github.com/khulnasoft/readyapi/pull/12441) by [@codingjenny](https://github.com/codingjenny).
+* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/virtual-environments.md`. PR [#12791](https://github.com/khulnasoft/readyapi/pull/12791) by [@Vincy1230](https://github.com/Vincy1230).
+* 🌐 Add Korean translation for `docs/ko/docs/advanced/templates.md`. PR [#12726](https://github.com/khulnasoft/readyapi/pull/12726) by [@Heumhub](https://github.com/Heumhub).
+* 🌐 Add Russian translation for `docs/ru/docs/readyapi-cli.md`. PR [#13041](https://github.com/khulnasoft/readyapi/pull/13041) by [@alv2017](https://github.com/alv2017).
+* 🌐 Add Korean translation for `docs/ko/docs/tutorial/cookie-param-models.md`. PR [#13000](https://github.com/khulnasoft/readyapi/pull/13000) by [@hard-coders](https://github.com/hard-coders).
+* 🌐 Add Korean translation for `docs/ko/docs/tutorial/header-param-models.md`. PR [#13001](https://github.com/khulnasoft/readyapi/pull/13001) by [@hard-coders](https://github.com/hard-coders).
+* 🌐 Add Korean translation for `docs/ko/docs/tutorial/request-form-models.md`. PR [#13002](https://github.com/khulnasoft/readyapi/pull/13002) by [@hard-coders](https://github.com/hard-coders).
+* 🌐 Add Korean translation for `docs/ko/docs/tutorial/request-forms.md`. PR [#13003](https://github.com/khulnasoft/readyapi/pull/13003) by [@hard-coders](https://github.com/hard-coders).
+* 🌐 Add Korean translation for `docs/ko/docs/resources/index.md`. PR [#13004](https://github.com/khulnasoft/readyapi/pull/13004) by [@hard-coders](https://github.com/hard-coders).
+* 🌐 Add Korean translation for `docs/ko/docs/how-to/configure-swagger-ui.md`. PR [#12898](https://github.com/khulnasoft/readyapi/pull/12898) by [@nahyunkeem](https://github.com/nahyunkeem).
+* 🌐 Add Korean translation to `docs/ko/docs/advanced/additional-status-codes.md`. PR [#12715](https://github.com/khulnasoft/readyapi/pull/12715) by [@nahyunkeem](https://github.com/nahyunkeem).
+* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/tutorial/first-steps.md`. PR [#12467](https://github.com/khulnasoft/readyapi/pull/12467) by [@codingjenny](https://github.com/codingjenny).
 
 ### Internal
 
-* 🔧 Add Pydantic 2 trove classifier. PR [#13199](https://github.com/readyapi/readyapi/pull/13199) by [@johnthagen](https://github.com/johnthagen).
-* 👥 Update ReadyAPI People - Sponsors. PR [#13231](https://github.com/readyapi/readyapi/pull/13231) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Refactor ReadyAPI People Sponsors to use 2 tokens. PR [#13228](https://github.com/readyapi/readyapi/pull/13228) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Update token for ReadyAPI People - Sponsors. PR [#13225](https://github.com/readyapi/readyapi/pull/13225) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Add independent CI automation for ReadyAPI People - Sponsors. PR [#13221](https://github.com/readyapi/readyapi/pull/13221) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Add retries to Smokeshow. PR [#13151](https://github.com/readyapi/readyapi/pull/13151) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔧 Update Speakeasy sponsor graphic. PR [#13147](https://github.com/readyapi/readyapi/pull/13147) by [@chailandau](https://github.com/chailandau).
-* 👥 Update ReadyAPI GitHub topic repositories. PR [#13146](https://github.com/readyapi/readyapi/pull/13146) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷‍♀️ Add script for GitHub Topic Repositories and update External Links. PR [#13135](https://github.com/readyapi/readyapi/pull/13135) by [@alejsdev](https://github.com/alejsdev).
-* 👥 Update ReadyAPI People - Contributors and Translators. PR [#13145](https://github.com/readyapi/readyapi/pull/13145) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ Bump markdown-include-variants from 0.0.3 to 0.0.4. PR [#13129](https://github.com/readyapi/readyapi/pull/13129) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump inline-snapshot from 0.14.0 to 0.18.1. PR [#13132](https://github.com/readyapi/readyapi/pull/13132) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump mkdocs-macros-plugin from 1.0.5 to 1.3.7. PR [#13133](https://github.com/readyapi/readyapi/pull/13133) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 🔨 Add internal scripts to generate language translations with PydanticAI, include Spanish prompt. PR [#13123](https://github.com/readyapi/readyapi/pull/13123) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ Bump astral-sh/setup-uv from 4 to 5. PR [#13096](https://github.com/readyapi/readyapi/pull/13096) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 🔧 Update sponsors: rename CryptAPI to BlockBee. PR [#13078](https://github.com/readyapi/readyapi/pull/13078) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ Bump pypa/gh-action-pypi-publish from 1.12.2 to 1.12.3. PR [#13055](https://github.com/readyapi/readyapi/pull/13055) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump types-ujson from 5.7.0.1 to 5.10.0.20240515. PR [#13018](https://github.com/readyapi/readyapi/pull/13018) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump black from 24.3.0 to 24.10.0. PR [#13014](https://github.com/readyapi/readyapi/pull/13014) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump inline-snapshot from 0.13.0 to 0.14.0. PR [#13017](https://github.com/readyapi/readyapi/pull/13017) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump dirty-equals from 0.6.0 to 0.8.0. PR [#13015](https://github.com/readyapi/readyapi/pull/13015) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump cloudflare/wrangler-action from 3.12 to 3.13. PR [#12996](https://github.com/readyapi/readyapi/pull/12996) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump astral-sh/setup-uv from 3 to 4. PR [#12982](https://github.com/readyapi/readyapi/pull/12982) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 🔧 Remove duplicate actions/checkout in `notify-translations.yml`. PR [#12915](https://github.com/readyapi/readyapi/pull/12915) by [@tinyboxvk](https://github.com/tinyboxvk).
-* 🔧 Update team members. PR [#13033](https://github.com/readyapi/readyapi/pull/13033) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Update sponsors: remove Codacy. PR [#13032](https://github.com/readyapi/readyapi/pull/13032) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Add Pydantic 2 trove classifier. PR [#13199](https://github.com/khulnasoft/readyapi/pull/13199) by [@johnthagen](https://github.com/johnthagen).
+* 👥 Update ReadyAPI People - Sponsors. PR [#13231](https://github.com/khulnasoft/readyapi/pull/13231) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Refactor ReadyAPI People Sponsors to use 2 tokens. PR [#13228](https://github.com/khulnasoft/readyapi/pull/13228) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update token for ReadyAPI People - Sponsors. PR [#13225](https://github.com/khulnasoft/readyapi/pull/13225) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Add independent CI automation for ReadyAPI People - Sponsors. PR [#13221](https://github.com/khulnasoft/readyapi/pull/13221) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Add retries to Smokeshow. PR [#13151](https://github.com/khulnasoft/readyapi/pull/13151) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update Speakeasy sponsor graphic. PR [#13147](https://github.com/khulnasoft/readyapi/pull/13147) by [@chailandau](https://github.com/chailandau).
+* 👥 Update ReadyAPI GitHub topic repositories. PR [#13146](https://github.com/khulnasoft/readyapi/pull/13146) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷‍♀️ Add script for GitHub Topic Repositories and update External Links. PR [#13135](https://github.com/khulnasoft/readyapi/pull/13135) by [@alejsdev](https://github.com/alejsdev).
+* 👥 Update ReadyAPI People - Contributors and Translators. PR [#13145](https://github.com/khulnasoft/readyapi/pull/13145) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Bump markdown-include-variants from 0.0.3 to 0.0.4. PR [#13129](https://github.com/khulnasoft/readyapi/pull/13129) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump inline-snapshot from 0.14.0 to 0.18.1. PR [#13132](https://github.com/khulnasoft/readyapi/pull/13132) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocs-macros-plugin from 1.0.5 to 1.3.7. PR [#13133](https://github.com/khulnasoft/readyapi/pull/13133) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔨 Add internal scripts to generate language translations with PydanticAI, include Spanish prompt. PR [#13123](https://github.com/khulnasoft/readyapi/pull/13123) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Bump astral-sh/setup-uv from 4 to 5. PR [#13096](https://github.com/khulnasoft/readyapi/pull/13096) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Update sponsors: rename CryptAPI to BlockBee. PR [#13078](https://github.com/khulnasoft/readyapi/pull/13078) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Bump pypa/gh-action-pypi-publish from 1.12.2 to 1.12.3. PR [#13055](https://github.com/khulnasoft/readyapi/pull/13055) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump types-ujson from 5.7.0.1 to 5.10.0.20240515. PR [#13018](https://github.com/khulnasoft/readyapi/pull/13018) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump black from 24.3.0 to 24.10.0. PR [#13014](https://github.com/khulnasoft/readyapi/pull/13014) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump inline-snapshot from 0.13.0 to 0.14.0. PR [#13017](https://github.com/khulnasoft/readyapi/pull/13017) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump dirty-equals from 0.6.0 to 0.8.0. PR [#13015](https://github.com/khulnasoft/readyapi/pull/13015) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump cloudflare/wrangler-action from 3.12 to 3.13. PR [#12996](https://github.com/khulnasoft/readyapi/pull/12996) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump astral-sh/setup-uv from 3 to 4. PR [#12982](https://github.com/khulnasoft/readyapi/pull/12982) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Remove duplicate actions/checkout in `notify-translations.yml`. PR [#12915](https://github.com/khulnasoft/readyapi/pull/12915) by [@tinyboxvk](https://github.com/tinyboxvk).
+* 🔧 Update team members. PR [#13033](https://github.com/khulnasoft/readyapi/pull/13033) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update sponsors: remove Codacy. PR [#13032](https://github.com/khulnasoft/readyapi/pull/13032) by [@khulnasoft](https://github.com/khulnasoft).
 
 ## 0.115.6
 
 ### Fixes
 
-* 🐛 Preserve traceback when an exception is raised in sync dependency with `yield`. PR [#5823](https://github.com/readyapi/readyapi/pull/5823) by [@sombek](https://github.com/sombek).
+* 🐛 Preserve traceback when an exception is raised in sync dependency with `yield`. PR [#5823](https://github.com/khulnasoft/readyapi/pull/5823) by [@sombek](https://github.com/sombek).
 
 ### Refactors
 
-* ♻️ Update tests and internals for compatibility with Pydantic >=2.10. PR [#12971](https://github.com/readyapi/readyapi/pull/12971) by [@tamird](https://github.com/tamird).
+* ♻️ Update tests and internals for compatibility with Pydantic >=2.10. PR [#12971](https://github.com/khulnasoft/readyapi/pull/12971) by [@tamird](https://github.com/tamird).
 
 ### Docs
 
-* 📝 Update includes format in docs with an automated script. PR [#12950](https://github.com/readyapi/readyapi/pull/12950) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Update includes for `docs/de/docs/advanced/using-request-directly.md`. PR [#12685](https://github.com/readyapi/readyapi/pull/12685) by [@alissadb](https://github.com/alissadb).
-* 📝 Update includes for `docs/de/docs/how-to/conditional-openapi.md`. PR [#12689](https://github.com/readyapi/readyapi/pull/12689) by [@alissadb](https://github.com/alissadb).
+* 📝 Update includes format in docs with an automated script. PR [#12950](https://github.com/khulnasoft/readyapi/pull/12950) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update includes for `docs/de/docs/advanced/using-request-directly.md`. PR [#12685](https://github.com/khulnasoft/readyapi/pull/12685) by [@alissadb](https://github.com/alissadb).
+* 📝 Update includes for `docs/de/docs/how-to/conditional-openapi.md`. PR [#12689](https://github.com/khulnasoft/readyapi/pull/12689) by [@alissadb](https://github.com/alissadb).
 
 ### Translations
 
-* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/async.md`. PR [#12990](https://github.com/readyapi/readyapi/pull/12990) by [@ILoveSorasakiHina](https://github.com/ILoveSorasakiHina).
-* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/tutorial/query-param-models.md`. PR [#12932](https://github.com/readyapi/readyapi/pull/12932) by [@Vincy1230](https://github.com/Vincy1230).
-* 🌐 Add Korean translation for `docs/ko/docs/advanced/testing-dependencies.md`. PR [#12992](https://github.com/readyapi/readyapi/pull/12992) by [@Limsunoh](https://github.com/Limsunoh).
-* 🌐 Add Korean translation for `docs/ko/docs/advanced/websockets.md`. PR [#12991](https://github.com/readyapi/readyapi/pull/12991) by [@kwang1215](https://github.com/kwang1215).
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/response-model.md`. PR [#12933](https://github.com/readyapi/readyapi/pull/12933) by [@AndreBBM](https://github.com/AndreBBM).
-* 🌐 Add Korean translation for `docs/ko/docs/advanced/middlewares.md`. PR [#12753](https://github.com/readyapi/readyapi/pull/12753) by [@nahyunkeem](https://github.com/nahyunkeem).
-* 🌐 Add Korean translation for `docs/ko/docs/advanced/openapi-webhooks.md`. PR [#12752](https://github.com/readyapi/readyapi/pull/12752) by [@saeye](https://github.com/saeye).
-* 🌐 Add Chinese translation for `docs/zh/docs/tutorial/query-param-models.md`. PR [#12931](https://github.com/readyapi/readyapi/pull/12931) by [@Vincy1230](https://github.com/Vincy1230).
-* 🌐 Add Russian translation for `docs/ru/docs/tutorial/query-param-models.md`. PR [#12445](https://github.com/readyapi/readyapi/pull/12445) by [@gitgernit](https://github.com/gitgernit).
-* 🌐 Add Korean translation for `docs/ko/docs/tutorial/query-param-models.md`. PR [#12940](https://github.com/readyapi/readyapi/pull/12940) by [@jts8257](https://github.com/jts8257).
-* 🔥 Remove obsolete tutorial translation to Chinese for `docs/zh/docs/tutorial/sql-databases.md`, it references files that are no longer on the repo. PR [#12949](https://github.com/readyapi/readyapi/pull/12949) by [@khulnasoft](https://github.com/khulnasoft).
+* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/async.md`. PR [#12990](https://github.com/khulnasoft/readyapi/pull/12990) by [@ILoveSorasakiHina](https://github.com/ILoveSorasakiHina).
+* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/tutorial/query-param-models.md`. PR [#12932](https://github.com/khulnasoft/readyapi/pull/12932) by [@Vincy1230](https://github.com/Vincy1230).
+* 🌐 Add Korean translation for `docs/ko/docs/advanced/testing-dependencies.md`. PR [#12992](https://github.com/khulnasoft/readyapi/pull/12992) by [@Limsunoh](https://github.com/Limsunoh).
+* 🌐 Add Korean translation for `docs/ko/docs/advanced/websockets.md`. PR [#12991](https://github.com/khulnasoft/readyapi/pull/12991) by [@kwang1215](https://github.com/kwang1215).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/response-model.md`. PR [#12933](https://github.com/khulnasoft/readyapi/pull/12933) by [@AndreBBM](https://github.com/AndreBBM).
+* 🌐 Add Korean translation for `docs/ko/docs/advanced/middlewares.md`. PR [#12753](https://github.com/khulnasoft/readyapi/pull/12753) by [@nahyunkeem](https://github.com/nahyunkeem).
+* 🌐 Add Korean translation for `docs/ko/docs/advanced/openapi-webhooks.md`. PR [#12752](https://github.com/khulnasoft/readyapi/pull/12752) by [@saeye](https://github.com/saeye).
+* 🌐 Add Chinese translation for `docs/zh/docs/tutorial/query-param-models.md`. PR [#12931](https://github.com/khulnasoft/readyapi/pull/12931) by [@Vincy1230](https://github.com/Vincy1230).
+* 🌐 Add Russian translation for `docs/ru/docs/tutorial/query-param-models.md`. PR [#12445](https://github.com/khulnasoft/readyapi/pull/12445) by [@gitgernit](https://github.com/gitgernit).
+* 🌐 Add Korean translation for `docs/ko/docs/tutorial/query-param-models.md`. PR [#12940](https://github.com/khulnasoft/readyapi/pull/12940) by [@jts8257](https://github.com/jts8257).
+* 🔥 Remove obsolete tutorial translation to Chinese for `docs/zh/docs/tutorial/sql-databases.md`, it references files that are no longer on the repo. PR [#12949](https://github.com/khulnasoft/readyapi/pull/12949) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Internal
 
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12954](https://github.com/readyapi/readyapi/pull/12954) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12954](https://github.com/khulnasoft/readyapi/pull/12954) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 
 ## 0.115.5
 
 ### Refactors
 
-* ♻️ Update internal checks to support Pydantic 2.10. PR [#12914](https://github.com/readyapi/readyapi/pull/12914) by [@khulnasoft](https://github.com/khulnasoft).
+* ♻️ Update internal checks to support Pydantic 2.10. PR [#12914](https://github.com/khulnasoft/readyapi/pull/12914) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Docs
 
-* 📝 Update includes for `docs/en/docs/tutorial/body.md`. PR [#12757](https://github.com/readyapi/readyapi/pull/12757) by [@gsheni](https://github.com/gsheni).
-* 📝 Update includes in `docs/en/docs/advanced/testing-dependencies.md`. PR [#12647](https://github.com/readyapi/readyapi/pull/12647) by [@AyushSinghal1794](https://github.com/AyushSinghal1794).
-* 📝 Update includes for `docs/en/docs/tutorial/metadata.md`. PR [#12773](https://github.com/readyapi/readyapi/pull/12773) by [@Nimitha-jagadeesha](https://github.com/Nimitha-jagadeesha).
-* 📝 Update `docs/en/docs/tutorial/dependencies/dependencies-with-yield.md`. PR [#12045](https://github.com/readyapi/readyapi/pull/12045) by [@xuvjso](https://github.com/xuvjso).
-* 📝 Update includes for `docs/en/docs/tutorial/dependencies/global-dependencies.md`. PR [#12653](https://github.com/readyapi/readyapi/pull/12653) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
-* 📝 Update includes for `docs/en/docs/tutorial/body-updates.md`. PR [#12712](https://github.com/readyapi/readyapi/pull/12712) by [@davioc](https://github.com/davioc).
-* 📝 Remove mention of Celery in the project generators. PR [#12742](https://github.com/readyapi/readyapi/pull/12742) by [@david-caro](https://github.com/david-caro).
-* 📝 Update includes in `docs/en/docs/tutorial/header-param-models.md`. PR [#12814](https://github.com/readyapi/readyapi/pull/12814) by [@zhaohan-dong](https://github.com/zhaohan-dong).
-* 📝 Update `contributing.md` docs, include note to not translate this page. PR [#12841](https://github.com/readyapi/readyapi/pull/12841) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Update includes in `docs/en/docs/tutorial/request-forms.md`. PR [#12648](https://github.com/readyapi/readyapi/pull/12648) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
-* 📝 Update includes in `docs/en/docs/tutorial/request-form-models.md`. PR [#12649](https://github.com/readyapi/readyapi/pull/12649) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
-* 📝 Update includes in `docs/en/docs/tutorial/security/oauth2-jwt.md`. PR [#12650](https://github.com/readyapi/readyapi/pull/12650) by [@OCE1960](https://github.com/OCE1960).
-* 📝 Update includes in `docs/vi/docs/tutorial/first-steps.md`. PR [#12754](https://github.com/readyapi/readyapi/pull/12754) by [@MxPy](https://github.com/MxPy).
-* 📝 Update includes for `docs/pt/docs/advanced/wsgi.md`. PR [#12769](https://github.com/readyapi/readyapi/pull/12769) by [@Nimitha-jagadeesha](https://github.com/Nimitha-jagadeesha).
-* 📝 Update includes for `docs/en/docs/tutorial/dependencies/dependencies-in-path-operation-decorators.md`. PR [#12815](https://github.com/readyapi/readyapi/pull/12815) by [@handabaldeep](https://github.com/handabaldeep).
-* 📝 Update includes for `docs/en/docs/tutorial/dependencies/classes-as-dependencies.md`. PR [#12813](https://github.com/readyapi/readyapi/pull/12813) by [@handabaldeep](https://github.com/handabaldeep).
-* ✏️ Fix error in `docs/en/docs/tutorial/middleware.md`. PR [#12819](https://github.com/readyapi/readyapi/pull/12819) by [@alejsdev](https://github.com/alejsdev).
-* 📝 Update includes for `docs/en/docs/tutorial/security/get-current-user.md`. PR [#12645](https://github.com/readyapi/readyapi/pull/12645) by [@OCE1960](https://github.com/OCE1960).
-* 📝 Update includes for `docs/en/docs/tutorial/security/first-steps.md`. PR [#12643](https://github.com/readyapi/readyapi/pull/12643) by [@OCE1960](https://github.com/OCE1960).
-* 📝 Update includes in `docs/de/docs/advanced/additional-responses.md`. PR [#12821](https://github.com/readyapi/readyapi/pull/12821) by [@zhaohan-dong](https://github.com/zhaohan-dong).
-* 📝 Update includes in `docs/en/docs/advanced/generate-clients.md`. PR [#12642](https://github.com/readyapi/readyapi/pull/12642) by [@AyushSinghal1794](https://github.com/AyushSinghal1794).
-* 📝 Fix admonition double quotes with new syntax. PR [#12835](https://github.com/readyapi/readyapi/pull/12835) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Update includes in `docs/zh/docs/advanced/additional-responses.md`. PR [#12828](https://github.com/readyapi/readyapi/pull/12828) by [@zhaohan-dong](https://github.com/zhaohan-dong).
-* 📝 Update includes in `docs/en/docs/tutorial/path-params-numeric-validations.md`. PR [#12825](https://github.com/readyapi/readyapi/pull/12825) by [@zhaohan-dong](https://github.com/zhaohan-dong).
-* 📝 Update includes for `docs/en/docs/advanced/testing-websockets.md`. PR [#12761](https://github.com/readyapi/readyapi/pull/12761) by [@hamidrasti](https://github.com/hamidrasti).
-* 📝 Update includes for `docs/en/docs/advanced/using-request-directly.md`. PR [#12760](https://github.com/readyapi/readyapi/pull/12760) by [@hamidrasti](https://github.com/hamidrasti).
-* 📝 Update includes for `docs/advanced/wsgi.md`. PR [#12758](https://github.com/readyapi/readyapi/pull/12758) by [@hamidrasti](https://github.com/hamidrasti).
-* 📝 Update includes in `docs/de/docs/tutorial/middleware.md`. PR [#12729](https://github.com/readyapi/readyapi/pull/12729) by [@paintdog](https://github.com/paintdog).
-* 📝 Update includes for `docs/en/docs/tutorial/schema-extra-example.md`. PR [#12822](https://github.com/readyapi/readyapi/pull/12822) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Update includes in `docs/fr/docs/advanced/additional-responses.md`. PR [#12634](https://github.com/readyapi/readyapi/pull/12634) by [@fegmorte](https://github.com/fegmorte).
-* 📝 Update includes in `docs/fr/docs/advanced/path-operation-advanced-configuration.md`. PR [#12633](https://github.com/readyapi/readyapi/pull/12633) by [@kantandane](https://github.com/kantandane).
-* 📝 Update includes in `docs/fr/docs/advanced/response-directly.md`. PR [#12632](https://github.com/readyapi/readyapi/pull/12632) by [@kantandane](https://github.com/kantandane).
-* 📝 Update includes for `docs/en/docs/tutorial/header-params.md`. PR [#12640](https://github.com/readyapi/readyapi/pull/12640) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
-* 📝 Update includes in `docs/en/docs/tutorial/cookie-param-models.md`. PR [#12639](https://github.com/readyapi/readyapi/pull/12639) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
-* 📝 Update includes for `docs/en/docs/tutorial/extra-models.md`. PR [#12638](https://github.com/readyapi/readyapi/pull/12638) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
-* 📝 Update includes for `docs/en/docs/tutorial/cors.md`. PR [#12637](https://github.com/readyapi/readyapi/pull/12637) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
-* 📝 Update includes for `docs/en/docs/tutorial/dependencies/sub-dependencies.md`. PR [#12810](https://github.com/readyapi/readyapi/pull/12810) by [@handabaldeep](https://github.com/handabaldeep).
-* 📝 Update includes in `docs/en/docs/tutorial/body-nested-models.md`. PR [#12812](https://github.com/readyapi/readyapi/pull/12812) by [@zhaohan-dong](https://github.com/zhaohan-dong).
-* 📝 Update includes in `docs/en/docs/tutorial/path-operation-configuration.md`. PR [#12809](https://github.com/readyapi/readyapi/pull/12809) by [@AlexWendland](https://github.com/AlexWendland).
-* 📝 Update includes in `docs/en/docs/tutorial/request-files.md`. PR [#12818](https://github.com/readyapi/readyapi/pull/12818) by [@zhaohan-dong](https://github.com/zhaohan-dong).
-* 📝 Update includes for `docs/en/docs/tutorial/query-param-models.md`. PR [#12817](https://github.com/readyapi/readyapi/pull/12817) by [@handabaldeep](https://github.com/handabaldeep).
-* 📝 Update includes in `docs/en/docs/tutorial/path-params.md`. PR [#12811](https://github.com/readyapi/readyapi/pull/12811) by [@AlexWendland](https://github.com/AlexWendland).
-* 📝 Update includes in `docs/en/docs/tutorial/response-model.md`. PR [#12621](https://github.com/readyapi/readyapi/pull/12621) by [@kantandane](https://github.com/kantandane).
-* 📝 Update includes in `docs/en/docs/advanced/websockets.md`. PR [#12606](https://github.com/readyapi/readyapi/pull/12606) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
-* 📝 Updates include for `docs/en/docs/tutorial/cookie-params.md`. PR [#12808](https://github.com/readyapi/readyapi/pull/12808) by [@handabaldeep](https://github.com/handabaldeep).
-* 📝 Update includes in `docs/en/docs/tutorial/middleware.md`. PR [#12807](https://github.com/readyapi/readyapi/pull/12807) by [@AlexWendland](https://github.com/AlexWendland).
-* 📝 Update includes in `docs/en/docs/advanced/sub-applications.md`. PR [#12806](https://github.com/readyapi/readyapi/pull/12806) by [@zhaohan-dong](https://github.com/zhaohan-dong).
-* 📝 Update includes in `docs/en/docs/advanced/response-headers.md`. PR [#12805](https://github.com/readyapi/readyapi/pull/12805) by [@zhaohan-dong](https://github.com/zhaohan-dong).
-* 📝 Update includes in `docs/fr/docs/tutorial/first-steps.md`. PR [#12594](https://github.com/readyapi/readyapi/pull/12594) by [@kantandane](https://github.com/kantandane).
-* 📝 Update includes in `docs/en/docs/advanced/response-cookies.md`. PR [#12804](https://github.com/readyapi/readyapi/pull/12804) by [@zhaohan-dong](https://github.com/zhaohan-dong).
-* 📝 Update includes in `docs/en/docs/advanced/path-operation-advanced-configuration.md`. PR [#12802](https://github.com/readyapi/readyapi/pull/12802) by [@zhaohan-dong](https://github.com/zhaohan-dong).
-* 📝 Update includes for `docs/en/docs/advanced/response-directly.md`. PR [#12803](https://github.com/readyapi/readyapi/pull/12803) by [@handabaldeep](https://github.com/handabaldeep).
-* 📝 Update includes in `docs/zh/docs/tutorial/background-tasks.md`. PR [#12798](https://github.com/readyapi/readyapi/pull/12798) by [@zhaohan-dong](https://github.com/zhaohan-dong).
-* 📝 Update includes for `docs/de/docs/tutorial/body-multiple-params.md`. PR [#12699](https://github.com/readyapi/readyapi/pull/12699) by [@alissadb](https://github.com/alissadb).
-* 📝 Update includes in `docs/em/docs/tutorial/body-updates.md`. PR [#12799](https://github.com/readyapi/readyapi/pull/12799) by [@AlexWendland](https://github.com/AlexWendland).
-* 📝 Update includes `docs/en/docs/advanced/response-change-status-code.md`. PR [#12801](https://github.com/readyapi/readyapi/pull/12801) by [@handabaldeep](https://github.com/handabaldeep).
-* 📝 Update includes `docs/en/docs/advanced/openapi-callbacks.md`. PR [#12800](https://github.com/readyapi/readyapi/pull/12800) by [@handabaldeep](https://github.com/handabaldeep).
-* 📝  Update includes in `docs/fr/docs/tutorial/body-multiple-params.md`. PR [#12598](https://github.com/readyapi/readyapi/pull/12598) by [@kantandane](https://github.com/kantandane).
-* 📝 Update includes in `docs/en/docs/tutorial/body-multiple-params.md`. PR [#12593](https://github.com/readyapi/readyapi/pull/12593) by [@Tashanam-Shahbaz](https://github.com/Tashanam-Shahbaz).
-* 📝 Update includes in `docs/pt/docs/tutorial/background-tasks.md`. PR [#12736](https://github.com/readyapi/readyapi/pull/12736) by [@bhunao](https://github.com/bhunao).
-* 📝 Update includes for `docs/en/docs/advanced/custom-response.md`. PR [#12797](https://github.com/readyapi/readyapi/pull/12797) by [@handabaldeep](https://github.com/handabaldeep).
-* 📝 Update includes for `docs/pt/docs/python-types.md`. PR [#12671](https://github.com/readyapi/readyapi/pull/12671) by [@ceb10n](https://github.com/ceb10n).
-* 📝 Update includes for `docs/de/docs/python-types.md`. PR [#12660](https://github.com/readyapi/readyapi/pull/12660) by [@alissadb](https://github.com/alissadb).
-* 📝 Update includes for `docs/de/docs/advanced/dataclasses.md`. PR [#12658](https://github.com/readyapi/readyapi/pull/12658) by [@alissadb](https://github.com/alissadb).
-* 📝 Update includes in `docs/fr/docs/tutorial/path-params.md`. PR [#12592](https://github.com/readyapi/readyapi/pull/12592) by [@kantandane](https://github.com/kantandane).
-* 📝 Update includes for `docs/de/docs/how-to/configure-swagger-ui.md`. PR [#12690](https://github.com/readyapi/readyapi/pull/12690) by [@alissadb](https://github.com/alissadb).
-* 📝 Update includes in `docs/en/docs/advanced/security/oauth2-scopes.md`. PR [#12572](https://github.com/readyapi/readyapi/pull/12572) by [@krishnamadhavan](https://github.com/krishnamadhavan).
-* 📝 Update includes for `docs/en/docs/how-to/conditional-openapi.md`. PR [#12624](https://github.com/readyapi/readyapi/pull/12624) by [@rabinlamadong](https://github.com/rabinlamadong).
-* 📝 Update includes in `docs/en/docs/tutorial/dependencies/index.md`. PR [#12615](https://github.com/readyapi/readyapi/pull/12615) by [@bharara](https://github.com/bharara).
-* 📝 Update includes in `docs/en/docs/tutorial/response-status-code.md`. PR [#12620](https://github.com/readyapi/readyapi/pull/12620) by [@kantandane](https://github.com/kantandane).
-* 📝 Update includes in `docs/en/docs/how-to/custom-docs-ui-assets.md`. PR [#12623](https://github.com/readyapi/readyapi/pull/12623) by [@rabinlamadong](https://github.com/rabinlamadong).
-* 📝 Update includes in `docs/en/docs/advanced/openapi-webhooks.md`. PR [#12605](https://github.com/readyapi/readyapi/pull/12605) by [@salmantec](https://github.com/salmantec).
-* 📝 Update includes in `docs/en/docs/advanced/events.md`. PR [#12604](https://github.com/readyapi/readyapi/pull/12604) by [@salmantec](https://github.com/salmantec).
-* 📝 Update includes in `docs/en/docs/advanced/dataclasses.md`. PR [#12603](https://github.com/readyapi/readyapi/pull/12603) by [@salmantec](https://github.com/salmantec).
-* 📝 Update includes in `docs/es/docs/tutorial/cookie-params.md`. PR [#12602](https://github.com/readyapi/readyapi/pull/12602) by [@antonyare93](https://github.com/antonyare93).
-* 📝 Update includes in `docs/fr/docs/tutorial/path-params-numeric-validations.md`. PR [#12601](https://github.com/readyapi/readyapi/pull/12601) by [@kantandane](https://github.com/kantandane).
-* 📝 Update includes in `docs/fr/docs/tutorial/background-tasks.md`. PR [#12600](https://github.com/readyapi/readyapi/pull/12600) by [@kantandane](https://github.com/kantandane).
-* 📝 Update includes in `docs/en/docs/tutorial/encoder.md`. PR [#12597](https://github.com/readyapi/readyapi/pull/12597) by [@tonyjly](https://github.com/tonyjly).
-* 📝 Update includes in `docs/en/docs/how-to/custom-docs-ui-assets.md`. PR [#12557](https://github.com/readyapi/readyapi/pull/12557) by [@philipokiokio](https://github.com/philipokiokio).
-* 🎨 Adjust spacing. PR [#12635](https://github.com/readyapi/readyapi/pull/12635) by [@alejsdev](https://github.com/alejsdev).
-* 📝 Update includes in `docs/en/docs/how-to/custom-request-and-route.md`. PR [#12560](https://github.com/readyapi/readyapi/pull/12560) by [@philipokiokio](https://github.com/philipokiokio).
+* 📝 Update includes for `docs/en/docs/tutorial/body.md`. PR [#12757](https://github.com/khulnasoft/readyapi/pull/12757) by [@gsheni](https://github.com/gsheni).
+* 📝 Update includes in `docs/en/docs/advanced/testing-dependencies.md`. PR [#12647](https://github.com/khulnasoft/readyapi/pull/12647) by [@AyushSinghal1794](https://github.com/AyushSinghal1794).
+* 📝 Update includes for `docs/en/docs/tutorial/metadata.md`. PR [#12773](https://github.com/khulnasoft/readyapi/pull/12773) by [@Nimitha-jagadeesha](https://github.com/Nimitha-jagadeesha).
+* 📝 Update `docs/en/docs/tutorial/dependencies/dependencies-with-yield.md`. PR [#12045](https://github.com/khulnasoft/readyapi/pull/12045) by [@xuvjso](https://github.com/xuvjso).
+* 📝 Update includes for `docs/en/docs/tutorial/dependencies/global-dependencies.md`. PR [#12653](https://github.com/khulnasoft/readyapi/pull/12653) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
+* 📝 Update includes for `docs/en/docs/tutorial/body-updates.md`. PR [#12712](https://github.com/khulnasoft/readyapi/pull/12712) by [@davioc](https://github.com/davioc).
+* 📝 Remove mention of Celery in the project generators. PR [#12742](https://github.com/khulnasoft/readyapi/pull/12742) by [@david-caro](https://github.com/david-caro).
+* 📝 Update includes in `docs/en/docs/tutorial/header-param-models.md`. PR [#12814](https://github.com/khulnasoft/readyapi/pull/12814) by [@zhaohan-dong](https://github.com/zhaohan-dong).
+* 📝 Update `contributing.md` docs, include note to not translate this page. PR [#12841](https://github.com/khulnasoft/readyapi/pull/12841) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update includes in `docs/en/docs/tutorial/request-forms.md`. PR [#12648](https://github.com/khulnasoft/readyapi/pull/12648) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
+* 📝 Update includes in `docs/en/docs/tutorial/request-form-models.md`. PR [#12649](https://github.com/khulnasoft/readyapi/pull/12649) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
+* 📝 Update includes in `docs/en/docs/tutorial/security/oauth2-jwt.md`. PR [#12650](https://github.com/khulnasoft/readyapi/pull/12650) by [@OCE1960](https://github.com/OCE1960).
+* 📝 Update includes in `docs/vi/docs/tutorial/first-steps.md`. PR [#12754](https://github.com/khulnasoft/readyapi/pull/12754) by [@MxPy](https://github.com/MxPy).
+* 📝 Update includes for `docs/pt/docs/advanced/wsgi.md`. PR [#12769](https://github.com/khulnasoft/readyapi/pull/12769) by [@Nimitha-jagadeesha](https://github.com/Nimitha-jagadeesha).
+* 📝 Update includes for `docs/en/docs/tutorial/dependencies/dependencies-in-path-operation-decorators.md`. PR [#12815](https://github.com/khulnasoft/readyapi/pull/12815) by [@handabaldeep](https://github.com/handabaldeep).
+* 📝 Update includes for `docs/en/docs/tutorial/dependencies/classes-as-dependencies.md`. PR [#12813](https://github.com/khulnasoft/readyapi/pull/12813) by [@handabaldeep](https://github.com/handabaldeep).
+* ✏️ Fix error in `docs/en/docs/tutorial/middleware.md`. PR [#12819](https://github.com/khulnasoft/readyapi/pull/12819) by [@alejsdev](https://github.com/alejsdev).
+* 📝 Update includes for `docs/en/docs/tutorial/security/get-current-user.md`. PR [#12645](https://github.com/khulnasoft/readyapi/pull/12645) by [@OCE1960](https://github.com/OCE1960).
+* 📝 Update includes for `docs/en/docs/tutorial/security/first-steps.md`. PR [#12643](https://github.com/khulnasoft/readyapi/pull/12643) by [@OCE1960](https://github.com/OCE1960).
+* 📝 Update includes in `docs/de/docs/advanced/additional-responses.md`. PR [#12821](https://github.com/khulnasoft/readyapi/pull/12821) by [@zhaohan-dong](https://github.com/zhaohan-dong).
+* 📝 Update includes in `docs/en/docs/advanced/generate-clients.md`. PR [#12642](https://github.com/khulnasoft/readyapi/pull/12642) by [@AyushSinghal1794](https://github.com/AyushSinghal1794).
+* 📝 Fix admonition double quotes with new syntax. PR [#12835](https://github.com/khulnasoft/readyapi/pull/12835) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update includes in `docs/zh/docs/advanced/additional-responses.md`. PR [#12828](https://github.com/khulnasoft/readyapi/pull/12828) by [@zhaohan-dong](https://github.com/zhaohan-dong).
+* 📝 Update includes in `docs/en/docs/tutorial/path-params-numeric-validations.md`. PR [#12825](https://github.com/khulnasoft/readyapi/pull/12825) by [@zhaohan-dong](https://github.com/zhaohan-dong).
+* 📝 Update includes for `docs/en/docs/advanced/testing-websockets.md`. PR [#12761](https://github.com/khulnasoft/readyapi/pull/12761) by [@hamidrasti](https://github.com/hamidrasti).
+* 📝 Update includes for `docs/en/docs/advanced/using-request-directly.md`. PR [#12760](https://github.com/khulnasoft/readyapi/pull/12760) by [@hamidrasti](https://github.com/hamidrasti).
+* 📝 Update includes for `docs/advanced/wsgi.md`. PR [#12758](https://github.com/khulnasoft/readyapi/pull/12758) by [@hamidrasti](https://github.com/hamidrasti).
+* 📝 Update includes in `docs/de/docs/tutorial/middleware.md`. PR [#12729](https://github.com/khulnasoft/readyapi/pull/12729) by [@paintdog](https://github.com/paintdog).
+* 📝 Update includes for `docs/en/docs/tutorial/schema-extra-example.md`. PR [#12822](https://github.com/khulnasoft/readyapi/pull/12822) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update includes in `docs/fr/docs/advanced/additional-responses.md`. PR [#12634](https://github.com/khulnasoft/readyapi/pull/12634) by [@fegmorte](https://github.com/fegmorte).
+* 📝 Update includes in `docs/fr/docs/advanced/path-operation-advanced-configuration.md`. PR [#12633](https://github.com/khulnasoft/readyapi/pull/12633) by [@kantandane](https://github.com/kantandane).
+* 📝 Update includes in `docs/fr/docs/advanced/response-directly.md`. PR [#12632](https://github.com/khulnasoft/readyapi/pull/12632) by [@kantandane](https://github.com/kantandane).
+* 📝 Update includes for `docs/en/docs/tutorial/header-params.md`. PR [#12640](https://github.com/khulnasoft/readyapi/pull/12640) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
+* 📝 Update includes in `docs/en/docs/tutorial/cookie-param-models.md`. PR [#12639](https://github.com/khulnasoft/readyapi/pull/12639) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
+* 📝 Update includes for `docs/en/docs/tutorial/extra-models.md`. PR [#12638](https://github.com/khulnasoft/readyapi/pull/12638) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
+* 📝 Update includes for `docs/en/docs/tutorial/cors.md`. PR [#12637](https://github.com/khulnasoft/readyapi/pull/12637) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
+* 📝 Update includes for `docs/en/docs/tutorial/dependencies/sub-dependencies.md`. PR [#12810](https://github.com/khulnasoft/readyapi/pull/12810) by [@handabaldeep](https://github.com/handabaldeep).
+* 📝 Update includes in `docs/en/docs/tutorial/body-nested-models.md`. PR [#12812](https://github.com/khulnasoft/readyapi/pull/12812) by [@zhaohan-dong](https://github.com/zhaohan-dong).
+* 📝 Update includes in `docs/en/docs/tutorial/path-operation-configuration.md`. PR [#12809](https://github.com/khulnasoft/readyapi/pull/12809) by [@AlexWendland](https://github.com/AlexWendland).
+* 📝 Update includes in `docs/en/docs/tutorial/request-files.md`. PR [#12818](https://github.com/khulnasoft/readyapi/pull/12818) by [@zhaohan-dong](https://github.com/zhaohan-dong).
+* 📝 Update includes for `docs/en/docs/tutorial/query-param-models.md`. PR [#12817](https://github.com/khulnasoft/readyapi/pull/12817) by [@handabaldeep](https://github.com/handabaldeep).
+* 📝 Update includes in `docs/en/docs/tutorial/path-params.md`. PR [#12811](https://github.com/khulnasoft/readyapi/pull/12811) by [@AlexWendland](https://github.com/AlexWendland).
+* 📝 Update includes in `docs/en/docs/tutorial/response-model.md`. PR [#12621](https://github.com/khulnasoft/readyapi/pull/12621) by [@kantandane](https://github.com/kantandane).
+* 📝 Update includes in `docs/en/docs/advanced/websockets.md`. PR [#12606](https://github.com/khulnasoft/readyapi/pull/12606) by [@vishnuvskvkl](https://github.com/vishnuvskvkl).
+* 📝 Updates include for `docs/en/docs/tutorial/cookie-params.md`. PR [#12808](https://github.com/khulnasoft/readyapi/pull/12808) by [@handabaldeep](https://github.com/handabaldeep).
+* 📝 Update includes in `docs/en/docs/tutorial/middleware.md`. PR [#12807](https://github.com/khulnasoft/readyapi/pull/12807) by [@AlexWendland](https://github.com/AlexWendland).
+* 📝 Update includes in `docs/en/docs/advanced/sub-applications.md`. PR [#12806](https://github.com/khulnasoft/readyapi/pull/12806) by [@zhaohan-dong](https://github.com/zhaohan-dong).
+* 📝 Update includes in `docs/en/docs/advanced/response-headers.md`. PR [#12805](https://github.com/khulnasoft/readyapi/pull/12805) by [@zhaohan-dong](https://github.com/zhaohan-dong).
+* 📝 Update includes in `docs/fr/docs/tutorial/first-steps.md`. PR [#12594](https://github.com/khulnasoft/readyapi/pull/12594) by [@kantandane](https://github.com/kantandane).
+* 📝 Update includes in `docs/en/docs/advanced/response-cookies.md`. PR [#12804](https://github.com/khulnasoft/readyapi/pull/12804) by [@zhaohan-dong](https://github.com/zhaohan-dong).
+* 📝 Update includes in `docs/en/docs/advanced/path-operation-advanced-configuration.md`. PR [#12802](https://github.com/khulnasoft/readyapi/pull/12802) by [@zhaohan-dong](https://github.com/zhaohan-dong).
+* 📝 Update includes for `docs/en/docs/advanced/response-directly.md`. PR [#12803](https://github.com/khulnasoft/readyapi/pull/12803) by [@handabaldeep](https://github.com/handabaldeep).
+* 📝 Update includes in `docs/zh/docs/tutorial/background-tasks.md`. PR [#12798](https://github.com/khulnasoft/readyapi/pull/12798) by [@zhaohan-dong](https://github.com/zhaohan-dong).
+* 📝 Update includes for `docs/de/docs/tutorial/body-multiple-params.md`. PR [#12699](https://github.com/khulnasoft/readyapi/pull/12699) by [@alissadb](https://github.com/alissadb).
+* 📝 Update includes in `docs/em/docs/tutorial/body-updates.md`. PR [#12799](https://github.com/khulnasoft/readyapi/pull/12799) by [@AlexWendland](https://github.com/AlexWendland).
+* 📝 Update includes `docs/en/docs/advanced/response-change-status-code.md`. PR [#12801](https://github.com/khulnasoft/readyapi/pull/12801) by [@handabaldeep](https://github.com/handabaldeep).
+* 📝 Update includes `docs/en/docs/advanced/openapi-callbacks.md`. PR [#12800](https://github.com/khulnasoft/readyapi/pull/12800) by [@handabaldeep](https://github.com/handabaldeep).
+* 📝  Update includes in `docs/fr/docs/tutorial/body-multiple-params.md`. PR [#12598](https://github.com/khulnasoft/readyapi/pull/12598) by [@kantandane](https://github.com/kantandane).
+* 📝 Update includes in `docs/en/docs/tutorial/body-multiple-params.md`. PR [#12593](https://github.com/khulnasoft/readyapi/pull/12593) by [@Tashanam-Shahbaz](https://github.com/Tashanam-Shahbaz).
+* 📝 Update includes in `docs/pt/docs/tutorial/background-tasks.md`. PR [#12736](https://github.com/khulnasoft/readyapi/pull/12736) by [@bhunao](https://github.com/bhunao).
+* 📝 Update includes for `docs/en/docs/advanced/custom-response.md`. PR [#12797](https://github.com/khulnasoft/readyapi/pull/12797) by [@handabaldeep](https://github.com/handabaldeep).
+* 📝 Update includes for `docs/pt/docs/python-types.md`. PR [#12671](https://github.com/khulnasoft/readyapi/pull/12671) by [@ceb10n](https://github.com/ceb10n).
+* 📝 Update includes for `docs/de/docs/python-types.md`. PR [#12660](https://github.com/khulnasoft/readyapi/pull/12660) by [@alissadb](https://github.com/alissadb).
+* 📝 Update includes for `docs/de/docs/advanced/dataclasses.md`. PR [#12658](https://github.com/khulnasoft/readyapi/pull/12658) by [@alissadb](https://github.com/alissadb).
+* 📝 Update includes in `docs/fr/docs/tutorial/path-params.md`. PR [#12592](https://github.com/khulnasoft/readyapi/pull/12592) by [@kantandane](https://github.com/kantandane).
+* 📝 Update includes for `docs/de/docs/how-to/configure-swagger-ui.md`. PR [#12690](https://github.com/khulnasoft/readyapi/pull/12690) by [@alissadb](https://github.com/alissadb).
+* 📝 Update includes in `docs/en/docs/advanced/security/oauth2-scopes.md`. PR [#12572](https://github.com/khulnasoft/readyapi/pull/12572) by [@krishnamadhavan](https://github.com/krishnamadhavan).
+* 📝 Update includes for `docs/en/docs/how-to/conditional-openapi.md`. PR [#12624](https://github.com/khulnasoft/readyapi/pull/12624) by [@rabinlamadong](https://github.com/rabinlamadong).
+* 📝 Update includes in `docs/en/docs/tutorial/dependencies/index.md`. PR [#12615](https://github.com/khulnasoft/readyapi/pull/12615) by [@bharara](https://github.com/bharara).
+* 📝 Update includes in `docs/en/docs/tutorial/response-status-code.md`. PR [#12620](https://github.com/khulnasoft/readyapi/pull/12620) by [@kantandane](https://github.com/kantandane).
+* 📝 Update includes in `docs/en/docs/how-to/custom-docs-ui-assets.md`. PR [#12623](https://github.com/khulnasoft/readyapi/pull/12623) by [@rabinlamadong](https://github.com/rabinlamadong).
+* 📝 Update includes in `docs/en/docs/advanced/openapi-webhooks.md`. PR [#12605](https://github.com/khulnasoft/readyapi/pull/12605) by [@salmantec](https://github.com/salmantec).
+* 📝 Update includes in `docs/en/docs/advanced/events.md`. PR [#12604](https://github.com/khulnasoft/readyapi/pull/12604) by [@salmantec](https://github.com/salmantec).
+* 📝 Update includes in `docs/en/docs/advanced/dataclasses.md`. PR [#12603](https://github.com/khulnasoft/readyapi/pull/12603) by [@salmantec](https://github.com/salmantec).
+* 📝 Update includes in `docs/es/docs/tutorial/cookie-params.md`. PR [#12602](https://github.com/khulnasoft/readyapi/pull/12602) by [@antonyare93](https://github.com/antonyare93).
+* 📝 Update includes in `docs/fr/docs/tutorial/path-params-numeric-validations.md`. PR [#12601](https://github.com/khulnasoft/readyapi/pull/12601) by [@kantandane](https://github.com/kantandane).
+* 📝 Update includes in `docs/fr/docs/tutorial/background-tasks.md`. PR [#12600](https://github.com/khulnasoft/readyapi/pull/12600) by [@kantandane](https://github.com/kantandane).
+* 📝 Update includes in `docs/en/docs/tutorial/encoder.md`. PR [#12597](https://github.com/khulnasoft/readyapi/pull/12597) by [@tonyjly](https://github.com/tonyjly).
+* 📝 Update includes in `docs/en/docs/how-to/custom-docs-ui-assets.md`. PR [#12557](https://github.com/khulnasoft/readyapi/pull/12557) by [@philipokiokio](https://github.com/philipokiokio).
+* 🎨 Adjust spacing. PR [#12635](https://github.com/khulnasoft/readyapi/pull/12635) by [@alejsdev](https://github.com/alejsdev).
+* 📝 Update includes in `docs/en/docs/how-to/custom-request-and-route.md`. PR [#12560](https://github.com/khulnasoft/readyapi/pull/12560) by [@philipokiokio](https://github.com/philipokiokio).
 
 ### Translations
 
-* 🌐 Add Korean translation for `docs/ko/docs/advanced/testing-websockets.md`. PR [#12739](https://github.com/readyapi/readyapi/pull/12739) by [@Limsunoh](https://github.com/Limsunoh).
-* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/environment-variables.md`. PR [#12785](https://github.com/readyapi/readyapi/pull/12785) by [@Vincy1230](https://github.com/Vincy1230).
-* 🌐 Add Chinese translation for `docs/zh/docs/environment-variables.md`. PR [#12784](https://github.com/readyapi/readyapi/pull/12784) by [@Vincy1230](https://github.com/Vincy1230).
-* 🌐 Add Korean translation for `ko/docs/advanced/response-headers.md`. PR [#12740](https://github.com/readyapi/readyapi/pull/12740) by [@kwang1215](https://github.com/kwang1215).
-* 🌐 Add Chinese translation for `docs/zh/docs/virtual-environments.md`. PR [#12790](https://github.com/readyapi/readyapi/pull/12790) by [@Vincy1230](https://github.com/Vincy1230).
-* 🌐 Add Korean translation for `/docs/ko/docs/environment-variables.md`. PR [#12526](https://github.com/readyapi/readyapi/pull/12526) by [@Tolerblanc](https://github.com/Tolerblanc).
-* 🌐 Add Korean translation for `docs/ko/docs/history-design-future.md`. PR [#12646](https://github.com/readyapi/readyapi/pull/12646) by [@saeye](https://github.com/saeye).
-* 🌐 Add Korean translation for `docs/ko/docs/advanced/advanced-dependencies.md`. PR [#12675](https://github.com/readyapi/readyapi/pull/12675) by [@kim-sangah](https://github.com/kim-sangah).
-* 🌐 Add Korean translation for `docs/ko/docs/how-to/conditional-openapi.md`. PR [#12731](https://github.com/readyapi/readyapi/pull/12731) by [@sptcnl](https://github.com/sptcnl).
-* 🌐 Add Korean translation for `docs/ko/docs/advanced/using_request_directly.md`. PR [#12738](https://github.com/readyapi/readyapi/pull/12738) by [@kwang1215](https://github.com/kwang1215).
-* 🌐 Add Korean translation for `docs/ko/docs/advanced/testing-events.md`. PR [#12741](https://github.com/readyapi/readyapi/pull/12741) by [@9zimin9](https://github.com/9zimin9).
-* 🌐 Add Korean translation for `docs/ko/docs/security/index.md`. PR [#12743](https://github.com/readyapi/readyapi/pull/12743) by [@kim-sangah](https://github.com/kim-sangah).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/path-operation-advanced-configuration.md`. PR [#12762](https://github.com/readyapi/readyapi/pull/12762) by [@Joao-Pedro-P-Holanda](https://github.com/Joao-Pedro-P-Holanda).
-* 🌐 Add Korean translation for `docs/ko/docs/advanced/wsgi.md`. PR [#12659](https://github.com/readyapi/readyapi/pull/12659) by [@Limsunoh](https://github.com/Limsunoh).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/websockets.md`. PR [#12703](https://github.com/readyapi/readyapi/pull/12703) by [@devfernandoa](https://github.com/devfernandoa).
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/security/simple-oauth2.md`. PR [#12520](https://github.com/readyapi/readyapi/pull/12520) by [@LidiaDomingos](https://github.com/LidiaDomingos).
-* 🌐 Add Korean translation for `docs/ko/docs/advanced/response-directly.md`. PR [#12674](https://github.com/readyapi/readyapi/pull/12674) by [@9zimin9](https://github.com/9zimin9).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/middleware.md`. PR [#12704](https://github.com/readyapi/readyapi/pull/12704) by [@devluisrodrigues](https://github.com/devluisrodrigues).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/openapi-callbacks.md`. PR [#12705](https://github.com/readyapi/readyapi/pull/12705) by [@devfernandoa](https://github.com/devfernandoa).
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/request-files.md`. PR [#12706](https://github.com/readyapi/readyapi/pull/12706) by [@devluisrodrigues](https://github.com/devluisrodrigues).
-* 🌐 Add Portuguese Translation for `docs/pt/docs/advanced/custom-response.md`. PR [#12631](https://github.com/readyapi/readyapi/pull/12631) by [@Joao-Pedro-P-Holanda](https://github.com/Joao-Pedro-P-Holanda).
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/metadata.md`. PR [#12538](https://github.com/readyapi/readyapi/pull/12538) by [@LinkolnR](https://github.com/LinkolnR).
-* 🌐 Add Korean translation for `docs/ko/docs/tutorial/metadata.md`. PR [#12541](https://github.com/readyapi/readyapi/pull/12541) by [@kwang1215](https://github.com/kwang1215).
-* 🌐 Add Korean Translation for `docs/ko/docs/advanced/response-cookies.md`. PR [#12546](https://github.com/readyapi/readyapi/pull/12546) by [@kim-sangah](https://github.com/kim-sangah).
-* 🌐 Add Korean translation for `docs/ko/docs/readyapi-cli.md`. PR [#12515](https://github.com/readyapi/readyapi/pull/12515) by [@dhdld](https://github.com/dhdld).
-* 🌐 Add Korean Translation for `docs/ko/docs/advanced/response-change-status-code.md`. PR [#12547](https://github.com/readyapi/readyapi/pull/12547) by [@9zimin9](https://github.com/9zimin9).
+* 🌐 Add Korean translation for `docs/ko/docs/advanced/testing-websockets.md`. PR [#12739](https://github.com/khulnasoft/readyapi/pull/12739) by [@Limsunoh](https://github.com/Limsunoh).
+* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/environment-variables.md`. PR [#12785](https://github.com/khulnasoft/readyapi/pull/12785) by [@Vincy1230](https://github.com/Vincy1230).
+* 🌐 Add Chinese translation for `docs/zh/docs/environment-variables.md`. PR [#12784](https://github.com/khulnasoft/readyapi/pull/12784) by [@Vincy1230](https://github.com/Vincy1230).
+* 🌐 Add Korean translation for `ko/docs/advanced/response-headers.md`. PR [#12740](https://github.com/khulnasoft/readyapi/pull/12740) by [@kwang1215](https://github.com/kwang1215).
+* 🌐 Add Chinese translation for `docs/zh/docs/virtual-environments.md`. PR [#12790](https://github.com/khulnasoft/readyapi/pull/12790) by [@Vincy1230](https://github.com/Vincy1230).
+* 🌐 Add Korean translation for `/docs/ko/docs/environment-variables.md`. PR [#12526](https://github.com/khulnasoft/readyapi/pull/12526) by [@Tolerblanc](https://github.com/Tolerblanc).
+* 🌐 Add Korean translation for `docs/ko/docs/history-design-future.md`. PR [#12646](https://github.com/khulnasoft/readyapi/pull/12646) by [@saeye](https://github.com/saeye).
+* 🌐 Add Korean translation for `docs/ko/docs/advanced/advanced-dependencies.md`. PR [#12675](https://github.com/khulnasoft/readyapi/pull/12675) by [@kim-sangah](https://github.com/kim-sangah).
+* 🌐 Add Korean translation for `docs/ko/docs/how-to/conditional-openapi.md`. PR [#12731](https://github.com/khulnasoft/readyapi/pull/12731) by [@sptcnl](https://github.com/sptcnl).
+* 🌐 Add Korean translation for `docs/ko/docs/advanced/using_request_directly.md`. PR [#12738](https://github.com/khulnasoft/readyapi/pull/12738) by [@kwang1215](https://github.com/kwang1215).
+* 🌐 Add Korean translation for `docs/ko/docs/advanced/testing-events.md`. PR [#12741](https://github.com/khulnasoft/readyapi/pull/12741) by [@9zimin9](https://github.com/9zimin9).
+* 🌐 Add Korean translation for `docs/ko/docs/security/index.md`. PR [#12743](https://github.com/khulnasoft/readyapi/pull/12743) by [@kim-sangah](https://github.com/kim-sangah).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/path-operation-advanced-configuration.md`. PR [#12762](https://github.com/khulnasoft/readyapi/pull/12762) by [@Joao-Pedro-P-Holanda](https://github.com/Joao-Pedro-P-Holanda).
+* 🌐 Add Korean translation for `docs/ko/docs/advanced/wsgi.md`. PR [#12659](https://github.com/khulnasoft/readyapi/pull/12659) by [@Limsunoh](https://github.com/Limsunoh).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/websockets.md`. PR [#12703](https://github.com/khulnasoft/readyapi/pull/12703) by [@devfernandoa](https://github.com/devfernandoa).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/security/simple-oauth2.md`. PR [#12520](https://github.com/khulnasoft/readyapi/pull/12520) by [@LidiaDomingos](https://github.com/LidiaDomingos).
+* 🌐 Add Korean translation for `docs/ko/docs/advanced/response-directly.md`. PR [#12674](https://github.com/khulnasoft/readyapi/pull/12674) by [@9zimin9](https://github.com/9zimin9).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/middleware.md`. PR [#12704](https://github.com/khulnasoft/readyapi/pull/12704) by [@devluisrodrigues](https://github.com/devluisrodrigues).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/openapi-callbacks.md`. PR [#12705](https://github.com/khulnasoft/readyapi/pull/12705) by [@devfernandoa](https://github.com/devfernandoa).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/request-files.md`. PR [#12706](https://github.com/khulnasoft/readyapi/pull/12706) by [@devluisrodrigues](https://github.com/devluisrodrigues).
+* 🌐 Add Portuguese Translation for `docs/pt/docs/advanced/custom-response.md`. PR [#12631](https://github.com/khulnasoft/readyapi/pull/12631) by [@Joao-Pedro-P-Holanda](https://github.com/Joao-Pedro-P-Holanda).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/metadata.md`. PR [#12538](https://github.com/khulnasoft/readyapi/pull/12538) by [@LinkolnR](https://github.com/LinkolnR).
+* 🌐 Add Korean translation for `docs/ko/docs/tutorial/metadata.md`. PR [#12541](https://github.com/khulnasoft/readyapi/pull/12541) by [@kwang1215](https://github.com/kwang1215).
+* 🌐 Add Korean Translation for `docs/ko/docs/advanced/response-cookies.md`. PR [#12546](https://github.com/khulnasoft/readyapi/pull/12546) by [@kim-sangah](https://github.com/kim-sangah).
+* 🌐 Add Korean translation for `docs/ko/docs/readyapi-cli.md`. PR [#12515](https://github.com/khulnasoft/readyapi/pull/12515) by [@dhdld](https://github.com/dhdld).
+* 🌐 Add Korean Translation for `docs/ko/docs/advanced/response-change-status-code.md`. PR [#12547](https://github.com/khulnasoft/readyapi/pull/12547) by [@9zimin9](https://github.com/9zimin9).
 
 ### Internal
 
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12907](https://github.com/readyapi/readyapi/pull/12907) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* 🔨 Update docs preview script to show previous version and English version. PR [#12856](https://github.com/readyapi/readyapi/pull/12856) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ Bump khulnasoft/latest-changes from 0.3.1 to 0.3.2. PR [#12794](https://github.com/readyapi/readyapi/pull/12794) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump pypa/gh-action-pypi-publish from 1.12.0 to 1.12.2. PR [#12788](https://github.com/readyapi/readyapi/pull/12788) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump pypa/gh-action-pypi-publish from 1.11.0 to 1.12.0. PR [#12781](https://github.com/readyapi/readyapi/pull/12781) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump cloudflare/wrangler-action from 3.11 to 3.12. PR [#12777](https://github.com/readyapi/readyapi/pull/12777) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12766](https://github.com/readyapi/readyapi/pull/12766) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* ⬆ Bump pypa/gh-action-pypi-publish from 1.10.3 to 1.11.0. PR [#12721](https://github.com/readyapi/readyapi/pull/12721) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Update pre-commit requirement from <4.0.0,>=2.17.0 to >=2.17.0,<5.0.0. PR [#12749](https://github.com/readyapi/readyapi/pull/12749) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump cligenius from 0.12.3 to 0.12.5. PR [#12748](https://github.com/readyapi/readyapi/pull/12748) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Update flask requirement from <3.0.0,>=1.1.2 to >=1.1.2,<4.0.0. PR [#12747](https://github.com/readyapi/readyapi/pull/12747) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump pillow from 10.4.0 to 11.0.0. PR [#12746](https://github.com/readyapi/readyapi/pull/12746) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Update pytest requirement from <8.0.0,>=7.1.3 to >=7.1.3,<9.0.0. PR [#12745](https://github.com/readyapi/readyapi/pull/12745) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 🔧 Update sponsors: add Render. PR [#12733](https://github.com/readyapi/readyapi/pull/12733) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12707](https://github.com/readyapi/readyapi/pull/12707) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12907](https://github.com/khulnasoft/readyapi/pull/12907) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* 🔨 Update docs preview script to show previous version and English version. PR [#12856](https://github.com/khulnasoft/readyapi/pull/12856) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Bump khulnasoft/latest-changes from 0.3.1 to 0.3.2. PR [#12794](https://github.com/khulnasoft/readyapi/pull/12794) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump pypa/gh-action-pypi-publish from 1.12.0 to 1.12.2. PR [#12788](https://github.com/khulnasoft/readyapi/pull/12788) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump pypa/gh-action-pypi-publish from 1.11.0 to 1.12.0. PR [#12781](https://github.com/khulnasoft/readyapi/pull/12781) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump cloudflare/wrangler-action from 3.11 to 3.12. PR [#12777](https://github.com/khulnasoft/readyapi/pull/12777) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12766](https://github.com/khulnasoft/readyapi/pull/12766) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump pypa/gh-action-pypi-publish from 1.10.3 to 1.11.0. PR [#12721](https://github.com/khulnasoft/readyapi/pull/12721) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Update pre-commit requirement from <4.0.0,>=2.17.0 to >=2.17.0,<5.0.0. PR [#12749](https://github.com/khulnasoft/readyapi/pull/12749) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump cligenius from 0.12.3 to 0.12.5. PR [#12748](https://github.com/khulnasoft/readyapi/pull/12748) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Update flask requirement from <3.0.0,>=1.1.2 to >=1.1.2,<4.0.0. PR [#12747](https://github.com/khulnasoft/readyapi/pull/12747) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump pillow from 10.4.0 to 11.0.0. PR [#12746](https://github.com/khulnasoft/readyapi/pull/12746) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Update pytest requirement from <8.0.0,>=7.1.3 to >=7.1.3,<9.0.0. PR [#12745](https://github.com/khulnasoft/readyapi/pull/12745) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Update sponsors: add Render. PR [#12733](https://github.com/khulnasoft/readyapi/pull/12733) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12707](https://github.com/khulnasoft/readyapi/pull/12707) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 
 ## 0.115.4
 
 ### Refactors
 
-* ♻️ Update logic to import and check `python-multipart` for compatibility with newer version. PR [#12627](https://github.com/readyapi/readyapi/pull/12627) by [@khulnasoft](https://github.com/khulnasoft).
+* ♻️ Update logic to import and check `python-multipart` for compatibility with newer version. PR [#12627](https://github.com/khulnasoft/readyapi/pull/12627) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Docs
 
-* 📝  Update includes in `docs/fr/docs/tutorial/body.md`. PR [#12596](https://github.com/readyapi/readyapi/pull/12596) by [@kantandane](https://github.com/kantandane).
-* 📝 Update includes in `docs/fr/docs/tutorial/debugging.md`. PR [#12595](https://github.com/readyapi/readyapi/pull/12595) by [@kantandane](https://github.com/kantandane).
-* 📝 Update includes in `docs/fr/docs/tutorial/query-params-str-validations.md`. PR [#12591](https://github.com/readyapi/readyapi/pull/12591) by [@kantandane](https://github.com/kantandane).
-* 📝 Update includes in `docs/fr/docs/tutorial/query-params.md`. PR [#12589](https://github.com/readyapi/readyapi/pull/12589) by [@kantandane](https://github.com/kantandane).
-* 📝 Update includes in `docs/en/tutorial/body-fields.md`. PR [#12588](https://github.com/readyapi/readyapi/pull/12588) by [@lucaromagnoli](https://github.com/lucaromagnoli).
-* 📝 Update includes in `docs/de/docs/tutorial/response-status-code.md`. PR [#12585](https://github.com/readyapi/readyapi/pull/12585) by [@abejaranoh](https://github.com/abejaranoh).
-* 📝 Update includes in `docs/en/docs/tutorial/body.md`. PR [#12586](https://github.com/readyapi/readyapi/pull/12586) by [@lucaromagnoli](https://github.com/lucaromagnoli).
-* 📝 Update includes in `docs/en/docs/advanced/behind-a-proxy.md`. PR [#12583](https://github.com/readyapi/readyapi/pull/12583) by [@imjuanleonard](https://github.com/imjuanleonard).
-* 📝 Update includes syntax for `docs/pl/docs/tutorial/first-steps.md`. PR [#12584](https://github.com/readyapi/readyapi/pull/12584) by [@sebkozlo](https://github.com/sebkozlo).
-* 📝 Update includes in `docs/en/docs/advanced/middleware.md`. PR [#12582](https://github.com/readyapi/readyapi/pull/12582) by [@montanarograziano](https://github.com/montanarograziano).
-* 📝 Update includes in `docs/en/docs/advanced/additional-status-codes.md`. PR [#12577](https://github.com/readyapi/readyapi/pull/12577) by [@krishnamadhavan](https://github.com/krishnamadhavan).
-* 📝 Update includes in `docs/en/docs/advanced/advanced-dependencies.md`. PR [#12578](https://github.com/readyapi/readyapi/pull/12578) by [@krishnamadhavan](https://github.com/krishnamadhavan).
-* 📝 Update includes in `docs/en/docs/advanced/additional-responses.md`. PR [#12576](https://github.com/readyapi/readyapi/pull/12576) by [@krishnamadhavan](https://github.com/krishnamadhavan).
-* 📝 Update includes in `docs/en/docs/tutorial/static-files.md`. PR [#12575](https://github.com/readyapi/readyapi/pull/12575) by [@lucaromagnoli](https://github.com/lucaromagnoli).
-* 📝 Update includes in `docs/en/docs/advanced/async-tests.md`. PR [#12568](https://github.com/readyapi/readyapi/pull/12568) by [@krishnamadhavan](https://github.com/krishnamadhavan).
-* 📝 Update includes in `docs/pt/docs/advanced/behind-a-proxy.md`. PR [#12563](https://github.com/readyapi/readyapi/pull/12563) by [@asmioglou](https://github.com/asmioglou).
-* 📝 Update includes in `docs/de/docs/advanced/security/http-basic-auth.md`. PR [#12561](https://github.com/readyapi/readyapi/pull/12561) by [@Nimitha-jagadeesha](https://github.com/Nimitha-jagadeesha).
-* 📝 Update includes in `docs/en/docs/tutorial/background-tasks.md`. PR [#12559](https://github.com/readyapi/readyapi/pull/12559) by [@FarhanAliRaza](https://github.com/FarhanAliRaza).
-* 📝 Update includes in `docs/fr/docs/python-types.md`. PR [#12558](https://github.com/readyapi/readyapi/pull/12558) by [@Ismailtlem](https://github.com/Ismailtlem).
-* 📝 Update includes in `docs/en/docs/how-to/graphql.md`. PR [#12564](https://github.com/readyapi/readyapi/pull/12564) by [@philipokiokio](https://github.com/philipokiokio).
-* 📝 Update includes in `docs/en/docs/how-to/extending-openapi.md`. PR [#12562](https://github.com/readyapi/readyapi/pull/12562) by [@philipokiokio](https://github.com/philipokiokio).
-* 📝 Update includes for `docs/en/docs/how-to/configure-swagger-ui.md`. PR [#12556](https://github.com/readyapi/readyapi/pull/12556) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Update includes for `docs/en/docs/how-to/separate-openapi-schemas.md`. PR [#12555](https://github.com/readyapi/readyapi/pull/12555) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Update includes for `docs/en/docs/advanced/security/http-basic-auth.md`. PR [#12553](https://github.com/readyapi/readyapi/pull/12553) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Update includes in `docs/en/docs/tutorial/first-steps.md`. PR [#12552](https://github.com/readyapi/readyapi/pull/12552) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Update includes in `docs/en/docs/python-types.md`. PR [#12551](https://github.com/readyapi/readyapi/pull/12551) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Fix link in OAuth2 docs. PR [#12550](https://github.com/readyapi/readyapi/pull/12550) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Add External Link: ReadyAPI do Zero. PR [#12533](https://github.com/readyapi/readyapi/pull/12533) by [@rennerocha](https://github.com/rennerocha).
-* 📝 Fix minor typos. PR [#12516](https://github.com/readyapi/readyapi/pull/12516) by [@kkirsche](https://github.com/kkirsche).
-* 🌐 Fix rendering issue in translations. PR [#12509](https://github.com/readyapi/readyapi/pull/12509) by [@alejsdev](https://github.com/alejsdev).
+* 📝  Update includes in `docs/fr/docs/tutorial/body.md`. PR [#12596](https://github.com/khulnasoft/readyapi/pull/12596) by [@kantandane](https://github.com/kantandane).
+* 📝 Update includes in `docs/fr/docs/tutorial/debugging.md`. PR [#12595](https://github.com/khulnasoft/readyapi/pull/12595) by [@kantandane](https://github.com/kantandane).
+* 📝 Update includes in `docs/fr/docs/tutorial/query-params-str-validations.md`. PR [#12591](https://github.com/khulnasoft/readyapi/pull/12591) by [@kantandane](https://github.com/kantandane).
+* 📝 Update includes in `docs/fr/docs/tutorial/query-params.md`. PR [#12589](https://github.com/khulnasoft/readyapi/pull/12589) by [@kantandane](https://github.com/kantandane).
+* 📝 Update includes in `docs/en/tutorial/body-fields.md`. PR [#12588](https://github.com/khulnasoft/readyapi/pull/12588) by [@lucaromagnoli](https://github.com/lucaromagnoli).
+* 📝 Update includes in `docs/de/docs/tutorial/response-status-code.md`. PR [#12585](https://github.com/khulnasoft/readyapi/pull/12585) by [@abejaranoh](https://github.com/abejaranoh).
+* 📝 Update includes in `docs/en/docs/tutorial/body.md`. PR [#12586](https://github.com/khulnasoft/readyapi/pull/12586) by [@lucaromagnoli](https://github.com/lucaromagnoli).
+* 📝 Update includes in `docs/en/docs/advanced/behind-a-proxy.md`. PR [#12583](https://github.com/khulnasoft/readyapi/pull/12583) by [@imjuanleonard](https://github.com/imjuanleonard).
+* 📝 Update includes syntax for `docs/pl/docs/tutorial/first-steps.md`. PR [#12584](https://github.com/khulnasoft/readyapi/pull/12584) by [@sebkozlo](https://github.com/sebkozlo).
+* 📝 Update includes in `docs/en/docs/advanced/middleware.md`. PR [#12582](https://github.com/khulnasoft/readyapi/pull/12582) by [@montanarograziano](https://github.com/montanarograziano).
+* 📝 Update includes in `docs/en/docs/advanced/additional-status-codes.md`. PR [#12577](https://github.com/khulnasoft/readyapi/pull/12577) by [@krishnamadhavan](https://github.com/krishnamadhavan).
+* 📝 Update includes in `docs/en/docs/advanced/advanced-dependencies.md`. PR [#12578](https://github.com/khulnasoft/readyapi/pull/12578) by [@krishnamadhavan](https://github.com/krishnamadhavan).
+* 📝 Update includes in `docs/en/docs/advanced/additional-responses.md`. PR [#12576](https://github.com/khulnasoft/readyapi/pull/12576) by [@krishnamadhavan](https://github.com/krishnamadhavan).
+* 📝 Update includes in `docs/en/docs/tutorial/static-files.md`. PR [#12575](https://github.com/khulnasoft/readyapi/pull/12575) by [@lucaromagnoli](https://github.com/lucaromagnoli).
+* 📝 Update includes in `docs/en/docs/advanced/async-tests.md`. PR [#12568](https://github.com/khulnasoft/readyapi/pull/12568) by [@krishnamadhavan](https://github.com/krishnamadhavan).
+* 📝 Update includes in `docs/pt/docs/advanced/behind-a-proxy.md`. PR [#12563](https://github.com/khulnasoft/readyapi/pull/12563) by [@asmioglou](https://github.com/asmioglou).
+* 📝 Update includes in `docs/de/docs/advanced/security/http-basic-auth.md`. PR [#12561](https://github.com/khulnasoft/readyapi/pull/12561) by [@Nimitha-jagadeesha](https://github.com/Nimitha-jagadeesha).
+* 📝 Update includes in `docs/en/docs/tutorial/background-tasks.md`. PR [#12559](https://github.com/khulnasoft/readyapi/pull/12559) by [@FarhanAliRaza](https://github.com/FarhanAliRaza).
+* 📝 Update includes in `docs/fr/docs/python-types.md`. PR [#12558](https://github.com/khulnasoft/readyapi/pull/12558) by [@Ismailtlem](https://github.com/Ismailtlem).
+* 📝 Update includes in `docs/en/docs/how-to/graphql.md`. PR [#12564](https://github.com/khulnasoft/readyapi/pull/12564) by [@philipokiokio](https://github.com/philipokiokio).
+* 📝 Update includes in `docs/en/docs/how-to/extending-openapi.md`. PR [#12562](https://github.com/khulnasoft/readyapi/pull/12562) by [@philipokiokio](https://github.com/philipokiokio).
+* 📝 Update includes for `docs/en/docs/how-to/configure-swagger-ui.md`. PR [#12556](https://github.com/khulnasoft/readyapi/pull/12556) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update includes for `docs/en/docs/how-to/separate-openapi-schemas.md`. PR [#12555](https://github.com/khulnasoft/readyapi/pull/12555) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update includes for `docs/en/docs/advanced/security/http-basic-auth.md`. PR [#12553](https://github.com/khulnasoft/readyapi/pull/12553) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update includes in `docs/en/docs/tutorial/first-steps.md`. PR [#12552](https://github.com/khulnasoft/readyapi/pull/12552) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update includes in `docs/en/docs/python-types.md`. PR [#12551](https://github.com/khulnasoft/readyapi/pull/12551) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Fix link in OAuth2 docs. PR [#12550](https://github.com/khulnasoft/readyapi/pull/12550) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Add External Link: ReadyAPI do Zero. PR [#12533](https://github.com/khulnasoft/readyapi/pull/12533) by [@rennerocha](https://github.com/rennerocha).
+* 📝 Fix minor typos. PR [#12516](https://github.com/khulnasoft/readyapi/pull/12516) by [@kkirsche](https://github.com/kkirsche).
+* 🌐 Fix rendering issue in translations. PR [#12509](https://github.com/khulnasoft/readyapi/pull/12509) by [@alejsdev](https://github.com/alejsdev).
 
 ### Translations
 
-* 📝 Update includes in `docs/de/docs/advanced/async-tests.md`. PR [#12567](https://github.com/readyapi/readyapi/pull/12567) by [@imjuanleonard](https://github.com/imjuanleonard).
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/sql-databases.md`. PR [#12530](https://github.com/readyapi/readyapi/pull/12530) by [@ilacftemp](https://github.com/ilacftemp).
-* 🌐 Add Korean translation for `docs/ko/docs/benchmarks.md`. PR [#12540](https://github.com/readyapi/readyapi/pull/12540) by [@Limsunoh](https://github.com/Limsunoh).
-* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/separate-openapi-schemas.md`. PR [#12518](https://github.com/readyapi/readyapi/pull/12518) by [@ilacftemp](https://github.com/ilacftemp).
-* 🌐 Update Traditional Chinese translation for `docs/zh-hant/docs/deployment/index.md`. PR [#12521](https://github.com/readyapi/readyapi/pull/12521) by [@codingjenny](https://github.com/codingjenny).
-* 🌐 Update Traditional Chinese translation for `docs/zh-hant/docs/deployment/cloud.md`. PR [#12522](https://github.com/readyapi/readyapi/pull/12522) by [@codingjenny](https://github.com/codingjenny).
-* 🌐 Update Traditional Chinese translation for `docs/zh-hant/docs/how-to/index.md`. PR [#12523](https://github.com/readyapi/readyapi/pull/12523) by [@codingjenny](https://github.com/codingjenny).
-* 🌐 Update Traditional Chinese translation for `docs/zh-hant/docs/tutorial/index.md`. PR [#12524](https://github.com/readyapi/readyapi/pull/12524) by [@codingjenny](https://github.com/codingjenny).
-* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/how-to/index.md`. PR [#12468](https://github.com/readyapi/readyapi/pull/12468) by [@codingjenny](https://github.com/codingjenny).
-* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/tutorial/index.md`. PR [#12466](https://github.com/readyapi/readyapi/pull/12466) by [@codingjenny](https://github.com/codingjenny).
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/header-param-models.md`. PR [#12437](https://github.com/readyapi/readyapi/pull/12437) by [@Joao-Pedro-P-Holanda](https://github.com/Joao-Pedro-P-Holanda).
-* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/extending-openapi.md`. PR [#12470](https://github.com/readyapi/readyapi/pull/12470) by [@ilacftemp](https://github.com/ilacftemp).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/dataclasses.md`. PR [#12475](https://github.com/readyapi/readyapi/pull/12475) by [@leoscarlato](https://github.com/leoscarlato).
-* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/custom-request-and-route.md`. PR [#12483](https://github.com/readyapi/readyapi/pull/12483) by [@devfernandoa](https://github.com/devfernandoa).
+* 📝 Update includes in `docs/de/docs/advanced/async-tests.md`. PR [#12567](https://github.com/khulnasoft/readyapi/pull/12567) by [@imjuanleonard](https://github.com/imjuanleonard).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/sql-databases.md`. PR [#12530](https://github.com/khulnasoft/readyapi/pull/12530) by [@ilacftemp](https://github.com/ilacftemp).
+* 🌐 Add Korean translation for `docs/ko/docs/benchmarks.md`. PR [#12540](https://github.com/khulnasoft/readyapi/pull/12540) by [@Limsunoh](https://github.com/Limsunoh).
+* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/separate-openapi-schemas.md`. PR [#12518](https://github.com/khulnasoft/readyapi/pull/12518) by [@ilacftemp](https://github.com/ilacftemp).
+* 🌐 Update Traditional Chinese translation for `docs/zh-hant/docs/deployment/index.md`. PR [#12521](https://github.com/khulnasoft/readyapi/pull/12521) by [@codingjenny](https://github.com/codingjenny).
+* 🌐 Update Traditional Chinese translation for `docs/zh-hant/docs/deployment/cloud.md`. PR [#12522](https://github.com/khulnasoft/readyapi/pull/12522) by [@codingjenny](https://github.com/codingjenny).
+* 🌐 Update Traditional Chinese translation for `docs/zh-hant/docs/how-to/index.md`. PR [#12523](https://github.com/khulnasoft/readyapi/pull/12523) by [@codingjenny](https://github.com/codingjenny).
+* 🌐 Update Traditional Chinese translation for `docs/zh-hant/docs/tutorial/index.md`. PR [#12524](https://github.com/khulnasoft/readyapi/pull/12524) by [@codingjenny](https://github.com/codingjenny).
+* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/how-to/index.md`. PR [#12468](https://github.com/khulnasoft/readyapi/pull/12468) by [@codingjenny](https://github.com/codingjenny).
+* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/tutorial/index.md`. PR [#12466](https://github.com/khulnasoft/readyapi/pull/12466) by [@codingjenny](https://github.com/codingjenny).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/header-param-models.md`. PR [#12437](https://github.com/khulnasoft/readyapi/pull/12437) by [@Joao-Pedro-P-Holanda](https://github.com/Joao-Pedro-P-Holanda).
+* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/extending-openapi.md`. PR [#12470](https://github.com/khulnasoft/readyapi/pull/12470) by [@ilacftemp](https://github.com/ilacftemp).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/dataclasses.md`. PR [#12475](https://github.com/khulnasoft/readyapi/pull/12475) by [@leoscarlato](https://github.com/leoscarlato).
+* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/custom-request-and-route.md`. PR [#12483](https://github.com/khulnasoft/readyapi/pull/12483) by [@devfernandoa](https://github.com/devfernandoa).
 
 ### Internal
 
-* ⬆ Bump cloudflare/wrangler-action from 3.9 to 3.11. PR [#12544](https://github.com/readyapi/readyapi/pull/12544) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 👷 Update GitHub Action to deploy docs previews to handle missing deploy comments. PR [#12527](https://github.com/readyapi/readyapi/pull/12527) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12505](https://github.com/readyapi/readyapi/pull/12505) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump cloudflare/wrangler-action from 3.9 to 3.11. PR [#12544](https://github.com/khulnasoft/readyapi/pull/12544) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Update GitHub Action to deploy docs previews to handle missing deploy comments. PR [#12527](https://github.com/khulnasoft/readyapi/pull/12527) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12505](https://github.com/khulnasoft/readyapi/pull/12505) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 
 ## 0.115.3
 
 ### Upgrades
 
-* ⬆️ Upgrade Starlette to `>=0.40.0,<0.42.0`. PR [#12469](https://github.com/readyapi/readyapi/pull/12469) by [@defnull](https://github.com/defnull).
+* ⬆️ Upgrade Starlette to `>=0.40.0,<0.42.0`. PR [#12469](https://github.com/khulnasoft/readyapi/pull/12469) by [@defnull](https://github.com/defnull).
 
 ### Docs
 
-* 📝 Fix broken link in docs. PR [#12495](https://github.com/readyapi/readyapi/pull/12495) by [@eltonjncorreia](https://github.com/eltonjncorreia).
+* 📝 Fix broken link in docs. PR [#12495](https://github.com/khulnasoft/readyapi/pull/12495) by [@eltonjncorreia](https://github.com/eltonjncorreia).
 
 ### Translations
 
-* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/readyapi-cli.md`. PR [#12444](https://github.com/readyapi/readyapi/pull/12444) by [@codingjenny](https://github.com/codingjenny).
-* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/deployment/index.md`. PR [#12439](https://github.com/readyapi/readyapi/pull/12439) by [@codingjenny](https://github.com/codingjenny).
-* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/testing-database.md`. PR [#12472](https://github.com/readyapi/readyapi/pull/12472) by [@GuilhermeRameh](https://github.com/GuilhermeRameh).
-* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/custom-docs-ui-assets.md`. PR [#12473](https://github.com/readyapi/readyapi/pull/12473) by [@devluisrodrigues](https://github.com/devluisrodrigues).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/response-headers.md`. PR [#12458](https://github.com/readyapi/readyapi/pull/12458) by [@leonardopaloschi](https://github.com/leonardopaloschi).
-* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/deployment/cloud.md`. PR [#12440](https://github.com/readyapi/readyapi/pull/12440) by [@codingjenny](https://github.com/codingjenny).
-* 🌐 Update Portuguese translation for `docs/pt/docs/python-types.md`. PR [#12428](https://github.com/readyapi/readyapi/pull/12428) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Add Russian translation for `docs/ru/docs/environment-variables.md`. PR [#12436](https://github.com/readyapi/readyapi/pull/12436) by [@wisderfin](https://github.com/wisderfin).
-* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/resources/index.md`. PR [#12443](https://github.com/readyapi/readyapi/pull/12443) by [@codingjenny](https://github.com/codingjenny).
-* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/about/index.md`. PR [#12438](https://github.com/readyapi/readyapi/pull/12438) by [@codingjenny](https://github.com/codingjenny).
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/query-param-models.md`. PR [#12414](https://github.com/readyapi/readyapi/pull/12414) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Remove Portuguese translation for `docs/pt/docs/deployment.md`. PR [#12427](https://github.com/readyapi/readyapi/pull/12427) by [@ceb10n](https://github.com/ceb10n).
-*  🌐 Add Portuguese translation for `docs/pt/docs/tutorial/body-updates.md`. PR [#12381](https://github.com/readyapi/readyapi/pull/12381) by [@andersonrocha0](https://github.com/andersonrocha0).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/response-cookies.md`. PR [#12417](https://github.com/readyapi/readyapi/pull/12417) by [@Paulofalcao2002](https://github.com/Paulofalcao2002).
+* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/readyapi-cli.md`. PR [#12444](https://github.com/khulnasoft/readyapi/pull/12444) by [@codingjenny](https://github.com/codingjenny).
+* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/deployment/index.md`. PR [#12439](https://github.com/khulnasoft/readyapi/pull/12439) by [@codingjenny](https://github.com/codingjenny).
+* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/testing-database.md`. PR [#12472](https://github.com/khulnasoft/readyapi/pull/12472) by [@GuilhermeRameh](https://github.com/GuilhermeRameh).
+* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/custom-docs-ui-assets.md`. PR [#12473](https://github.com/khulnasoft/readyapi/pull/12473) by [@devluisrodrigues](https://github.com/devluisrodrigues).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/response-headers.md`. PR [#12458](https://github.com/khulnasoft/readyapi/pull/12458) by [@leonardopaloschi](https://github.com/leonardopaloschi).
+* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/deployment/cloud.md`. PR [#12440](https://github.com/khulnasoft/readyapi/pull/12440) by [@codingjenny](https://github.com/codingjenny).
+* 🌐 Update Portuguese translation for `docs/pt/docs/python-types.md`. PR [#12428](https://github.com/khulnasoft/readyapi/pull/12428) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Add Russian translation for `docs/ru/docs/environment-variables.md`. PR [#12436](https://github.com/khulnasoft/readyapi/pull/12436) by [@wisderfin](https://github.com/wisderfin).
+* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/resources/index.md`. PR [#12443](https://github.com/khulnasoft/readyapi/pull/12443) by [@codingjenny](https://github.com/codingjenny).
+* 🌐 Add Traditional Chinese translation for `docs/zh-hant/docs/about/index.md`. PR [#12438](https://github.com/khulnasoft/readyapi/pull/12438) by [@codingjenny](https://github.com/codingjenny).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/query-param-models.md`. PR [#12414](https://github.com/khulnasoft/readyapi/pull/12414) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Remove Portuguese translation for `docs/pt/docs/deployment.md`. PR [#12427](https://github.com/khulnasoft/readyapi/pull/12427) by [@ceb10n](https://github.com/ceb10n).
+*  🌐 Add Portuguese translation for `docs/pt/docs/tutorial/body-updates.md`. PR [#12381](https://github.com/khulnasoft/readyapi/pull/12381) by [@andersonrocha0](https://github.com/andersonrocha0).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/response-cookies.md`. PR [#12417](https://github.com/khulnasoft/readyapi/pull/12417) by [@Paulofalcao2002](https://github.com/Paulofalcao2002).
 
 ### Internal
 
-* 👷 Update issue manager workflow . PR [#12457](https://github.com/readyapi/readyapi/pull/12457) by [@alejsdev](https://github.com/alejsdev).
-* 🔧 Update team, include YuriiMotov 🚀. PR [#12453](https://github.com/readyapi/readyapi/pull/12453) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Refactor label-approved, make it an internal script instead of an external GitHub Action. PR [#12280](https://github.com/readyapi/readyapi/pull/12280) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Fix smokeshow, checkout files on CI. PR [#12434](https://github.com/readyapi/readyapi/pull/12434) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Use uv in CI. PR [#12281](https://github.com/readyapi/readyapi/pull/12281) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ Update httpx requirement from <0.25.0,>=0.23.0 to >=0.23.0,<0.28.0. PR [#11509](https://github.com/readyapi/readyapi/pull/11509) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 👷 Update issue manager workflow . PR [#12457](https://github.com/khulnasoft/readyapi/pull/12457) by [@alejsdev](https://github.com/alejsdev).
+* 🔧 Update team, include YuriiMotov 🚀. PR [#12453](https://github.com/khulnasoft/readyapi/pull/12453) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Refactor label-approved, make it an internal script instead of an external GitHub Action. PR [#12280](https://github.com/khulnasoft/readyapi/pull/12280) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Fix smokeshow, checkout files on CI. PR [#12434](https://github.com/khulnasoft/readyapi/pull/12434) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Use uv in CI. PR [#12281](https://github.com/khulnasoft/readyapi/pull/12281) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Update httpx requirement from <0.25.0,>=0.23.0 to >=0.23.0,<0.28.0. PR [#11509](https://github.com/khulnasoft/readyapi/pull/11509) by [@dependabot[bot]](https://github.com/apps/dependabot).
 
 ## 0.115.2
 
 ### Upgrades
 
-* ⬆️ Upgrade Starlette to `>=0.37.2,<0.41.0`. PR [#12431](https://github.com/readyapi/readyapi/pull/12431) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆️ Upgrade Starlette to `>=0.37.2,<0.41.0`. PR [#12431](https://github.com/khulnasoft/readyapi/pull/12431) by [@khulnasoft](https://github.com/khulnasoft).
 
 ## 0.115.1
 
 ### Fixes
 
-* 🐛 Fix openapi generation with responses kwarg. PR [#10895](https://github.com/readyapi/readyapi/pull/10895) by [@flxdot](https://github.com/flxdot).
-* 🐛 Remove `Required` shadowing from readyapi using Pydantic v2. PR [#12197](https://github.com/readyapi/readyapi/pull/12197) by [@pachewise](https://github.com/pachewise).
+* 🐛 Fix openapi generation with responses kwarg. PR [#10895](https://github.com/khulnasoft/readyapi/pull/10895) by [@flxdot](https://github.com/flxdot).
+* 🐛 Remove `Required` shadowing from readyapi using Pydantic v2. PR [#12197](https://github.com/khulnasoft/readyapi/pull/12197) by [@pachewise](https://github.com/pachewise).
 
 ### Refactors
 
-* ♻️ Update type annotations for improved `python-multipart`. PR [#12407](https://github.com/readyapi/readyapi/pull/12407) by [@khulnasoft](https://github.com/khulnasoft).
+* ♻️ Update type annotations for improved `python-multipart`. PR [#12407](https://github.com/khulnasoft/readyapi/pull/12407) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Docs
 
-* ✨ Add new tutorial for SQL databases with SQLDev. PR [#12285](https://github.com/readyapi/readyapi/pull/12285) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Add External Link: How to profile a ReadyAPI asynchronous request. PR [#12389](https://github.com/readyapi/readyapi/pull/12389) by [@brouberol](https://github.com/brouberol).
-* 🔧 Remove `base_path` for `mdx_include` Markdown extension in MkDocs. PR [#12391](https://github.com/readyapi/readyapi/pull/12391) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Update link to Swagger UI configuration docs. PR [#12264](https://github.com/readyapi/readyapi/pull/12264) by [@makisukurisu](https://github.com/makisukurisu).
-* 📝 Adding links for Playwright and Vite in `docs/project-generation.md`. PR [#12274](https://github.com/readyapi/readyapi/pull/12274) by [@kayqueGovetri](https://github.com/kayqueGovetri).
-* 📝 Fix small typos in the documentation. PR [#12213](https://github.com/readyapi/readyapi/pull/12213) by [@svlandeg](https://github.com/svlandeg).
+* ✨ Add new tutorial for SQL databases with SQLDev. PR [#12285](https://github.com/khulnasoft/readyapi/pull/12285) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Add External Link: How to profile a ReadyAPI asynchronous request. PR [#12389](https://github.com/khulnasoft/readyapi/pull/12389) by [@brouberol](https://github.com/brouberol).
+* 🔧 Remove `base_path` for `mdx_include` Markdown extension in MkDocs. PR [#12391](https://github.com/khulnasoft/readyapi/pull/12391) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update link to Swagger UI configuration docs. PR [#12264](https://github.com/khulnasoft/readyapi/pull/12264) by [@makisukurisu](https://github.com/makisukurisu).
+* 📝 Adding links for Playwright and Vite in `docs/project-generation.md`. PR [#12274](https://github.com/khulnasoft/readyapi/pull/12274) by [@kayqueGovetri](https://github.com/kayqueGovetri).
+* 📝 Fix small typos in the documentation. PR [#12213](https://github.com/khulnasoft/readyapi/pull/12213) by [@svlandeg](https://github.com/svlandeg).
 
 ### Translations
 
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/cookie-param-models.md`. PR [#12298](https://github.com/readyapi/readyapi/pull/12298) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/graphql.md`. PR [#12215](https://github.com/readyapi/readyapi/pull/12215) by [@AnandaCampelo](https://github.com/AnandaCampelo).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/security/oauth2-scopes.md`. PR [#12263](https://github.com/readyapi/readyapi/pull/12263) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Add Portuguese translation for `docs/pt/docs/deployment/concepts.md`. PR [#12219](https://github.com/readyapi/readyapi/pull/12219) by [@marcelomarkus](https://github.com/marcelomarkus).
-* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/conditional-openapi.md`. PR [#12221](https://github.com/readyapi/readyapi/pull/12221) by [@marcelomarkus](https://github.com/marcelomarkus).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/response-directly.md`. PR [#12266](https://github.com/readyapi/readyapi/pull/12266) by [@Joao-Pedro-P-Holanda](https://github.com/Joao-Pedro-P-Holanda).
-* 🌐 Update Portuguese translation for `docs/pt/docs/tutorial/cookie-params.md`. PR [#12297](https://github.com/readyapi/readyapi/pull/12297) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Fix Korean translation for `docs/ko/docs/tutorial/index.md`. PR [#12278](https://github.com/readyapi/readyapi/pull/12278) by [@kkotipy](https://github.com/kkotipy).
-*  🌐 Update Portuguese translation for `docs/pt/docs/advanced/security/http-basic-auth.md`. PR [#12275](https://github.com/readyapi/readyapi/pull/12275) by [@andersonrocha0](https://github.com/andersonrocha0).
-* 🌐 Add Portuguese translation for `docs/pt/docs/deployment/cloud.md`. PR [#12217](https://github.com/readyapi/readyapi/pull/12217) by [@marcelomarkus](https://github.com/marcelomarkus).
-* ✏️ Fix typo in `docs/es/docs/python-types.md`. PR [#12235](https://github.com/readyapi/readyapi/pull/12235) by [@JavierSanchezCastro](https://github.com/JavierSanchezCastro).
-* 🌐 Add Dutch translation for `docs/nl/docs/environment-variables.md`. PR [#12200](https://github.com/readyapi/readyapi/pull/12200) by [@maxscheijen](https://github.com/maxscheijen).
-* 🌐 Add Portuguese translation for `docs/pt/docs/deployment/manually.md`. PR [#12210](https://github.com/readyapi/readyapi/pull/12210) by [@JoaoGustavoRogel](https://github.com/JoaoGustavoRogel).
-* 🌐 Add Portuguese translation for `docs/pt/docs/deployment/server-workers.md`. PR [#12220](https://github.com/readyapi/readyapi/pull/12220) by [@marcelomarkus](https://github.com/marcelomarkus).
-* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/configure-swagger-ui.md`. PR [#12222](https://github.com/readyapi/readyapi/pull/12222) by [@marcelomarkus](https://github.com/marcelomarkus).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/cookie-param-models.md`. PR [#12298](https://github.com/khulnasoft/readyapi/pull/12298) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/graphql.md`. PR [#12215](https://github.com/khulnasoft/readyapi/pull/12215) by [@AnandaCampelo](https://github.com/AnandaCampelo).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/security/oauth2-scopes.md`. PR [#12263](https://github.com/khulnasoft/readyapi/pull/12263) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Add Portuguese translation for `docs/pt/docs/deployment/concepts.md`. PR [#12219](https://github.com/khulnasoft/readyapi/pull/12219) by [@marcelomarkus](https://github.com/marcelomarkus).
+* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/conditional-openapi.md`. PR [#12221](https://github.com/khulnasoft/readyapi/pull/12221) by [@marcelomarkus](https://github.com/marcelomarkus).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/response-directly.md`. PR [#12266](https://github.com/khulnasoft/readyapi/pull/12266) by [@Joao-Pedro-P-Holanda](https://github.com/Joao-Pedro-P-Holanda).
+* 🌐 Update Portuguese translation for `docs/pt/docs/tutorial/cookie-params.md`. PR [#12297](https://github.com/khulnasoft/readyapi/pull/12297) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Fix Korean translation for `docs/ko/docs/tutorial/index.md`. PR [#12278](https://github.com/khulnasoft/readyapi/pull/12278) by [@kkotipy](https://github.com/kkotipy).
+*  🌐 Update Portuguese translation for `docs/pt/docs/advanced/security/http-basic-auth.md`. PR [#12275](https://github.com/khulnasoft/readyapi/pull/12275) by [@andersonrocha0](https://github.com/andersonrocha0).
+* 🌐 Add Portuguese translation for `docs/pt/docs/deployment/cloud.md`. PR [#12217](https://github.com/khulnasoft/readyapi/pull/12217) by [@marcelomarkus](https://github.com/marcelomarkus).
+* ✏️ Fix typo in `docs/es/docs/python-types.md`. PR [#12235](https://github.com/khulnasoft/readyapi/pull/12235) by [@JavierSanchezCastro](https://github.com/JavierSanchezCastro).
+* 🌐 Add Dutch translation for `docs/nl/docs/environment-variables.md`. PR [#12200](https://github.com/khulnasoft/readyapi/pull/12200) by [@maxscheijen](https://github.com/maxscheijen).
+* 🌐 Add Portuguese translation for `docs/pt/docs/deployment/manually.md`. PR [#12210](https://github.com/khulnasoft/readyapi/pull/12210) by [@JoaoGustavoRogel](https://github.com/JoaoGustavoRogel).
+* 🌐 Add Portuguese translation for `docs/pt/docs/deployment/server-workers.md`. PR [#12220](https://github.com/khulnasoft/readyapi/pull/12220) by [@marcelomarkus](https://github.com/marcelomarkus).
+* 🌐 Add Portuguese translation for `docs/pt/docs/how-to/configure-swagger-ui.md`. PR [#12222](https://github.com/khulnasoft/readyapi/pull/12222) by [@marcelomarkus](https://github.com/marcelomarkus).
 
 ### Internal
 
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12396](https://github.com/readyapi/readyapi/pull/12396) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* 🔨 Add script to generate variants of files. PR [#12405](https://github.com/readyapi/readyapi/pull/12405) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔧 Add speakeasy-api to `sponsors_badge.yml`. PR [#12404](https://github.com/readyapi/readyapi/pull/12404) by [@khulnasoft](https://github.com/khulnasoft).
-* ➕ Add docs dependency: markdown-include-variants. PR [#12399](https://github.com/readyapi/readyapi/pull/12399) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Fix extra mdx-base-path paths. PR [#12397](https://github.com/readyapi/readyapi/pull/12397) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Tweak labeler to not override custom labels. PR [#12398](https://github.com/readyapi/readyapi/pull/12398) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Update worfkow deploy-docs-notify URL. PR [#12392](https://github.com/readyapi/readyapi/pull/12392) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Update Cloudflare GitHub Action. PR [#12387](https://github.com/readyapi/readyapi/pull/12387) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ Bump pypa/gh-action-pypi-publish from 1.10.1 to 1.10.3. PR [#12386](https://github.com/readyapi/readyapi/pull/12386) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump mkdocstrings[python] from 0.25.1 to 0.26.1. PR [#12371](https://github.com/readyapi/readyapi/pull/12371) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump griffe-typingdoc from 0.2.6 to 0.2.7. PR [#12370](https://github.com/readyapi/readyapi/pull/12370) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12331](https://github.com/readyapi/readyapi/pull/12331) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* 🔧 Update sponsors, remove Fine.dev. PR [#12271](https://github.com/readyapi/readyapi/pull/12271) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12253](https://github.com/readyapi/readyapi/pull/12253) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* ✏️ Fix docstring typos in http security. PR [#12223](https://github.com/readyapi/readyapi/pull/12223) by [@albertvillanova](https://github.com/albertvillanova).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12396](https://github.com/khulnasoft/readyapi/pull/12396) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* 🔨 Add script to generate variants of files. PR [#12405](https://github.com/khulnasoft/readyapi/pull/12405) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Add speakeasy-api to `sponsors_badge.yml`. PR [#12404](https://github.com/khulnasoft/readyapi/pull/12404) by [@khulnasoft](https://github.com/khulnasoft).
+* ➕ Add docs dependency: markdown-include-variants. PR [#12399](https://github.com/khulnasoft/readyapi/pull/12399) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Fix extra mdx-base-path paths. PR [#12397](https://github.com/khulnasoft/readyapi/pull/12397) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Tweak labeler to not override custom labels. PR [#12398](https://github.com/khulnasoft/readyapi/pull/12398) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update worfkow deploy-docs-notify URL. PR [#12392](https://github.com/khulnasoft/readyapi/pull/12392) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update Cloudflare GitHub Action. PR [#12387](https://github.com/khulnasoft/readyapi/pull/12387) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Bump pypa/gh-action-pypi-publish from 1.10.1 to 1.10.3. PR [#12386](https://github.com/khulnasoft/readyapi/pull/12386) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump mkdocstrings[python] from 0.25.1 to 0.26.1. PR [#12371](https://github.com/khulnasoft/readyapi/pull/12371) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump griffe-typingdoc from 0.2.6 to 0.2.7. PR [#12370](https://github.com/khulnasoft/readyapi/pull/12370) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12331](https://github.com/khulnasoft/readyapi/pull/12331) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* 🔧 Update sponsors, remove Fine.dev. PR [#12271](https://github.com/khulnasoft/readyapi/pull/12271) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12253](https://github.com/khulnasoft/readyapi/pull/12253) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ✏️ Fix docstring typos in http security. PR [#12223](https://github.com/khulnasoft/readyapi/pull/12223) by [@albertvillanova](https://github.com/albertvillanova).
 
 ## 0.115.0
 
@@ -830,57 +830,57 @@ This applies to `Query`, `Header`, and `Cookie` parameters, read the new docs:
 
 ### Features
 
-* ✨ Add support for Pydantic models for parameters using `Query`, `Cookie`, `Header`. PR [#12199](https://github.com/readyapi/readyapi/pull/12199) by [@khulnasoft](https://github.com/khulnasoft).
+* ✨ Add support for Pydantic models for parameters using `Query`, `Cookie`, `Header`. PR [#12199](https://github.com/khulnasoft/readyapi/pull/12199) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Translations
 
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/security/http-basic-auth.md`. PR [#12195](https://github.com/readyapi/readyapi/pull/12195) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/security/http-basic-auth.md`. PR [#12195](https://github.com/khulnasoft/readyapi/pull/12195) by [@ceb10n](https://github.com/ceb10n).
 
 ### Internal
 
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12204](https://github.com/readyapi/readyapi/pull/12204) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12204](https://github.com/khulnasoft/readyapi/pull/12204) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
 
 ## 0.114.2
 
 ### Fixes
 
-* 🐛 Fix form field regression with `alias`. PR [#12194](https://github.com/readyapi/readyapi/pull/12194) by [@Wurstnase](https://github.com/Wurstnase).
+* 🐛 Fix form field regression with `alias`. PR [#12194](https://github.com/khulnasoft/readyapi/pull/12194) by [@Wurstnase](https://github.com/Wurstnase).
 
 ### Translations
 
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/request-form-models.md`. PR [#12175](https://github.com/readyapi/readyapi/pull/12175) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Add Chinese translation for `docs/zh/docs/project-generation.md`. PR [#12170](https://github.com/readyapi/readyapi/pull/12170) by [@waketzheng](https://github.com/waketzheng).
-* 🌐 Add Dutch translation for `docs/nl/docs/python-types.md`. PR [#12158](https://github.com/readyapi/readyapi/pull/12158) by [@maxscheijen](https://github.com/maxscheijen).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/request-form-models.md`. PR [#12175](https://github.com/khulnasoft/readyapi/pull/12175) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Add Chinese translation for `docs/zh/docs/project-generation.md`. PR [#12170](https://github.com/khulnasoft/readyapi/pull/12170) by [@waketzheng](https://github.com/waketzheng).
+* 🌐 Add Dutch translation for `docs/nl/docs/python-types.md`. PR [#12158](https://github.com/khulnasoft/readyapi/pull/12158) by [@maxscheijen](https://github.com/maxscheijen).
 
 ### Internal
 
-* 💡 Add comments with instructions for Playwright screenshot scripts. PR [#12193](https://github.com/readyapi/readyapi/pull/12193) by [@khulnasoft](https://github.com/khulnasoft).
-* ➕ Add inline-snapshot for tests. PR [#12189](https://github.com/readyapi/readyapi/pull/12189) by [@khulnasoft](https://github.com/khulnasoft).
+* 💡 Add comments with instructions for Playwright screenshot scripts. PR [#12193](https://github.com/khulnasoft/readyapi/pull/12193) by [@khulnasoft](https://github.com/khulnasoft).
+* ➕ Add inline-snapshot for tests. PR [#12189](https://github.com/khulnasoft/readyapi/pull/12189) by [@khulnasoft](https://github.com/khulnasoft).
 
 ## 0.114.1
 
 ### Refactors
 
-* ⚡️ Improve performance in request body parsing with a cache for internal model fields. PR [#12184](https://github.com/readyapi/readyapi/pull/12184) by [@khulnasoft](https://github.com/khulnasoft).
+* ⚡️ Improve performance in request body parsing with a cache for internal model fields. PR [#12184](https://github.com/khulnasoft/readyapi/pull/12184) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Docs
 
-* 📝 Remove duplicate line in docs for `docs/en/docs/environment-variables.md`. PR [#12169](https://github.com/readyapi/readyapi/pull/12169) by [@prometek](https://github.com/prometek).
+* 📝 Remove duplicate line in docs for `docs/en/docs/environment-variables.md`. PR [#12169](https://github.com/khulnasoft/readyapi/pull/12169) by [@prometek](https://github.com/prometek).
 
 ### Translations
 
-* 🌐 Add Portuguese translation for `docs/pt/docs/virtual-environments.md`. PR [#12163](https://github.com/readyapi/readyapi/pull/12163) by [@marcelomarkus](https://github.com/marcelomarkus).
-* 🌐 Add Portuguese translation for `docs/pt/docs/environment-variables.md`. PR [#12162](https://github.com/readyapi/readyapi/pull/12162) by [@marcelomarkus](https://github.com/marcelomarkus).
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/testing.md`. PR [#12164](https://github.com/readyapi/readyapi/pull/12164) by [@marcelomarkus](https://github.com/marcelomarkus).
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/debugging.md`. PR [#12165](https://github.com/readyapi/readyapi/pull/12165) by [@marcelomarkus](https://github.com/marcelomarkus).
-* 🌐 Add Korean translation for `docs/ko/docs/project-generation.md`. PR [#12157](https://github.com/readyapi/readyapi/pull/12157) by [@BORA040126](https://github.com/BORA040126).
+* 🌐 Add Portuguese translation for `docs/pt/docs/virtual-environments.md`. PR [#12163](https://github.com/khulnasoft/readyapi/pull/12163) by [@marcelomarkus](https://github.com/marcelomarkus).
+* 🌐 Add Portuguese translation for `docs/pt/docs/environment-variables.md`. PR [#12162](https://github.com/khulnasoft/readyapi/pull/12162) by [@marcelomarkus](https://github.com/marcelomarkus).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/testing.md`. PR [#12164](https://github.com/khulnasoft/readyapi/pull/12164) by [@marcelomarkus](https://github.com/marcelomarkus).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/debugging.md`. PR [#12165](https://github.com/khulnasoft/readyapi/pull/12165) by [@marcelomarkus](https://github.com/marcelomarkus).
+* 🌐 Add Korean translation for `docs/ko/docs/project-generation.md`. PR [#12157](https://github.com/khulnasoft/readyapi/pull/12157) by [@BORA040126](https://github.com/BORA040126).
 
 ### Internal
 
-* ⬆ Bump khulnasoft/issue-manager from 0.5.0 to 0.5.1. PR [#12173](https://github.com/readyapi/readyapi/pull/12173) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12176](https://github.com/readyapi/readyapi/pull/12176) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* 👷 Update `issue-manager.yml`. PR [#12159](https://github.com/readyapi/readyapi/pull/12159) by [@khulnasoft](https://github.com/khulnasoft).
-* ✏️ Fix typo in `readyapi/params.py`. PR [#12143](https://github.com/readyapi/readyapi/pull/12143) by [@surreal30](https://github.com/surreal30).
+* ⬆ Bump khulnasoft/issue-manager from 0.5.0 to 0.5.1. PR [#12173](https://github.com/khulnasoft/readyapi/pull/12173) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12176](https://github.com/khulnasoft/readyapi/pull/12176) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* 👷 Update `issue-manager.yml`. PR [#12159](https://github.com/khulnasoft/readyapi/pull/12159) by [@khulnasoft](https://github.com/khulnasoft).
+* ✏️ Fix typo in `readyapi/params.py`. PR [#12143](https://github.com/khulnasoft/readyapi/pull/12143) by [@surreal30](https://github.com/surreal30).
 
 ## 0.114.0
 
@@ -910,15 +910,15 @@ Read the new docs: [Form Models - Forbid Extra Form Fields](https://readyapi.git
 
 ### Features
 
-* ✨ Add support for forbidding extra form fields with Pydantic models. PR [#12134](https://github.com/readyapi/readyapi/pull/12134) by [@khulnasoft](https://github.com/khulnasoft).
+* ✨ Add support for forbidding extra form fields with Pydantic models. PR [#12134](https://github.com/khulnasoft/readyapi/pull/12134) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Docs
 
-* 📝 Update docs, Form Models section title, to match config name. PR [#12152](https://github.com/readyapi/readyapi/pull/12152) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update docs, Form Models section title, to match config name. PR [#12152](https://github.com/khulnasoft/readyapi/pull/12152) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Internal
 
-* ✅ Update internal tests for latest Pydantic, including CI tweaks to install the latest Pydantic. PR [#12147](https://github.com/readyapi/readyapi/pull/12147) by [@khulnasoft](https://github.com/khulnasoft).
+* ✅ Update internal tests for latest Pydantic, including CI tweaks to install the latest Pydantic. PR [#12147](https://github.com/khulnasoft/readyapi/pull/12147) by [@khulnasoft](https://github.com/khulnasoft).
 
 ## 0.113.0
 
@@ -947,11 +947,11 @@ Read the new docs: [Form Models](https://readyapi.github.io/tutorial/request-for
 
 ### Features
 
-* ✨ Add support for Pydantic models in `Form` parameters. PR [#12129](https://github.com/readyapi/readyapi/pull/12129) by [@khulnasoft](https://github.com/khulnasoft).
+* ✨ Add support for Pydantic models in `Form` parameters. PR [#12129](https://github.com/khulnasoft/readyapi/pull/12129) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Internal
 
-* 🔧 Update sponsors: Coherence link. PR [#12130](https://github.com/readyapi/readyapi/pull/12130) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update sponsors: Coherence link. PR [#12130](https://github.com/khulnasoft/readyapi/pull/12130) by [@khulnasoft](https://github.com/khulnasoft).
 
 ## 0.112.4
 
@@ -961,12 +961,12 @@ This release shouldn't affect apps using ReadyAPI in any way. You don't even hav
 
 ### Refactors
 
-* ♻️ Refactor deciding if `embed` body fields, do not overwrite fields, compute once per router, refactor internals in preparation for Pydantic models in `Form`, `Query` and others. PR [#12117](https://github.com/readyapi/readyapi/pull/12117) by [@khulnasoft](https://github.com/khulnasoft).
+* ♻️ Refactor deciding if `embed` body fields, do not overwrite fields, compute once per router, refactor internals in preparation for Pydantic models in `Form`, `Query` and others. PR [#12117](https://github.com/khulnasoft/readyapi/pull/12117) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Internal
 
-* ⏪️ Temporarily revert "✨ Add support for Pydantic models in `Form` parameters" to make a checkpoint release. PR [#12128](https://github.com/readyapi/readyapi/pull/12128) by [@khulnasoft](https://github.com/khulnasoft). Restored by PR [#12129](https://github.com/readyapi/readyapi/pull/12129).
-* ✨ Add support for Pydantic models in `Form` parameters. PR [#12127](https://github.com/readyapi/readyapi/pull/12127) by [@khulnasoft](https://github.com/khulnasoft). Reverted by PR [#12128](https://github.com/readyapi/readyapi/pull/12128) to make a checkpoint release with only refactors. Restored by PR [#12129](https://github.com/readyapi/readyapi/pull/12129).
+* ⏪️ Temporarily revert "✨ Add support for Pydantic models in `Form` parameters" to make a checkpoint release. PR [#12128](https://github.com/khulnasoft/readyapi/pull/12128) by [@khulnasoft](https://github.com/khulnasoft). Restored by PR [#12129](https://github.com/khulnasoft/readyapi/pull/12129).
+* ✨ Add support for Pydantic models in `Form` parameters. PR [#12127](https://github.com/khulnasoft/readyapi/pull/12127) by [@khulnasoft](https://github.com/khulnasoft). Reverted by PR [#12128](https://github.com/khulnasoft/readyapi/pull/12128) to make a checkpoint release with only refactors. Restored by PR [#12129](https://github.com/khulnasoft/readyapi/pull/12129).
 
 ## 0.112.3
 
@@ -974,155 +974,155 @@ This release is mainly internal refactors, it shouldn't affect apps using ReadyA
 
 ### Refactors
 
-* ♻️ Refactor internal `check_file_field()`, rename to `ensure_multipart_is_installed()` to clarify its purpose. PR [#12106](https://github.com/readyapi/readyapi/pull/12106) by [@khulnasoft](https://github.com/khulnasoft).
-* ♻️ Rename internal `create_response_field()` to `create_model_field()` as it's used for more than response models. PR [#12103](https://github.com/readyapi/readyapi/pull/12103) by [@khulnasoft](https://github.com/khulnasoft).
-* ♻️ Refactor and simplify internal data from `solve_dependencies()` using dataclasses. PR [#12100](https://github.com/readyapi/readyapi/pull/12100) by [@khulnasoft](https://github.com/khulnasoft).
-* ♻️ Refactor and simplify internal `analyze_param()` to structure data with dataclasses instead of tuple. PR [#12099](https://github.com/readyapi/readyapi/pull/12099) by [@khulnasoft](https://github.com/khulnasoft).
-* ♻️ Refactor and simplify dependencies data structures with dataclasses. PR [#12098](https://github.com/readyapi/readyapi/pull/12098) by [@khulnasoft](https://github.com/khulnasoft).
+* ♻️ Refactor internal `check_file_field()`, rename to `ensure_multipart_is_installed()` to clarify its purpose. PR [#12106](https://github.com/khulnasoft/readyapi/pull/12106) by [@khulnasoft](https://github.com/khulnasoft).
+* ♻️ Rename internal `create_response_field()` to `create_model_field()` as it's used for more than response models. PR [#12103](https://github.com/khulnasoft/readyapi/pull/12103) by [@khulnasoft](https://github.com/khulnasoft).
+* ♻️ Refactor and simplify internal data from `solve_dependencies()` using dataclasses. PR [#12100](https://github.com/khulnasoft/readyapi/pull/12100) by [@khulnasoft](https://github.com/khulnasoft).
+* ♻️ Refactor and simplify internal `analyze_param()` to structure data with dataclasses instead of tuple. PR [#12099](https://github.com/khulnasoft/readyapi/pull/12099) by [@khulnasoft](https://github.com/khulnasoft).
+* ♻️ Refactor and simplify dependencies data structures with dataclasses. PR [#12098](https://github.com/khulnasoft/readyapi/pull/12098) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Docs
 
-* 📝 Add External Link: Techniques and applications of SQLAlchemy global filters in ReadyAPI. PR [#12109](https://github.com/readyapi/readyapi/pull/12109) by [@TheShubhendra](https://github.com/TheShubhendra).
-* 📝 Add note about `time.perf_counter()` in middlewares. PR [#12095](https://github.com/readyapi/readyapi/pull/12095) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Tweak middleware code sample `time.time()` to `time.perf_counter()`. PR [#11957](https://github.com/readyapi/readyapi/pull/11957) by [@domdent](https://github.com/domdent).
-* 🔧 Update sponsors: Coherence. PR [#12093](https://github.com/readyapi/readyapi/pull/12093) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Fix async test example not to trigger DeprecationWarning. PR [#12084](https://github.com/readyapi/readyapi/pull/12084) by [@marcinsulikowski](https://github.com/marcinsulikowski).
-* 📝 Update `examples/path_params_numeric_validations/tutorial006.py`. PR [#11478](https://github.com/readyapi/readyapi/pull/11478) by [@MuhammadAshiqAmeer](https://github.com/MuhammadAshiqAmeer).
-* 📝 Update comma in `docs/en/docs/async.md`. PR [#12062](https://github.com/readyapi/readyapi/pull/12062) by [@Alec-Gillis](https://github.com/Alec-Gillis).
-* 📝 Update docs about serving ReadyAPI: ASGI servers, Docker containers, etc.. PR [#12069](https://github.com/readyapi/readyapi/pull/12069) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Clarify `response_class` parameter, validations, and returning a response directly. PR [#12067](https://github.com/readyapi/readyapi/pull/12067) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Fix minor typos and issues in the documentation. PR [#12063](https://github.com/readyapi/readyapi/pull/12063) by [@svlandeg](https://github.com/svlandeg).
-* 📝 Add note in Docker docs about ensuring graceful shutdowns and lifespan events with `CMD` exec form. PR [#11960](https://github.com/readyapi/readyapi/pull/11960) by [@GPla](https://github.com/GPla).
+* 📝 Add External Link: Techniques and applications of SQLAlchemy global filters in ReadyAPI. PR [#12109](https://github.com/khulnasoft/readyapi/pull/12109) by [@TheShubhendra](https://github.com/TheShubhendra).
+* 📝 Add note about `time.perf_counter()` in middlewares. PR [#12095](https://github.com/khulnasoft/readyapi/pull/12095) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Tweak middleware code sample `time.time()` to `time.perf_counter()`. PR [#11957](https://github.com/khulnasoft/readyapi/pull/11957) by [@domdent](https://github.com/domdent).
+* 🔧 Update sponsors: Coherence. PR [#12093](https://github.com/khulnasoft/readyapi/pull/12093) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Fix async test example not to trigger DeprecationWarning. PR [#12084](https://github.com/khulnasoft/readyapi/pull/12084) by [@marcinsulikowski](https://github.com/marcinsulikowski).
+* 📝 Update `examples/path_params_numeric_validations/tutorial006.py`. PR [#11478](https://github.com/khulnasoft/readyapi/pull/11478) by [@MuhammadAshiqAmeer](https://github.com/MuhammadAshiqAmeer).
+* 📝 Update comma in `docs/en/docs/async.md`. PR [#12062](https://github.com/khulnasoft/readyapi/pull/12062) by [@Alec-Gillis](https://github.com/Alec-Gillis).
+* 📝 Update docs about serving ReadyAPI: ASGI servers, Docker containers, etc.. PR [#12069](https://github.com/khulnasoft/readyapi/pull/12069) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Clarify `response_class` parameter, validations, and returning a response directly. PR [#12067](https://github.com/khulnasoft/readyapi/pull/12067) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Fix minor typos and issues in the documentation. PR [#12063](https://github.com/khulnasoft/readyapi/pull/12063) by [@svlandeg](https://github.com/svlandeg).
+* 📝 Add note in Docker docs about ensuring graceful shutdowns and lifespan events with `CMD` exec form. PR [#11960](https://github.com/khulnasoft/readyapi/pull/11960) by [@GPla](https://github.com/GPla).
 
 ### Translations
 
-* 🌐  Add Dutch translation for `docs/nl/docs/features.md`. PR [#12101](https://github.com/readyapi/readyapi/pull/12101) by [@maxscheijen](https://github.com/maxscheijen).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/testing-events.md`. PR [#12108](https://github.com/readyapi/readyapi/pull/12108) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/security/index.md`. PR [#12114](https://github.com/readyapi/readyapi/pull/12114) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Add Dutch translation for `docs/nl/docs/index.md`. PR [#12042](https://github.com/readyapi/readyapi/pull/12042) by [@svlandeg](https://github.com/svlandeg).
-* 🌐 Update Chinese translation for `docs/zh/docs/how-to/index.md`. PR [#12070](https://github.com/readyapi/readyapi/pull/12070) by [@synthpop123](https://github.com/synthpop123).
+* 🌐  Add Dutch translation for `docs/nl/docs/features.md`. PR [#12101](https://github.com/khulnasoft/readyapi/pull/12101) by [@maxscheijen](https://github.com/maxscheijen).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/testing-events.md`. PR [#12108](https://github.com/khulnasoft/readyapi/pull/12108) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/security/index.md`. PR [#12114](https://github.com/khulnasoft/readyapi/pull/12114) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Add Dutch translation for `docs/nl/docs/index.md`. PR [#12042](https://github.com/khulnasoft/readyapi/pull/12042) by [@svlandeg](https://github.com/svlandeg).
+* 🌐 Update Chinese translation for `docs/zh/docs/how-to/index.md`. PR [#12070](https://github.com/khulnasoft/readyapi/pull/12070) by [@synthpop123](https://github.com/synthpop123).
 
 ### Internal
 
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12115](https://github.com/readyapi/readyapi/pull/12115) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* ⬆ Bump pypa/gh-action-pypi-publish from 1.10.0 to 1.10.1. PR [#12120](https://github.com/readyapi/readyapi/pull/12120) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* ⬆ Bump pillow from 10.3.0 to 10.4.0. PR [#12105](https://github.com/readyapi/readyapi/pull/12105) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 💚 Set `include-hidden-files` to `True` when using the `upload-artifact` GH action. PR [#12118](https://github.com/readyapi/readyapi/pull/12118) by [@svlandeg](https://github.com/svlandeg).
-* ⬆ Bump pypa/gh-action-pypi-publish from 1.9.0 to 1.10.0. PR [#12112](https://github.com/readyapi/readyapi/pull/12112) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 🔧 Update sponsors link: Coherence. PR [#12097](https://github.com/readyapi/readyapi/pull/12097) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔧 Update labeler config to handle sponsorships data. PR [#12096](https://github.com/readyapi/readyapi/pull/12096) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔧 Update sponsors, remove Kong. PR [#12085](https://github.com/readyapi/readyapi/pull/12085) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12076](https://github.com/readyapi/readyapi/pull/12076) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* 👷 Update `latest-changes` GitHub Action. PR [#12073](https://github.com/readyapi/readyapi/pull/12073) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12115](https://github.com/khulnasoft/readyapi/pull/12115) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* ⬆ Bump pypa/gh-action-pypi-publish from 1.10.0 to 1.10.1. PR [#12120](https://github.com/khulnasoft/readyapi/pull/12120) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* ⬆ Bump pillow from 10.3.0 to 10.4.0. PR [#12105](https://github.com/khulnasoft/readyapi/pull/12105) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 💚 Set `include-hidden-files` to `True` when using the `upload-artifact` GH action. PR [#12118](https://github.com/khulnasoft/readyapi/pull/12118) by [@svlandeg](https://github.com/svlandeg).
+* ⬆ Bump pypa/gh-action-pypi-publish from 1.9.0 to 1.10.0. PR [#12112](https://github.com/khulnasoft/readyapi/pull/12112) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Update sponsors link: Coherence. PR [#12097](https://github.com/khulnasoft/readyapi/pull/12097) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update labeler config to handle sponsorships data. PR [#12096](https://github.com/khulnasoft/readyapi/pull/12096) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update sponsors, remove Kong. PR [#12085](https://github.com/khulnasoft/readyapi/pull/12085) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12076](https://github.com/khulnasoft/readyapi/pull/12076) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* 👷 Update `latest-changes` GitHub Action. PR [#12073](https://github.com/khulnasoft/readyapi/pull/12073) by [@khulnasoft](https://github.com/khulnasoft).
 
 ## 0.112.2
 
 ### Fixes
 
-* 🐛 Fix `allow_inf_nan` option for Param and Body classes. PR [#11867](https://github.com/readyapi/readyapi/pull/11867) by [@giunio-prc](https://github.com/giunio-prc).
-* 🐛 Ensure that `app.include_router` merges nested lifespans. PR [#9630](https://github.com/readyapi/readyapi/pull/9630) by [@Lancetnik](https://github.com/Lancetnik).
+* 🐛 Fix `allow_inf_nan` option for Param and Body classes. PR [#11867](https://github.com/khulnasoft/readyapi/pull/11867) by [@giunio-prc](https://github.com/giunio-prc).
+* 🐛 Ensure that `app.include_router` merges nested lifespans. PR [#9630](https://github.com/khulnasoft/readyapi/pull/9630) by [@Lancetnik](https://github.com/Lancetnik).
 
 ### Refactors
 
-* 🎨 Fix typing annotation for semi-internal `ReadyAPI.add_api_route()`. PR [#10240](https://github.com/readyapi/readyapi/pull/10240) by [@ordinary-jamie](https://github.com/ordinary-jamie).
-* ⬆️ Upgrade version of Ruff and reformat. PR [#12032](https://github.com/readyapi/readyapi/pull/12032) by [@khulnasoft](https://github.com/khulnasoft).
+* 🎨 Fix typing annotation for semi-internal `ReadyAPI.add_api_route()`. PR [#10240](https://github.com/khulnasoft/readyapi/pull/10240) by [@ordinary-jamie](https://github.com/ordinary-jamie).
+* ⬆️ Upgrade version of Ruff and reformat. PR [#12032](https://github.com/khulnasoft/readyapi/pull/12032) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Docs
 
-* 📝 Fix a typo in `docs/en/docs/virtual-environments.md`. PR [#12064](https://github.com/readyapi/readyapi/pull/12064) by [@aymenkrifa](https://github.com/aymenkrifa).
-* 📝 Add docs about Environment Variables and Virtual Environments. PR [#12054](https://github.com/readyapi/readyapi/pull/12054) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Add Asyncer mention in async docs. PR [#12037](https://github.com/readyapi/readyapi/pull/12037) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Move the Features docs to the top level to improve the main page menu. PR [#12036](https://github.com/readyapi/readyapi/pull/12036) by [@khulnasoft](https://github.com/khulnasoft).
-* ✏️ Fix import typo in reference example for `Security`. PR [#11168](https://github.com/readyapi/readyapi/pull/11168) by [@0shah0](https://github.com/0shah0).
-* 📝 Highlight correct line in tutorial `docs/en/docs/tutorial/body-multiple-params.md`. PR [#11978](https://github.com/readyapi/readyapi/pull/11978) by [@svlandeg](https://github.com/svlandeg).
-* 🔥 Remove Sentry link from Advanced Middleware docs. PR [#12031](https://github.com/readyapi/readyapi/pull/12031) by [@alejsdev](https://github.com/alejsdev).
-* 📝 Clarify management tasks for translations, multiples files in one PR. PR [#12030](https://github.com/readyapi/readyapi/pull/12030) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Edit the link to the OpenAPI "Responses Object" and "Response Object" sections in the "Additional Responses in OpenAPI" section. PR [#11996](https://github.com/readyapi/readyapi/pull/11996) by [@VaitoSoi](https://github.com/VaitoSoi).
-* 🔨 Specify `email-validator` dependency with dash. PR [#11515](https://github.com/readyapi/readyapi/pull/11515) by [@jirikuncar](https://github.com/jirikuncar).
-* 🌐 Add Spanish translation for `docs/es/docs/project-generation.md`. PR [#11947](https://github.com/readyapi/readyapi/pull/11947) by [@alejsdev](https://github.com/alejsdev).
-* 📝 Fix minor typo. PR [#12026](https://github.com/readyapi/readyapi/pull/12026) by [@MicaelJarniac](https://github.com/MicaelJarniac).
-* 📝 Several docs improvements, tweaks, and clarifications. PR [#11390](https://github.com/readyapi/readyapi/pull/11390) by [@nilslindemann](https://github.com/nilslindemann).
-* 📝 Add missing `compresslevel` parameter on docs for `GZipMiddleware`. PR [#11350](https://github.com/readyapi/readyapi/pull/11350) by [@junah201](https://github.com/junah201).
-* 📝 Fix inconsistent response code when item already exists in docs for testing. PR [#11818](https://github.com/readyapi/readyapi/pull/11818) by [@lokomilo](https://github.com/lokomilo).
-* 📝 Update `docs/en/docs/tutorial/body.md` with Python 3.10 union type example. PR [#11415](https://github.com/readyapi/readyapi/pull/11415) by [@rangzen](https://github.com/rangzen).
+* 📝 Fix a typo in `docs/en/docs/virtual-environments.md`. PR [#12064](https://github.com/khulnasoft/readyapi/pull/12064) by [@aymenkrifa](https://github.com/aymenkrifa).
+* 📝 Add docs about Environment Variables and Virtual Environments. PR [#12054](https://github.com/khulnasoft/readyapi/pull/12054) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Add Asyncer mention in async docs. PR [#12037](https://github.com/khulnasoft/readyapi/pull/12037) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Move the Features docs to the top level to improve the main page menu. PR [#12036](https://github.com/khulnasoft/readyapi/pull/12036) by [@khulnasoft](https://github.com/khulnasoft).
+* ✏️ Fix import typo in reference example for `Security`. PR [#11168](https://github.com/khulnasoft/readyapi/pull/11168) by [@0shah0](https://github.com/0shah0).
+* 📝 Highlight correct line in tutorial `docs/en/docs/tutorial/body-multiple-params.md`. PR [#11978](https://github.com/khulnasoft/readyapi/pull/11978) by [@svlandeg](https://github.com/svlandeg).
+* 🔥 Remove Sentry link from Advanced Middleware docs. PR [#12031](https://github.com/khulnasoft/readyapi/pull/12031) by [@alejsdev](https://github.com/alejsdev).
+* 📝 Clarify management tasks for translations, multiples files in one PR. PR [#12030](https://github.com/khulnasoft/readyapi/pull/12030) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Edit the link to the OpenAPI "Responses Object" and "Response Object" sections in the "Additional Responses in OpenAPI" section. PR [#11996](https://github.com/khulnasoft/readyapi/pull/11996) by [@VaitoSoi](https://github.com/VaitoSoi).
+* 🔨 Specify `email-validator` dependency with dash. PR [#11515](https://github.com/khulnasoft/readyapi/pull/11515) by [@jirikuncar](https://github.com/jirikuncar).
+* 🌐 Add Spanish translation for `docs/es/docs/project-generation.md`. PR [#11947](https://github.com/khulnasoft/readyapi/pull/11947) by [@alejsdev](https://github.com/alejsdev).
+* 📝 Fix minor typo. PR [#12026](https://github.com/khulnasoft/readyapi/pull/12026) by [@MicaelJarniac](https://github.com/MicaelJarniac).
+* 📝 Several docs improvements, tweaks, and clarifications. PR [#11390](https://github.com/khulnasoft/readyapi/pull/11390) by [@nilslindemann](https://github.com/nilslindemann).
+* 📝 Add missing `compresslevel` parameter on docs for `GZipMiddleware`. PR [#11350](https://github.com/khulnasoft/readyapi/pull/11350) by [@junah201](https://github.com/junah201).
+* 📝 Fix inconsistent response code when item already exists in docs for testing. PR [#11818](https://github.com/khulnasoft/readyapi/pull/11818) by [@lokomilo](https://github.com/lokomilo).
+* 📝 Update `docs/en/docs/tutorial/body.md` with Python 3.10 union type example. PR [#11415](https://github.com/khulnasoft/readyapi/pull/11415) by [@rangzen](https://github.com/rangzen).
 
 ### Translations
 
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/request_file.md`. PR [#12018](https://github.com/readyapi/readyapi/pull/12018) by [@Joao-Pedro-P-Holanda](https://github.com/Joao-Pedro-P-Holanda).
-* 🌐 Add Japanese translation for `docs/ja/docs/learn/index.md`. PR [#11592](https://github.com/readyapi/readyapi/pull/11592) by [@ukwhatn](https://github.com/ukwhatn).
-* 📝 Update Spanish translation docs for consistency. PR [#12044](https://github.com/readyapi/readyapi/pull/12044) by [@alejsdev](https://github.com/alejsdev).
-* 🌐 Update Chinese translation for `docs/zh/docs/tutorial/dependencies/dependencies-with-yield.md`. PR [#12028](https://github.com/readyapi/readyapi/pull/12028) by [@xuvjso](https://github.com/xuvjso).
-* 📝 Update ReadyAPI People, do not translate to have the most recent info. PR [#12034](https://github.com/readyapi/readyapi/pull/12034) by [@khulnasoft](https://github.com/khulnasoft).
-* 🌐 Update Urdu translation for `docs/ur/docs/benchmarks.md`. PR [#10046](https://github.com/readyapi/readyapi/pull/10046) by [@AhsanSheraz](https://github.com/AhsanSheraz).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/request_file.md`. PR [#12018](https://github.com/khulnasoft/readyapi/pull/12018) by [@Joao-Pedro-P-Holanda](https://github.com/Joao-Pedro-P-Holanda).
+* 🌐 Add Japanese translation for `docs/ja/docs/learn/index.md`. PR [#11592](https://github.com/khulnasoft/readyapi/pull/11592) by [@ukwhatn](https://github.com/ukwhatn).
+* 📝 Update Spanish translation docs for consistency. PR [#12044](https://github.com/khulnasoft/readyapi/pull/12044) by [@alejsdev](https://github.com/alejsdev).
+* 🌐 Update Chinese translation for `docs/zh/docs/tutorial/dependencies/dependencies-with-yield.md`. PR [#12028](https://github.com/khulnasoft/readyapi/pull/12028) by [@xuvjso](https://github.com/xuvjso).
+* 📝 Update ReadyAPI People, do not translate to have the most recent info. PR [#12034](https://github.com/khulnasoft/readyapi/pull/12034) by [@khulnasoft](https://github.com/khulnasoft).
+* 🌐 Update Urdu translation for `docs/ur/docs/benchmarks.md`. PR [#10046](https://github.com/khulnasoft/readyapi/pull/10046) by [@AhsanSheraz](https://github.com/AhsanSheraz).
 
 ### Internal
 
-* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12046](https://github.com/readyapi/readyapi/pull/12046) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
-* 🔧 Update coverage config files. PR [#12035](https://github.com/readyapi/readyapi/pull/12035) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔨 Standardize shebang across shell scripts. PR [#11942](https://github.com/readyapi/readyapi/pull/11942) by [@gitworkflows](https://github.com/gitworkflows).
-* ⬆ Update sqlalchemy requirement from <1.4.43,>=1.3.18 to >=1.3.18,<2.0.33. PR [#11979](https://github.com/readyapi/readyapi/pull/11979) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 🔊 Remove old ignore warnings. PR [#11950](https://github.com/readyapi/readyapi/pull/11950) by [@khulnasoft](https://github.com/khulnasoft).
-* ⬆️ Upgrade griffe-typingdoc for the docs. PR [#12029](https://github.com/readyapi/readyapi/pull/12029) by [@khulnasoft](https://github.com/khulnasoft).
-* 🙈 Add .coverage* to `.gitignore`. PR [#11940](https://github.com/readyapi/readyapi/pull/11940) by [@gitworkflows](https://github.com/gitworkflows).
-* ⚙️ Record and show test coverage contexts (what test covers which line). PR [#11518](https://github.com/readyapi/readyapi/pull/11518) by [@slafs](https://github.com/slafs).
+* ⬆ [pre-commit.ci] pre-commit autoupdate. PR [#12046](https://github.com/khulnasoft/readyapi/pull/12046) by [@pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci).
+* 🔧 Update coverage config files. PR [#12035](https://github.com/khulnasoft/readyapi/pull/12035) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔨 Standardize shebang across shell scripts. PR [#11942](https://github.com/khulnasoft/readyapi/pull/11942) by [@gitworkflows](https://github.com/gitworkflows).
+* ⬆ Update sqlalchemy requirement from <1.4.43,>=1.3.18 to >=1.3.18,<2.0.33. PR [#11979](https://github.com/khulnasoft/readyapi/pull/11979) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔊 Remove old ignore warnings. PR [#11950](https://github.com/khulnasoft/readyapi/pull/11950) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆️ Upgrade griffe-typingdoc for the docs. PR [#12029](https://github.com/khulnasoft/readyapi/pull/12029) by [@khulnasoft](https://github.com/khulnasoft).
+* 🙈 Add .coverage* to `.gitignore`. PR [#11940](https://github.com/khulnasoft/readyapi/pull/11940) by [@gitworkflows](https://github.com/gitworkflows).
+* ⚙️ Record and show test coverage contexts (what test covers which line). PR [#11518](https://github.com/khulnasoft/readyapi/pull/11518) by [@slafs](https://github.com/slafs).
 
 ## 0.112.1
 
 ### Upgrades
 
-* ⬆️ Allow Starlette 0.38.x, update the pin to `>=0.37.2,<0.39.0`. PR [#11876](https://github.com/readyapi/readyapi/pull/11876) by [@musicinmybrain](https://github.com/musicinmybrain).
+* ⬆️ Allow Starlette 0.38.x, update the pin to `>=0.37.2,<0.39.0`. PR [#11876](https://github.com/khulnasoft/readyapi/pull/11876) by [@musicinmybrain](https://github.com/musicinmybrain).
 
 ### Docs
 
-* 📝 Update docs section about "Don't Translate these Pages". PR [#12022](https://github.com/readyapi/readyapi/pull/12022) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Add documentation for non-translated pages and scripts to verify them. PR [#12020](https://github.com/readyapi/readyapi/pull/12020) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Update docs about discussions questions. PR [#11985](https://github.com/readyapi/readyapi/pull/11985) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update docs section about "Don't Translate these Pages". PR [#12022](https://github.com/khulnasoft/readyapi/pull/12022) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Add documentation for non-translated pages and scripts to verify them. PR [#12020](https://github.com/khulnasoft/readyapi/pull/12020) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update docs about discussions questions. PR [#11985](https://github.com/khulnasoft/readyapi/pull/11985) by [@khulnasoft](https://github.com/khulnasoft).
 
 ### Translations
 
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/bigger-applications.md`. PR [#11971](https://github.com/readyapi/readyapi/pull/11971) by [@marcelomarkus](https://github.com/marcelomarkus).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/testing-websockets.md`. PR [#11994](https://github.com/readyapi/readyapi/pull/11994) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/testing-dependencies.md`. PR [#11995](https://github.com/readyapi/readyapi/pull/11995) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/using-request-directly.md`. PR [#11956](https://github.com/readyapi/readyapi/pull/11956) by [@ceb10n](https://github.com/ceb10n).
-* 🌐 Add French translation for `docs/fr/docs/tutorial/body-multiple-params.md`. PR [#11796](https://github.com/readyapi/readyapi/pull/11796) by [@pe-brian](https://github.com/pe-brian).
-* 🌐 Update Chinese translation for `docs/zh/docs/tutorial/query-params.md`. PR [#11557](https://github.com/readyapi/readyapi/pull/11557) by [@caomingpei](https://github.com/caomingpei).
-* 🌐 Update typo in Chinese translation for `docs/zh/docs/advanced/testing-dependencies.md`. PR [#11944](https://github.com/readyapi/readyapi/pull/11944) by [@bestony](https://github.com/bestony).
-* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/sub-applications.md` and `docs/pt/docs/advanced/behind-a-proxy.md`. PR [#11856](https://github.com/readyapi/readyapi/pull/11856) by [@marcelomarkus](https://github.com/marcelomarkus).
-* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/cors.md` and `docs/pt/docs/tutorial/middleware.md`. PR [#11916](https://github.com/readyapi/readyapi/pull/11916) by [@wesinalves](https://github.com/wesinalves).
-* 🌐 Add French translation for `docs/fr/docs/tutorial/path-params-numeric-validations.md`. PR [#11788](https://github.com/readyapi/readyapi/pull/11788) by [@pe-brian](https://github.com/pe-brian).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/bigger-applications.md`. PR [#11971](https://github.com/khulnasoft/readyapi/pull/11971) by [@marcelomarkus](https://github.com/marcelomarkus).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/testing-websockets.md`. PR [#11994](https://github.com/khulnasoft/readyapi/pull/11994) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/testing-dependencies.md`. PR [#11995](https://github.com/khulnasoft/readyapi/pull/11995) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/using-request-directly.md`. PR [#11956](https://github.com/khulnasoft/readyapi/pull/11956) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Add French translation for `docs/fr/docs/tutorial/body-multiple-params.md`. PR [#11796](https://github.com/khulnasoft/readyapi/pull/11796) by [@pe-brian](https://github.com/pe-brian).
+* 🌐 Update Chinese translation for `docs/zh/docs/tutorial/query-params.md`. PR [#11557](https://github.com/khulnasoft/readyapi/pull/11557) by [@caomingpei](https://github.com/caomingpei).
+* 🌐 Update typo in Chinese translation for `docs/zh/docs/advanced/testing-dependencies.md`. PR [#11944](https://github.com/khulnasoft/readyapi/pull/11944) by [@bestony](https://github.com/bestony).
+* 🌐 Add Portuguese translation for `docs/pt/docs/advanced/sub-applications.md` and `docs/pt/docs/advanced/behind-a-proxy.md`. PR [#11856](https://github.com/khulnasoft/readyapi/pull/11856) by [@marcelomarkus](https://github.com/marcelomarkus).
+* 🌐 Add Portuguese translation for `docs/pt/docs/tutorial/cors.md` and `docs/pt/docs/tutorial/middleware.md`. PR [#11916](https://github.com/khulnasoft/readyapi/pull/11916) by [@wesinalves](https://github.com/wesinalves).
+* 🌐 Add French translation for `docs/fr/docs/tutorial/path-params-numeric-validations.md`. PR [#11788](https://github.com/khulnasoft/readyapi/pull/11788) by [@pe-brian](https://github.com/pe-brian).
 
 ### Internal
 
-* ⬆ Bump pypa/gh-action-pypi-publish from 1.8.14 to 1.9.0. PR [#11727](https://github.com/readyapi/readyapi/pull/11727) by [@dependabot[bot]](https://github.com/apps/dependabot).
-* 🔧 Add changelog URL to `pyproject.toml`, shows in PyPI. PR [#11152](https://github.com/readyapi/readyapi/pull/11152) by [@Pierre-VF](https://github.com/Pierre-VF).
-* 👷 Do not sync labels as it overrides manually added labels. PR [#12024](https://github.com/readyapi/readyapi/pull/12024) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷🏻 Update Labeler GitHub Actions. PR [#12019](https://github.com/readyapi/readyapi/pull/12019) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔧 Update configs for MkDocs for languages and social cards. PR [#12016](https://github.com/readyapi/readyapi/pull/12016) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Update permissions and config for labeler GitHub Action. PR [#12008](https://github.com/readyapi/readyapi/pull/12008) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷🏻 Add GitHub Action label-checker. PR [#12005](https://github.com/readyapi/readyapi/pull/12005) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Add label checker GitHub Action. PR [#12004](https://github.com/readyapi/readyapi/pull/12004) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Update GitHub Action add-to-project. PR [#12002](https://github.com/readyapi/readyapi/pull/12002) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔧 Update labeler GitHub Action. PR [#12001](https://github.com/readyapi/readyapi/pull/12001) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Add GitHub Action labeler. PR [#12000](https://github.com/readyapi/readyapi/pull/12000) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Add GitHub Action add-to-project. PR [#11999](https://github.com/readyapi/readyapi/pull/11999) by [@khulnasoft](https://github.com/khulnasoft).
-* 📝 Update admonitions in docs missing. PR [#11998](https://github.com/readyapi/readyapi/pull/11998) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔨 Update docs.py script to enable dirty reload conditionally. PR [#11986](https://github.com/readyapi/readyapi/pull/11986) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔧 Update MkDocs instant previews. PR [#11982](https://github.com/readyapi/readyapi/pull/11982) by [@khulnasoft](https://github.com/khulnasoft).
-* 🐛 Fix deploy docs previews script to handle mkdocs.yml files. PR [#11984](https://github.com/readyapi/readyapi/pull/11984) by [@khulnasoft](https://github.com/khulnasoft).
-* 💡 Add comment about custom Termynal line-height. PR [#11976](https://github.com/readyapi/readyapi/pull/11976) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Add alls-green for test-redistribute. PR [#11974](https://github.com/readyapi/readyapi/pull/11974) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Update docs-previews to handle no docs changes. PR [#11975](https://github.com/readyapi/readyapi/pull/11975) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔨 Refactor script `deploy_docs_status.py` to account for deploy URLs with or without trailing slash. PR [#11965](https://github.com/readyapi/readyapi/pull/11965) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔒️ Update permissions for deploy-docs action. PR [#11964](https://github.com/readyapi/readyapi/pull/11964) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷🏻 Add deploy docs status and preview links to PRs. PR [#11961](https://github.com/readyapi/readyapi/pull/11961) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔧 Update docs setup with latest configs and plugins. PR [#11953](https://github.com/readyapi/readyapi/pull/11953) by [@khulnasoft](https://github.com/khulnasoft).
-* 🔇 Ignore warning from attrs in Trio. PR [#11949](https://github.com/readyapi/readyapi/pull/11949) by [@khulnasoft](https://github.com/khulnasoft).
+* ⬆ Bump pypa/gh-action-pypi-publish from 1.8.14 to 1.9.0. PR [#11727](https://github.com/khulnasoft/readyapi/pull/11727) by [@dependabot[bot]](https://github.com/apps/dependabot).
+* 🔧 Add changelog URL to `pyproject.toml`, shows in PyPI. PR [#11152](https://github.com/khulnasoft/readyapi/pull/11152) by [@Pierre-VF](https://github.com/Pierre-VF).
+* 👷 Do not sync labels as it overrides manually added labels. PR [#12024](https://github.com/khulnasoft/readyapi/pull/12024) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷🏻 Update Labeler GitHub Actions. PR [#12019](https://github.com/khulnasoft/readyapi/pull/12019) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update configs for MkDocs for languages and social cards. PR [#12016](https://github.com/khulnasoft/readyapi/pull/12016) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update permissions and config for labeler GitHub Action. PR [#12008](https://github.com/khulnasoft/readyapi/pull/12008) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷🏻 Add GitHub Action label-checker. PR [#12005](https://github.com/khulnasoft/readyapi/pull/12005) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Add label checker GitHub Action. PR [#12004](https://github.com/khulnasoft/readyapi/pull/12004) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update GitHub Action add-to-project. PR [#12002](https://github.com/khulnasoft/readyapi/pull/12002) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update labeler GitHub Action. PR [#12001](https://github.com/khulnasoft/readyapi/pull/12001) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Add GitHub Action labeler. PR [#12000](https://github.com/khulnasoft/readyapi/pull/12000) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Add GitHub Action add-to-project. PR [#11999](https://github.com/khulnasoft/readyapi/pull/11999) by [@khulnasoft](https://github.com/khulnasoft).
+* 📝 Update admonitions in docs missing. PR [#11998](https://github.com/khulnasoft/readyapi/pull/11998) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔨 Update docs.py script to enable dirty reload conditionally. PR [#11986](https://github.com/khulnasoft/readyapi/pull/11986) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update MkDocs instant previews. PR [#11982](https://github.com/khulnasoft/readyapi/pull/11982) by [@khulnasoft](https://github.com/khulnasoft).
+* 🐛 Fix deploy docs previews script to handle mkdocs.yml files. PR [#11984](https://github.com/khulnasoft/readyapi/pull/11984) by [@khulnasoft](https://github.com/khulnasoft).
+* 💡 Add comment about custom Termynal line-height. PR [#11976](https://github.com/khulnasoft/readyapi/pull/11976) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Add alls-green for test-redistribute. PR [#11974](https://github.com/khulnasoft/readyapi/pull/11974) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update docs-previews to handle no docs changes. PR [#11975](https://github.com/khulnasoft/readyapi/pull/11975) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔨 Refactor script `deploy_docs_status.py` to account for deploy URLs with or without trailing slash. PR [#11965](https://github.com/khulnasoft/readyapi/pull/11965) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔒️ Update permissions for deploy-docs action. PR [#11964](https://github.com/khulnasoft/readyapi/pull/11964) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷🏻 Add deploy docs status and preview links to PRs. PR [#11961](https://github.com/khulnasoft/readyapi/pull/11961) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update docs setup with latest configs and plugins. PR [#11953](https://github.com/khulnasoft/readyapi/pull/11953) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔇 Ignore warning from attrs in Trio. PR [#11949](https://github.com/khulnasoft/readyapi/pull/11949) by [@khulnasoft](https://github.com/khulnasoft).
 
 ## 0.112.0
 
 ### Breaking Changes
 
-* ♻️ Add support for `pip install "readyapi[standard]"` with standard dependencies and `python -m readyapi`. PR [#11935](https://github.com/readyapi/readyapi/pull/11935) by [@khulnasoft](https://github.com/khulnasoft).
+* ♻️ Add support for `pip install "readyapi[standard]"` with standard dependencies and `python -m readyapi`. PR [#11935](https://github.com/khulnasoft/readyapi/pull/11935) by [@khulnasoft](https://github.com/khulnasoft).
 
 #### Summary
 
@@ -1154,20 +1154,20 @@ Before, you would install `pip install readyapi`, now you should include the `st
 
 This change is because having the standard optional dependencies installed by default was being inconvenient to several users, and having to install instead `readyapi-slim` was not being a feasible solution.
 
-Discussed here: [#11522](https://github.com/readyapi/readyapi/pull/11522) and here: [#11525](https://github.com/readyapi/readyapi/discussions/11525)
+Discussed here: [#11522](https://github.com/khulnasoft/readyapi/pull/11522) and here: [#11525](https://github.com/khulnasoft/readyapi/discussions/11525)
 
 ### Docs
 
-* ✏️ Fix typos in docs. PR [#11926](https://github.com/readyapi/readyapi/pull/11926) by [@jianghuyiyuan](https://github.com/jianghuyiyuan).
-* 📝 Tweak management docs. PR [#11918](https://github.com/readyapi/readyapi/pull/11918) by [@khulnasoft](https://github.com/khulnasoft).
-* 🚚 Rename GitHub links from khulnasoft/readyapi to readyapi/readyapi. PR [#11913](https://github.com/readyapi/readyapi/pull/11913) by [@khulnasoft](https://github.com/khulnasoft).
+* ✏️ Fix typos in docs. PR [#11926](https://github.com/khulnasoft/readyapi/pull/11926) by [@jianghuyiyuan](https://github.com/jianghuyiyuan).
+* 📝 Tweak management docs. PR [#11918](https://github.com/khulnasoft/readyapi/pull/11918) by [@khulnasoft](https://github.com/khulnasoft).
+* 🚚 Rename GitHub links from khulnasoft/readyapi to readyapi/readyapi. PR [#11913](https://github.com/khulnasoft/readyapi/pull/11913) by [@khulnasoft](https://github.com/khulnasoft).
 * 📝 Add docs about ReadyAPI team and project management. PR [#11908](https://github.com/khulnasoft/readyapi/pull/11908) by [@khulnasoft](https://github.com/khulnasoft).
 * 📝 Re-structure docs main menu. PR [#11904](https://github.com/khulnasoft/readyapi/pull/11904) by [@khulnasoft](https://github.com/khulnasoft).
 * 📝 Update Speakeasy URL. PR [#11871](https://github.com/khulnasoft/readyapi/pull/11871) by [@ndimares](https://github.com/ndimares).
 
 ### Translations
 
-* 🌐 Update Portuguese translation for `docs/pt/docs/alternatives.md`. PR [#11931](https://github.com/readyapi/readyapi/pull/11931) by [@ceb10n](https://github.com/ceb10n).
+* 🌐 Update Portuguese translation for `docs/pt/docs/alternatives.md`. PR [#11931](https://github.com/khulnasoft/readyapi/pull/11931) by [@ceb10n](https://github.com/ceb10n).
 * 🌐 Add Russian translation for `docs/ru/docs/tutorial/dependencies/sub-dependencies.md`. PR [#10515](https://github.com/khulnasoft/readyapi/pull/10515) by [@AlertRED](https://github.com/AlertRED).
 * 🌐 Add Portuguese translation for `docs/pt/docs/advanced/response-change-status-code.md`. PR [#11863](https://github.com/khulnasoft/readyapi/pull/11863) by [@ceb10n](https://github.com/ceb10n).
 * 🌐 Add Portuguese translation for `docs/pt/docs/reference/background.md`. PR [#11849](https://github.com/khulnasoft/readyapi/pull/11849) by [@lucasbalieiro](https://github.com/lucasbalieiro).
@@ -1176,13 +1176,13 @@ Discussed here: [#11522](https://github.com/readyapi/readyapi/pull/11522) and he
 
 ### Internal
 
-* 🔧 Update sponsors: add liblab. PR [#11934](https://github.com/readyapi/readyapi/pull/11934) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Update GitHub Action label-approved permissions. PR [#11933](https://github.com/readyapi/readyapi/pull/11933) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Refactor GitHub Action to comment docs deployment URLs and update token. PR [#11925](https://github.com/readyapi/readyapi/pull/11925) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Update tokens for GitHub Actions. PR [#11924](https://github.com/readyapi/readyapi/pull/11924) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Update token permissions to comment deployment URL in docs. PR [#11917](https://github.com/readyapi/readyapi/pull/11917) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Update token permissions for GitHub Actions. PR [#11915](https://github.com/readyapi/readyapi/pull/11915) by [@khulnasoft](https://github.com/khulnasoft).
-* 👷 Update GitHub Actions token usage. PR [#11914](https://github.com/readyapi/readyapi/pull/11914) by [@khulnasoft](https://github.com/khulnasoft).
+* 🔧 Update sponsors: add liblab. PR [#11934](https://github.com/khulnasoft/readyapi/pull/11934) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update GitHub Action label-approved permissions. PR [#11933](https://github.com/khulnasoft/readyapi/pull/11933) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Refactor GitHub Action to comment docs deployment URLs and update token. PR [#11925](https://github.com/khulnasoft/readyapi/pull/11925) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update tokens for GitHub Actions. PR [#11924](https://github.com/khulnasoft/readyapi/pull/11924) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update token permissions to comment deployment URL in docs. PR [#11917](https://github.com/khulnasoft/readyapi/pull/11917) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update token permissions for GitHub Actions. PR [#11915](https://github.com/khulnasoft/readyapi/pull/11915) by [@khulnasoft](https://github.com/khulnasoft).
+* 👷 Update GitHub Actions token usage. PR [#11914](https://github.com/khulnasoft/readyapi/pull/11914) by [@khulnasoft](https://github.com/khulnasoft).
 * 👷 Update GitHub Action to notify translations with label `approved-1`. PR [#11907](https://github.com/khulnasoft/readyapi/pull/11907) by [@khulnasoft](https://github.com/khulnasoft).
 * 🔧 Update sponsors, remove Reflex. PR [#11875](https://github.com/khulnasoft/readyapi/pull/11875) by [@khulnasoft](https://github.com/khulnasoft).
 * 🔧 Update sponsors: remove TalkPython. PR [#11861](https://github.com/khulnasoft/readyapi/pull/11861) by [@khulnasoft](https://github.com/khulnasoft).

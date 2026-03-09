@@ -1,5 +1,3 @@
-from typing import Union
-
 import pytest
 from pydantic import BaseModel
 from readyapi import ReadyAPI
@@ -25,7 +23,7 @@ def get_invalid_none():
     return None
 
 
-@app.get("/items/validnone", response_model=Union[Item, None])
+@app.get("/items/validnone", response_model=Item | None)
 def get_valid_none(send_none: bool = False):
     if send_none:
         return None

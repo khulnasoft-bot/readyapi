@@ -181,7 +181,9 @@ def iter_en_paths_to_translate() -> Iterable[Path]:
 
 
 @app.command()
-def translate_lang(language: Annotated[str, cligenius.Option(envvar="LANGUAGE")]) -> None:
+def translate_lang(
+    language: Annotated[str, cligenius.Option(envvar="LANGUAGE")],
+) -> None:
     paths_to_process = list(iter_en_paths_to_translate())
     print("Original paths:")
     for p in paths_to_process:
@@ -294,7 +296,9 @@ def list_all_removable() -> list[Path]:
 
 
 @app.command()
-def remove_removable(language: Annotated[str, cligenius.Option(envvar="LANGUAGE")]) -> None:
+def remove_removable(
+    language: Annotated[str, cligenius.Option(envvar="LANGUAGE")],
+) -> None:
     removable_paths = list_removable(language)
     for path in removable_paths:
         path.unlink()

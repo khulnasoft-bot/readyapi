@@ -398,7 +398,7 @@ class ReadyAPI(Starlette):
                 """
             ),
         ] = True,
-        examplesurl: Annotated[
+        docs_url: Annotated[
             str | None,
             Doc(
                 """
@@ -884,7 +884,7 @@ class ReadyAPI(Starlette):
         self.openapi_url = openapi_url
         self.openapi_tags = openapi_tags
         self.root_path_in_servers = root_path_in_servers
-        self.docs_url = examplesurl
+        self.docs_url = docs_url
         self.redoc_url = redoc_url
         self.swagger_ui_oauth2_redirect_url = swagger_ui_oauth2_redirect_url
         self.swagger_ui_init_oauth = swagger_ui_init_oauth

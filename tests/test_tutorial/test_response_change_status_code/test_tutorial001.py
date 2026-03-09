@@ -1,6 +1,6 @@
 from readyapi.testclient import TestClient
 
-from examples.response_change_status_code.tutorial001 import app
+from examples.response_change_status_code.tutorial001_py310 import app
 
 client = TestClient(app)
 

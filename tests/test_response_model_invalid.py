@@ -1,4 +1,3 @@
-
 import pytest
 from readyapi import ReadyAPI
 from readyapi.exceptions import ReadyAPIError

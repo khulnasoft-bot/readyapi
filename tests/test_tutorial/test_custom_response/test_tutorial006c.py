@@ -1,6 +1,7 @@
+from inline_snapshot import snapshot
 from readyapi.testclient import TestClient
 
-from examples.custom_response.tutorial006c import app
+from examples.custom_response.tutorial006c_py310 import app
 
 client = TestClient(app)
 
@@ -14,16 +15,18 @@ def test_redirect_status_code():
 def test_openapi_schema():
     response = client.get("/openapi.json")
     assert response.status_code == 200, response.text
-    assert response.json() == {
-        "openapi": "3.1.0",
-        "info": {"title": "ReadyAPI", "version": "0.1.0"},
-        "paths": {
-            "/pydantic": {
-                "get": {
-                    "summary": "Redirect Pydantic",
-                    "operationId": "redirect_pydantic_pydantic_get",
-                    "responses": {"302": {"description": "Successful Response"}},
+    assert response.json() == snapshot(
+        {
+            "openapi": "3.1.0",
+            "info": {"title": "ReadyAPI", "version": "0.1.0"},
+            "paths": {
+                "/pydantic": {
+                    "get": {
+                        "summary": "Redirect Pydantic",
+                        "operationId": "redirect_pydantic_pydantic_get",
+                        "responses": {"302": {"description": "Successful Response"}},
+                    }
                 }
-            }
-        },
-    }
+            },
+        }
+    )

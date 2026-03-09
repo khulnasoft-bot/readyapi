@@ -194,7 +194,7 @@ They have contributed source code, documentation, etc. 📦
 
 </div>
 
-There are hundreds of other contributors, you can see them all in the <a href="https://github.com/readyapi/readyapi/graphs/contributors" class="external-link" target="_blank">ReadyAPI GitHub Contributors page</a>. 👷
+There are hundreds of other contributors, you can see them all in the <a href="https://github.com/khulnasoft/readyapi/graphs/contributors" class="external-link" target="_blank">ReadyAPI GitHub Contributors page</a>. 👷
 
 ## Top Translators
 
@@ -298,7 +298,7 @@ The main intention of this page is to highlight the effort of the community to h
 
 Especially including efforts that are normally less visible, and in many cases more arduous, like helping others with questions and reviewing Pull Requests with translations.
 
-The data is calculated each month, you can read the <a href="https://github.com/readyapi/readyapi/blob/master/scripts/" class="external-link" target="_blank">source code here</a>.
+The data is calculated each month, you can read the <a href="https://github.com/khulnasoft/readyapi/blob/master/scripts/" class="external-link" target="_blank">source code here</a>.
 
 Here I'm also highlighting contributions from sponsors.
 

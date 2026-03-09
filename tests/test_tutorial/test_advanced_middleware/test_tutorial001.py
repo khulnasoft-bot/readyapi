@@ -1,6 +1,6 @@
 from readyapi.testclient import TestClient
 
-from examples.advanced_middleware.tutorial001 import app
+from examples.advanced_middleware.tutorial001_py310 import app
 
 
 def test_middleware():

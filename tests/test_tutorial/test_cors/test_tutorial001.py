@@ -1,6 +1,6 @@
 from readyapi.testclient import TestClient
 
-from examples.cors.tutorial001 import app
+from examples.cors.tutorial001_py310 import app
 
 
 def test_cors():

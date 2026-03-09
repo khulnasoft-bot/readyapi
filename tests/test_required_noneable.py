@@ -1,4 +1,3 @@
-
 from readyapi import Body, Query, ReadyAPI
 from readyapi.testclient import TestClient
 

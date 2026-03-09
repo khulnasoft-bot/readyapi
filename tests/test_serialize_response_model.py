@@ -1,4 +1,3 @@
-
 from pydantic import BaseModel, Field
 from readyapi import ReadyAPI
 from starlette.testclient import TestClient

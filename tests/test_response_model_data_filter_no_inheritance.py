@@ -1,4 +1,3 @@
-
 from pydantic import BaseModel
 from readyapi import ReadyAPI
 from readyapi.testclient import TestClient

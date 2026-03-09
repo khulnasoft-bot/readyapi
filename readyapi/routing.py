@@ -626,7 +626,7 @@ def get_request_handler(
                         async for item in gen:
                             yield _serialize_item(item)
                             # To allow for cancellation to trigger
-                            # Ref: https://github.com/readyapi/readyapi/issues/14680
+                            # Ref: https://github.com/khulnasoft/readyapi/issues/14680
                             await anyio.sleep(0)
 
                     jsonl_stream_content: AsyncIterator[bytes] | Iterator[bytes] = (
@@ -657,7 +657,7 @@ def get_request_handler(
                         async for chunk in async_gen:
                             yield chunk
                             # To allow for cancellation to trigger
-                            # Ref: https://github.com/readyapi/readyapi/issues/14680
+                            # Ref: https://github.com/khulnasoft/readyapi/issues/14680
                             await anyio.sleep(0)
 
                     gen = _async_stream_raw(gen)

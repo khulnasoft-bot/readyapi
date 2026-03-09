@@ -1,7 +1,5 @@
-
 from typing import Annotated
 
-from dirty_equals import IsDict
 from pydantic import BaseModel, Field
 from readyapi import Form, ReadyAPI
 from readyapi.testclient import TestClient
@@ -17,9 +15,20 @@ class FormModel(BaseModel):
     alias_with: str = Field(alias="with", default="nothing")
 
 
+class FormModelExtraAllow(BaseModel):
+    param: str
+
+    model_config = {"extra": "allow"}
+
+
 @app.post("/form/")
 def post_form(user: Annotated[FormModel, Form()]):
     return user
+
+
+@app.post("/form-extra-allow/")
+def post_form_extra_allow(params: Annotated[FormModelExtraAllow, Form()]):
+    return params
 
 
 client = TestClient(app)
@@ -69,65 +78,64 @@ def test_invalid_data():
         },
     )
     assert response.status_code == 422, response.text
-    assert response.json() == IsDict(
-        {
-            "detail": [
-                {
-                    "type": "int_parsing",
-                    "loc": ["body", "age"],
-                    "msg": "Input should be a valid integer, unable to parse string as an integer",
-                    "input": "seventy",
-                }
-            ]
-        }
-    ) | IsDict(
-        # TODO: remove when deprecating Pydantic v1
-        {
-            "detail": [
-                {
-                    "loc": ["body", "age"],
-                    "msg": "value is not a valid integer",
-                    "type": "type_error.integer",
-                }
-            ]
-        }
-    )
+    assert response.json() == {
+        "detail": [
+            {
+                "type": "int_parsing",
+                "loc": ["body", "age"],
+                "msg": "Input should be a valid integer, unable to parse string as an integer",
+                "input": "seventy",
+            }
+        ]
+    }
 
 
 def test_no_data():
     response = client.post("/form/")
     assert response.status_code == 422, response.text
-    assert response.json() == IsDict(
-        {
-            "detail": [
-                {
-                    "type": "missing",
-                    "loc": ["body", "username"],
-                    "msg": "Field required",
-                    "input": {"tags": ["foo", "bar"], "with": "nothing"},
-                },
-                {
-                    "type": "missing",
-                    "loc": ["body", "lastname"],
-                    "msg": "Field required",
-                    "input": {"tags": ["foo", "bar"], "with": "nothing"},
-                },
-            ]
-        }
-    ) | IsDict(
-        # TODO: remove when deprecating Pydantic v1
-        {
-            "detail": [
-                {
-                    "loc": ["body", "username"],
-                    "msg": "field required",
-                    "type": "value_error.missing",
-                },
-                {
-                    "loc": ["body", "lastname"],
-                    "msg": "field required",
-                    "type": "value_error.missing",
-                },
-            ]
-        }
+    assert response.json() == {
+        "detail": [
+            {
+                "type": "missing",
+                "loc": ["body", "username"],
+                "msg": "Field required",
+                "input": {"tags": ["foo", "bar"], "with": "nothing"},
+            },
+            {
+                "type": "missing",
+                "loc": ["body", "lastname"],
+                "msg": "Field required",
+                "input": {"tags": ["foo", "bar"], "with": "nothing"},
+            },
+        ]
+    }
+
+
+def test_extra_param_single():
+    response = client.post(
+        "/form-extra-allow/",
+        data={
+            "param": "123",
+            "extra_param": "456",
+        },
     )
+    assert response.status_code == 200, response.text
+    assert response.json() == {
+        "param": "123",
+        "extra_param": "456",
+    }
+
+
+def test_extra_param_list():
+    response = client.post(
+        "/form-extra-allow/",
+        data={
+            "param": "123",
+            "extra_params": ["456", "789"],
+        },
+    )
+    assert response.status_code == 200, response.text
+    assert response.json() == {
+        "param": "123",
+        "extra_params": ["456", "789"],
+    }

@@ -181,7 +181,9 @@ def build_lang(
     subprocess.run(["mkdocs", "build", "--site-dir", build_site_dist_path], check=True)
     shutil.copytree(build_site_dist_path, dist_path, dirs_exist_ok=True)
     os.chdir(current_dir)
-    cligenius.secho(f"Successfully built docs for: {lang}", color=cligenius.colors.GREEN)
+    cligenius.secho(
+        f"Successfully built docs for: {lang}", color=cligenius.colors.GREEN
+    )
 
 
 index_sponsors_template = """
@@ -311,7 +313,9 @@ def serve() -> None:
     """
     cligenius.echo("Warning: this is a very simple server.")
     cligenius.echo("For development, use the command live instead.")
-    cligenius.echo("This is here only to preview a site with translations already built.")
+    cligenius.echo(
+        "This is here only to preview a site with translations already built."
+    )
     cligenius.echo("Make sure you run the build-all command first.")
     os.chdir("site")
     server_address = ("", 8008)
@@ -339,7 +343,7 @@ def live(
     # Enable line numbers during local development to make it easier to highlight
     if lang is None:
         lang = "en"
-    lang_path: Path = examplespath / lang
+    lang_path: Path = docs_path / lang
     # Enable line numbers during local development to make it easier to highlight
     args = ["mkdocs", "serve", "--dev-addr", "127.0.0.1:8008"]
     if dirty:
@@ -419,7 +423,7 @@ def langs_json():
 
 
 @app.command()
-def generate_examples_versions_for_file(file_path: Path) -> None:
+def generate_docs_versions_for_file(file_path: Path) -> None:
     target_versions = ["py39", "py310"]
     full_path_str = str(file_path)
     for target_version in target_versions:
@@ -480,13 +484,13 @@ def generate_examples_versions_for_file(file_path: Path) -> None:
 
 
 @app.command()
-def generate_examples_versions() -> None:
+def generate_docs_versions() -> None:
     """
     Generate Python version-specific files for all .py files in examples.
     """
-    examples_path = Path("examples")
-    for py_file in sorted(examples_path.rglob("*.py")):
-        generate_examples_versions_for_file(py_file)
+    docs_path = Path("examples")
+    for py_file in sorted(docs_path.rglob("*.py")):
+        generate_docs_versions_for_file(py_file)
 
 
 @app.command()
@@ -495,9 +499,9 @@ def copy_py39_to_py310() -> None:
     For each examples file/directory with a _py39 label that has no _py310
     counterpart, copy it with the _py310 label.
     """
-    examples_path = Path("examples")
+    docs_path = Path("examples")
     # Handle directory-level labels (e.g. app_b_an_py39/)
-    for dir_path in sorted(examples_path.rglob("*_py39")):
+    for dir_path in sorted(docs_path.rglob("*_py39")):
         if not dir_path.is_dir():
             continue
         py310_dir = dir_path.parent / dir_path.name.replace("_py39", "_py310")
@@ -506,7 +510,7 @@ def copy_py39_to_py310() -> None:
         logging.info(f"Copying directory {dir_path} -> {py310_dir}")
         shutil.copytree(dir_path, py310_dir)
     # Handle file-level labels (e.g. tutorial001_py39.py)
-    for file_path in sorted(examples_path.rglob("*_py39.py")):
+    for file_path in sorted(docs_path.rglob("*_py39.py")):
         if not file_path.is_file():
             continue
         # Skip files inside _py39 directories (already handled above)
@@ -550,29 +554,29 @@ def remove_unused_examples() -> None:
     """
     Delete .py files in examples that are not included in any .md file under docs/.
     """
-    examples_path = Path("examples")
+    docs_path = Path("examples")
     # Collect all docs .md content referencing examples
     all_docs_content = ""
-    for md_file in examplespath.rglob("*.md"):
+    for md_file in docs_path.rglob("*.md"):
         all_docs_content += md_file.read_text(encoding="utf-8")
     # Build a set of directory-based package roots (e.g. examples/bigger_applications/app_py39)
     # where at least one file is referenced in docs. All files in these directories
     # should be kept since they may be internally imported by the referenced files.
     used_package_dirs: set[Path] = set()
-    for py_file in examples_path.rglob("*.py"):
+    for py_file in docs_path.rglob("*.py"):
         if py_file.name == "__init__.py":
             continue
         rel_path = str(py_file)
         if rel_path in all_docs_content:
             # Walk up from the file's parent to find the package root
             # (a subdirectory under examples/<topic>/)
-            parts = py_file.relative_to(examples_path).parts
+            parts = py_file.relative_to(docs_path).parts
             if len(parts) > 2:
                 # File is inside a sub-package like examples/topic/app_xxx/...
-                package_root = examples_path / parts[0] / parts[1]
+                package_root = docs_path / parts[0] / parts[1]
                 used_package_dirs.add(package_root)
     removed = 0
-    for py_file in sorted(examples_path.rglob("*.py")):
+    for py_file in sorted(docs_path.rglob("*.py")):
         if py_file.name == "__init__.py":
             continue
         # Build the relative path as it appears in includes (e.g. examples/first_steps/tutorial001.py)
@@ -581,9 +585,9 @@ def remove_unused_examples() -> None:
             continue
         # If this file is inside a directory-based package where any sibling is
         # referenced, keep it (it's likely imported internally).
-        parts = py_file.relative_to(examples_path).parts
+        parts = py_file.relative_to(docs_path).parts
         if len(parts) > 2:
-            package_root = examples_path / parts[0] / parts[1]
+            package_root = docs_path / parts[0] / parts[1]
             if package_root in used_package_dirs:
                 continue
         # Check if the _an counterpart (or non-_an counterpart) is referenced.
@@ -641,7 +645,7 @@ def remove_unused_examples() -> None:
         py_file.unlink()
         removed += 1
     # Clean up directories that are empty or only contain __init__.py / __pycache__
-    for dir_path in sorted(examples_path.rglob("*"), reverse=True):
+    for dir_path in sorted(docs_path.rglob("*"), reverse=True):
         if not dir_path.is_dir():
             continue
         remaining = [

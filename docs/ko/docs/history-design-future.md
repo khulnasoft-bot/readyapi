@@ -1,6 +1,6 @@
 # 역사, 디자인 그리고 미래
 
-어느 날, [한 ReadyAPI 사용자](https://github.com/readyapi/readyapi/issues/3#issuecomment-454956920)가 이렇게 물었습니다:
+어느 날, [한 ReadyAPI 사용자](https://github.com/khulnasoft/readyapi/issues/3#issuecomment-454956920)가 이렇게 물었습니다:
 
 > 이 프로젝트의 역사를 알려 주실 수 있나요? 몇 주 만에 멋진 결과를 낸 것 같아요. [...]
 

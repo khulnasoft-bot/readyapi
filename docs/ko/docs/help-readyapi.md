@@ -26,13 +26,13 @@ ReadyAPI, 다른 사용자, 개발자를 응원하고 싶으신가요?
 
 ## Star **ReadyAPI** in GitHub
 
-GitHub에서 ReadyAPI에 "star"를 붙일 수 있습니다 (오른쪽 상단의 star 버튼을 클릭): <a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi</a>. ⭐️
+GitHub에서 ReadyAPI에 "star"를 붙일 수 있습니다 (오른쪽 상단의 star 버튼을 클릭): <a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi</a>. ⭐️
 
 스타를 늘림으로써, 다른 사용자들이 좀 더 쉽게 찾을 수 있고, 많은 사람들에게 유용한 것임을 나타낼 수 있습니다.
 
 ## GitHub 저장소에서 릴리즈 확인
 
-GitHub에서 ReadyAPI를 "watch"할 수 있습니다 (오른쪽 상단 watch 버튼을 클릭): <a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi</a>. 👀
+GitHub에서 ReadyAPI를 "watch"할 수 있습니다 (오른쪽 상단 watch 버튼을 클릭): <a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi</a>. 👀
 
 여기서 "Releases only"을 선택할 수 있습니다.
 
@@ -59,7 +59,7 @@ GitHub에서 ReadyAPI를 "watch"할 수 있습니다 (오른쪽 상단 watch 버
 
 ## **ReadyAPI**에 대한 트윗
 
-<a href="https://twitter.com/compose/tweet?text=I'm loving @readyapi because... https://github.com/readyapi/readyapi" class="external-link" target="_blank">**ReadyAPI**에 대해 트윗</a> 하고 ReadyAPI가 마음에 드는 이유를 알려주세요. 🎉
+<a href="https://twitter.com/compose/tweet?text=I'm loving @readyapi because... https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">**ReadyAPI**에 대해 트윗</a> 하고 ReadyAPI가 마음에 드는 이유를 알려주세요. 🎉
 
 **ReadyAPI**가 어떻게 사용되고 있는지, 어떤 점이 마음에 들었는지, 어떤 프로젝트/회사에서 사용하고 있는지 등에 대해 듣고 싶습니다.
 
@@ -73,8 +73,8 @@ GitHub에서 ReadyAPI를 "watch"할 수 있습니다 (오른쪽 상단 watch 버
 
 다른 사람들의 질문에 도움을 줄 수 있습니다:
 
-* <a href="https://github.com/readyapi/readyapi/discussions/categories/questions?discussions_q=category%3AQuestions+is%3Aunanswered" class="external-link" target="_blank">GitHub 디스커션</a>
-* <a href="https://github.com/readyapi/readyapi/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Aquestion+-label%3Aanswered+" class="external-link" target="_blank">GitHub 이슈</a>
+* <a href="https://github.com/khulnasoft/readyapi/discussions/categories/questions?discussions_q=category%3AQuestions+is%3Aunanswered" class="external-link" target="_blank">GitHub 디스커션</a>
+* <a href="https://github.com/khulnasoft/readyapi/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3Aquestion+-label%3Aanswered+" class="external-link" target="_blank">GitHub 이슈</a>
 
 많은 경우, 여러분은 이미 그 질문에 대한 답을 알고 있을 수도 있습니다. 🤓
 
@@ -125,7 +125,7 @@ GitHub에서 ReadyAPI를 "watch"할 수 있습니다 (오른쪽 상단 watch 버
 
 ## GitHub 저장소 보기
 
-GitHub에서 ReadyAPI를 "watch"할 수 있습니다 (오른쪽 상단 watch 버튼을 클릭): <a href="https://github.com/readyapi/readyapi" class="external-link" target="_blank">https://github.com/readyapi/readyapi</a>. 👀
+GitHub에서 ReadyAPI를 "watch"할 수 있습니다 (오른쪽 상단 watch 버튼을 클릭): <a href="https://github.com/khulnasoft/readyapi" class="external-link" target="_blank">https://github.com/khulnasoft/readyapi</a>. 👀
 
 "Releases only" 대신 "Watching"을 선택하면, 새로운 이슈나 질문이 생성될 때 알림을 받을 수 있습니다. 또한, 특정하게 새로운 이슈, 디스커션, PR 등만 알림 받도록 설정할 수도 있습니다.
 
@@ -133,7 +133,7 @@ GitHub에서 ReadyAPI를 "watch"할 수 있습니다 (오른쪽 상단 watch 버
 
 ## 이슈 생성하기
 
-GitHub 저장소에 <a href="https://github.com/readyapi/readyapi/discussions/new?category=questions" class="external-link" target="_blank">새로운 이슈 생성</a>을 할 수 있습니다, 예를들면 다음과 같습니다:
+GitHub 저장소에 <a href="https://github.com/khulnasoft/readyapi/discussions/new?category=questions" class="external-link" target="_blank">새로운 이슈 생성</a>을 할 수 있습니다, 예를들면 다음과 같습니다:
 
 * **질문**을 하거나 **문제**에 대해 질문합니다.
 * 새로운 **기능**을 제안 합니다.
@@ -199,7 +199,7 @@ Pull Rrquest를 리뷰할 때 고려해야 할 사항과 방법은 다음과 같
 Pull Requests를 이용하여 소스코드에 [컨트리뷰트](contributing.md){.internal-link target=\_blank} 할 수 있습니다. 예를 들면 다음과 같습니다:
 
 * 문서에서 발견한 오타를 수정할 때.
-* ReadyAPI 관련 문서, 비디오 또는 팟캐스트를 작성했거나 발견하여 <a href="https://github.com/readyapi/readyapi/edit/master/docs/en/data/external_links.yml" class="external-link" target="_blank">이 파일을 편집하여</a> 공유할 때.
+* ReadyAPI 관련 문서, 비디오 또는 팟캐스트를 작성했거나 발견하여 <a href="https://github.com/khulnasoft/readyapi/edit/master/docs/en/data/external_links.yml" class="external-link" target="_blank">이 파일을 편집하여</a> 공유할 때.
     * 해당 섹션의 시작 부분에 링크를 추가해야 합니다.
 * 당신의 언어로 [문서 번역하는데](contributing.md#translations){.internal-link target=\_blank} 기여할 때.
     * 다른 사람이 작성한 번역을 검토하는 것도 도울 수 있습니다.
@@ -231,7 +231,7 @@ Pull Requests를 이용하여 소스코드에 [컨트리뷰트](contributing.md)
 
 /// tip
 
-질문이 있는 경우, <a href="https://github.com/readyapi/readyapi/discussions/new?category=questions" class="external-link" target="_blank">GitHub 디스커션</a> 에서 질문하십시오, [ReadyAPI Experts](readyapi-people.md#readyapi-experts){.internal-link target=_blank} 의 도움을 받을 가능성이 높습니다.
+질문이 있는 경우, <a href="https://github.com/khulnasoft/readyapi/discussions/new?category=questions" class="external-link" target="_blank">GitHub 디스커션</a> 에서 질문하십시오, [ReadyAPI Experts](readyapi-people.md#readyapi-experts){.internal-link target=_blank} 의 도움을 받을 가능성이 높습니다.
 
 다른 일반적인 대화에서만 채팅을 사용하십시오.
 

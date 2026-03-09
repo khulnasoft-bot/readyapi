@@ -3,11 +3,13 @@ from pathlib import Path
 
 from readyapi.testclient import TestClient
 
-from examples.background_tasks.tutorial001 import app
+from examples.background_tasks.tutorial001_py310 import app
+from tests.utils import workdir_lock
 
 client = TestClient(app)
 
 
+@workdir_lock
 def test():
     log = Path("log.txt")
     if log.is_file():

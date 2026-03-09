@@ -1,0 +1,68 @@
+import importlib
+
+import pytest
+from inline_snapshot import snapshot
+from readyapi.testclient import TestClient
+
+
+@pytest.fixture(
+    name="client",
+    params=[
+        pytest.param("tutorial002_py310"),
+    ],
+)
+def get_client(request: pytest.FixtureRequest):
+    mod = importlib.import_module(f"examples.response_directly.{request.param}")
+
+    client = TestClient(mod.app)
+    return client
+
+
+def test_path_operation(client: TestClient):
+    expected_content = """<?xml version="1.0"?>
+    <shampoo>
+    <Header>
+        Apply shampoo here.
+    </Header>
+    <Body>
+        You'll have to use soap here.
+    </Body>
+    </shampoo>
+    """
+
+    response = client.get("/legacy/")
+    assert response.status_code == 200, response.text
+    assert response.headers["content-type"] == "application/xml"
+    assert response.text == expected_content
+
+
+def test_openapi_schema(client: TestClient):
+    response = client.get("/openapi.json")
+    assert response.status_code == 200, response.text
+    assert response.json() == snapshot(
+        {
+            "info": {
+                "title": "ReadyAPI",
+                "version": "0.1.0",
+            },
+            "openapi": "3.1.0",
+            "paths": {
+                "/legacy/": {
+                    "get": {
+                        "operationId": "get_legacy_data_legacy__get",
+                        "responses": {
+                            "200": {
+                                "content": {
+                                    "application/json": {
+                                        "schema": {},
+                                    },
+                                },
+                                "description": "Successful Response",
+                            },
+                        },
+                        "summary": "Get Legacy Data",
+                    },
+                },
+            },
+        }
+    )

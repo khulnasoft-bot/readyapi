@@ -1,9 +1,17 @@
+import importlib
+
 import pytest
 from readyapi.exceptions import ReadyAPIError
 
+from ...utils import needs_py310
 
-def test_invalid_response_model():
+
+@pytest.mark.parametrize(
+    "module_name",
+    [
+        pytest.param("tutorial003_04_py310", marks=needs_py310),
+    ],
+)
+def test_invalid_response_model(module_name: str) -> None:
     with pytest.raises(ReadyAPIError):
-        from examples.response_model.tutorial003_04 import app
-
-        assert app  # pragma: no cover
+        importlib.import_module(f"examples.response_model.{module_name}")

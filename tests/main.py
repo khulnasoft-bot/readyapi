@@ -2,7 +2,12 @@ import http
 
 from readyapi import Path, Query, ReadyAPI
 
-app = ReadyAPI()
+external_docs = {
+    "description": "External API documentation.",
+    "url": "https://docs.example.com/api-general",
+}
+
+app = ReadyAPI(openapi_external_docs=external_docs)
 
 
 @app.api_route("/api_route")
