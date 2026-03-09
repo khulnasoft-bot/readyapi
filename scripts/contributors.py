@@ -17,7 +17,7 @@ github_graphql_url = "https://api.github.com/graphql"
 
 prs_query = """
 query Q($after: String) {
-  repository(name: "readyapi", owner: "readyapi") {
+  repository(name: "readyapi", owner: "khulnasoft") {
     pullRequests(first: 100, after: $after) {
       edges {
         cursor
@@ -282,9 +282,10 @@ def main() -> None:
         return
 
     logging.info("Setting up GitHub Actions git user")
-    subprocess.run(["git", "config", "user.name", "github-actions"], check=True)
+    subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
     subprocess.run(
-        ["git", "config", "user.email", "github-actions@github.com"], check=True
+        ["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"],
+        check=True,
     )
     branch_name = f"readyapi-people-contributors-{secrets.token_hex(4)}"
     logging.info(f"Creating a new branch {branch_name}")

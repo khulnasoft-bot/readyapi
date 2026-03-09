@@ -7,14 +7,11 @@ on:
       - completed
 
 permissions:
-  contents: write   # Added contents write permission
+  contents: write
   deployments: write
   issues: write
   pull-requests: write
   statuses: write
-
-env:
-  UV_SYSTEM_PYTHON: 1
 
 jobs:
   deploy-docs:
@@ -24,32 +21,32 @@ jobs:
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
         run: echo "$GITHUB_CONTEXT"
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
-          python-version: "3.11"
+          python-version-file: ".python-version"
       - name: Setup uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@v7
         with:
-          version: "0.4.15"
           enable-cache: true
           cache-dependency-glob: |
-            requirements**.txt
             pyproject.toml
+            uv.lock
       - name: Install GitHub Actions dependencies
-        run: uv pip install -r requirements-github-actions.txt
+        run: uv sync --locked --no-dev --group github-actions
       - name: Deploy Docs Status Pending
-        run: python ./scripts/deploy_docs_status.py
+        run: uv run ./scripts/deploy_docs_status.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           COMMIT_SHA: ${{ github.event.workflow_run.head_sha }}
           RUN_ID: ${{ github.run_id }}
+          STATE: "pending"
       - name: Clean site
         run: |
           rm -rf ./site
           mkdir ./site
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v8
         with:
           path: ./site/
           pattern: docs-site-*
@@ -57,16 +54,26 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           run-id: ${{ github.event.workflow_run.id }}
       - name: Deploy to GitHub Pages
+        # hashFiles returns an empty string if there are no files
         if: hashFiles('./site/*')
+        id: deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+      - name: Deploy Docs Status Error
+        if: failure()
+        run: uv run ./scripts/deploy_docs_status.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COMMIT_SHA: ${{ github.event.workflow_run.head_sha }}
+          RUN_ID: ${{ github.run_id }}
+          STATE: "error"
       - name: Comment Deploy
-        run: python ./scripts/deploy_docs_status.py
+        run: uv run ./scripts/deploy_docs_status.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEPLOY_URL: ${{ steps.deploy.outputs.deployment-url }}
           COMMIT_SHA: ${{ github.event.workflow_run.head_sha }}
           RUN_ID: ${{ github.run_id }}
-          IS_DONE: "true"
+          STATE: "success"
