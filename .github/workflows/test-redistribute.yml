@@ -27,7 +27,7 @@ jobs:
         with:
           enable-cache: true
       - name: Install build dependencies
-        run: uv pip install build
+        run: uv pip install --system build
       - name: Build source distribution
         run: python -m build --sdist
       - name: Decompress source distribution
@@ -37,7 +37,7 @@ jobs:
       - name: Install test dependencies
         run: |
           cd dist/readyapi*/
-          uv pip install --group tests --editable .[all]
+          uv pip install --system --group tests --editable .[all]
       - name: Run source distribution tests
         run: |
           cd dist/readyapi*/
@@ -45,7 +45,7 @@ jobs:
       - name: Build wheel distribution
         run: |
           cd dist
-          uv pip wheel --no-deps readyapi*.tar.gz
+          uv pip wheel --system --no-deps readyapi*.tar.gz
       - name: Dump GitHub context
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}

@@ -33,7 +33,7 @@ jobs:
         with:
           enable-cache: true
       - name: Install build dependencies
-        run: uv pip install build
+        run: uv pip install --system build
       - name: Build distribution
         env:
           KHULNASOFT_BUILD_PACKAGE: ${{ matrix.package }}
