@@ -81,7 +81,7 @@ During local development, there is a script that builds the site and checks for 
 <div class="termy">
 
 ```console
-$ python ./scripts/docs.py live
+$ uv ./scripts/docs.py live
 
 <span style="color: green;">[INFO]</span> Serving on http://127.0.0.1:8008
 <span style="color: green;">[INFO]</span> Start watching changes
@@ -223,7 +223,7 @@ Now run the live server for the docs in Spanish:
 
 ```console
 // Use the command "live" and pass the language code as a CLI argument
-$ python ./scripts/docs.py live es
+$ uv ./scripts/docs.py live es
 
 <span style="color: green;">[INFO]</span> Serving on http://127.0.0.1:8008
 <span style="color: green;">[INFO]</span> Start watching changes
@@ -307,7 +307,7 @@ The next step is to run the script to generate a new translation directory:
 
 ```console
 // Use the command new-lang, pass the language code as a CLI argument
-$ python ./scripts/docs.py new-lang ht
+$ uv ./scripts/docs.py new-lang ht
 
 Successfully initialized: docs/ht
 ```
@@ -346,7 +346,7 @@ To do that, first build all the docs:
 
 ```console
 // Use the command "build-all", this will take a bit
-$ python ./scripts/docs.py build-all
+$ uv ./scripts/docs.py build-all
 
 Building docs for: en
 Building docs for: es
@@ -363,7 +363,7 @@ Then you can serve that with the command `serve`:
 
 ```console
 // Use the command "serve" after running "build-all"
-$ python ./scripts/docs.py serve
+$ uv ./scripts/docs.py serve
 
 Warning: this is a very simple server. For development, use mkdocs serve instead.
 This is here only to preview a site with translations already built.

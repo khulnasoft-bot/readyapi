@@ -10,7 +10,7 @@ env:
 
 jobs:
   topic-repos:
-    if: github.repository_owner == 'readyapi'
+    if: github.repository_owner == 'khulnasoft'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -23,7 +23,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
-          python-version: "3.11"
+          python-version-file: ".python-version"
       - name: Setup uv
         uses: astral-sh/setup-uv@v6
         with:
@@ -33,8 +33,8 @@ jobs:
             requirements**.txt
             pyproject.toml
       - name: Install GitHub Actions dependencies
-        run: uv pip install -r requirements-github-actions.txt
+        run: uv --locked --no-dev --group github-actions
       - name: Update Topic Repos
-        run: python ./scripts/topic_repos.py
+        run: uv ./scripts/topic_repos.py
         env:
           GITHUB_TOKEN: ${{ secrets.READYAPI_PR_TOKEN }}

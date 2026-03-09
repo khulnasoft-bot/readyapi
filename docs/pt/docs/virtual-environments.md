@@ -357,7 +357,7 @@ Se você tem o <a href="https://github.com/astral-sh/uv" class="external-link" t
 <div class="termy">
 
 ```console
-$ uv pip install -r requirements.txt
+$ uv sync --locked --extra all
 ---> 100%
 ```
 

@@ -33,7 +33,7 @@ env:
 
 jobs:
   job:
-    if: github.repository_owner == 'readyapi'
+    if: github.repository_owner == 'khulnasoft'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -46,7 +46,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
-          python-version: "3.11"
+          python-version-file: ".python-version"
       - name: Setup uv
         uses: astral-sh/setup-uv@v6
         with:
@@ -56,7 +56,7 @@ jobs:
             requirements**.txt
             pyproject.toml
       - name: Install Dependencies
-        run: uv pip install -r requirements-github-actions.txt -r requirements-translations.txt
+        run: uv --locked --no-dev --group github-actions -r requirements-translations.txt
       # Allow debugging with tmate
       - name: Setup tmate session
         uses: mxschmitt/action-tmate@v3
@@ -68,8 +68,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - name: ReadyAPI Translate
         run: |
-          python ./scripts/translate.py ${{ github.event.inputs.command }}
-          python ./scripts/translate.py make-pr
+          uv ./scripts/translate.py ${{ github.event.inputs.command }}
+          uv ./scripts/translate.py make-pr
         env:
           GITHUB_TOKEN: ${{ secrets.READYAPI_TRANSLATIONS }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
