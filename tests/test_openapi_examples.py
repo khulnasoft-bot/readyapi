@@ -1,7 +1,7 @@
-from readyapi import Body, Cookie, ReadyAPI, Header, Path, Query
-from readyapi.testclient import TestClient
 from inline_snapshot import snapshot
 from pydantic import BaseModel
+from readyapi import Body, Cookie, Header, Path, Query, ReadyAPI
+from readyapi.testclient import TestClient
 
 app = ReadyAPI()
 

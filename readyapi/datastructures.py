@@ -171,7 +171,7 @@ class DefaultPlaceholder:
 DefaultType = TypeVar("DefaultType")
 
 
-def Default(value: DefaultType) -> DefaultType:
+def Default[DefaultType](value: DefaultType) -> DefaultType:
     """
     You shouldn't use this function directly.
 

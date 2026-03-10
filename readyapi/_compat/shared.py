@@ -44,9 +44,9 @@ sequence_types: tuple[type[Any], ...] = tuple(sequence_annotation_to_type.keys()
 
 
 # Copy of Pydantic: pydantic/_internal/_utils.py with added TypeGuard
-def lenient_issubclass(
-    cls: Any, class_or_tuple: type[_T] | tuple[type[_T], ...] | None
-) -> TypeGuard[type[_T]]:
+def lenient_issubclass[T](
+    cls: Any, class_or_tuple: type[T] | tuple[type[T], ...] | None
+) -> TypeGuard[type[T]]:
     try:
         return isinstance(cls, type) and issubclass(cls, class_or_tuple)  # type: ignore[arg-type]
     except TypeError:  # pragma: no cover

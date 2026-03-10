@@ -1,3 +1,5 @@
+import enum
+
 import pytest
 from inline_snapshot import snapshot
 from pydantic import BaseModel
@@ -9,15 +11,14 @@ from tests.utils import needs_py310
 
 @pytest.fixture(name="client")
 def get_client():
-    from enum import Enum
 
     app = ReadyAPI()
 
-    class PlatformRole(str, Enum):
+    class PlatformRole(enum.StrEnum):
         admin = "admin"
         user = "user"
 
-    class OtherRole(str, Enum): ...
+    class OtherRole(enum.StrEnum): ...
 
     class User(BaseModel):
         username: str

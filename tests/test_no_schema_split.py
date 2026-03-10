@@ -2,7 +2,7 @@
 # https://github.com/khulnasoft/readyapi/discussions/14177
 # Made an issue in:
 # https://github.com/khulnasoft/readyapi/issues/14247
-from enum import Enum
+from enum import StrEnum
 
 from inline_snapshot import snapshot
 from pydantic import BaseModel, Field
@@ -10,7 +10,7 @@ from readyapi import ReadyAPI
 from readyapi.testclient import TestClient
 
 
-class MessageEventType(str, Enum):
+class MessageEventType(StrEnum):
     alpha = "alpha"
     beta = "beta"
 

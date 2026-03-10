@@ -1,9 +1,9 @@
-from enum import Enum
+from enum import StrEnum
 
 from readyapi import ReadyAPI
 
 
-class ModelName(str, Enum):
+class ModelName(StrEnum):
     alexnet = "alexnet"
     resnet = "resnet"
     lenet = "lenet"

@@ -49,6 +49,7 @@ dependencies = [
     "typing-inspection>=0.4.2",
     "annotated-doc>=0.0.2",
     "readyapi-cli>=0.0.6",
+    "ruff>=0.15.5",
 ]
 
 [project.urls]
