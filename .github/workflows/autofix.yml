@@ -1,62 +1,53 @@
 name: Autofix
 
 on:
-  # TODO: fix this
-  # pull_request_target:
-  pull_request:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
 
 jobs:
   autofix:
     runs-on: ubuntu-latest
+    # Only run on PRs from the same repo (not forks)
+    if: github.event.pull_request.head.repo.full_name == github.repository
     permissions:
       contents: write
       pull-requests: read
+
     steps:
-      - name: Dump GitHub context
-        env:
-          GITHUB_CONTEXT: ${{ toJson(github) }}
-        run: echo "$GITHUB_CONTEXT"
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref }}
+          # Check out the PR's HEAD commit (safe because we validate the repo above)
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version-file: ".python-version"
+
       - name: Setup uv
         uses: astral-sh/setup-uv@v4
         with:
           enable-cache: true
-          cache-dependency-glob: |
-            pyproject.toml
+          cache-dependency-glob: pyproject.toml
+
       - name: Install dependencies
         run: uv pip install --system pre-commit
-      - name: Get changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v47
+
       - uses: actions/cache@v4
-        id: pre-commit-hooks-cache
         with:
           path: ~/.cache/pre-commit
           key: ${{ runner.os }}-pre-commit-hooks-${{ hashFiles('.pre-commit-config.yml') }}-v01
-      - run: pre-commit run --files ${{ steps.changed-files.outputs.all_changed_files }}
-      - name: Commit changes
+
+      - name: Run pre-commit
+        run: pre-commit run --all-files
+
+      - name: Commit and push changes
         if: failure()
         run: |
           git config --local user.email "github-actions@github.com"
           git config --local user.name "github-actions"
           git add --update
-          git commit -m "🎨 Autofix from pre-commit hooks"
-          git push
-      # # Allow debugging with tmate
-      # - name: Setup tmate session
-      #   uses: mxschmitt/action-tmate@v3
-      #   with:
-      #     limit-access-to-actor: true
-
-      # # - name: Deploy Docs Status Pending
-      # #   run: uv ./scripts/deploy_docs_status.py
-      # #   env:
-      # #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # #     COMMIT_SHA: ${{ github.event.workflow_run.head_sha }}
-      # #     RUN_ID: ${{ github.run_id }}
+          git commit -m "🎨 Autofix from pre-commit hooks" || echo "No changes to commit"
+          git push origin HEAD:${{ github.event.pull_request.head.ref }}
