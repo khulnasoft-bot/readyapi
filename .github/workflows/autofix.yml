@@ -14,7 +14,7 @@ jobs:
       pull-requests: read
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           # Check out the PR's HEAD commit (safe because we validate the repo above)
           ref: ${{ github.event.pull_request.head.sha }}
